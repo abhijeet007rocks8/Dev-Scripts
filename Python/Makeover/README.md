@@ -1,6 +1,6 @@
 # Hair Makeover
 
-- Makeover your image by using opencv.
+- Makeover your image by using opencv, gaussian, evaluate, imutils and numpy.
 - Colour your hair and lips. 
 - Also you can change the colour of the makeover, and even your can add more facial parts to which you can makeover.
 
@@ -18,13 +18,11 @@ cd Python
 cd Makeover
 ```
    
-## Install the Required dependencies
+- Install the Required dependencies
 
-```
-pip install "Required dependencies"
-```
+- Also update the Python Version as required.
 
-3- Run the application
+- Run the application
 ```
 python makeover.py
 ```
