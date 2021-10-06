@@ -1,5 +1,5 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.InputStream;
+import java.util.Scanner;
 
 public class Tracert
 {
@@ -8,8 +8,8 @@ public class Tracert
        try
        {
            Process p = Runtime.getRuntime().exec(command);
-          BufferedReader inputStream = new BufferedReader(
-                    new InputStreamReader(p.getInputStream()));
+           InputStream stream = p.getInputStream();
+           Scanner inputStream= new Scanner(stream);
 
            String s = "";
            while ((s = inputStream.nextLine()) != null)
@@ -22,7 +22,8 @@ public class Tracert
 
   public static void main(String[] args)
   {  
-       String ip = "www.google.co.in";
+	  Scanner sc=new Scanner(System.in);
+	  String ip= sc.next();
        runSystemCommand("tracert " + ip);
   }
 }
