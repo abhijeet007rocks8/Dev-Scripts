@@ -4,7 +4,6 @@
 from source to destination, reporting the IP addresses of all the routers it pinged in between. 
 Traceroute also records the time taken for each hop the packet makes during its route to the destination.
 <br>
-BLA BLA BLA....
 <br>
 <br>
 Let's try out ourself😉, and give it a try ourselves to Tracert Commad.
