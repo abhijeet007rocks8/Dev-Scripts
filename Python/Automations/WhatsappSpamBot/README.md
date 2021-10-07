@@ -1,3 +1,3 @@
-# Python Scripts
+# Whatsapp SpamBot
 
-This Folder contains the scripts in Python Language. Please Contribute your scripts in Specfied Folders and make a `README.md` file in the folder to explain the working and add scshots if required.
+A selenium automation that uses cheome driver to spam a particular message to a user for n number of times.
