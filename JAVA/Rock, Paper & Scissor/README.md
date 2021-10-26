@@ -1,6 +1,7 @@
 # Rock, Paper & Scissor
 ## Description
 This is a Rock, Paper & Scissor game which almost everyone has played in our childhood.
+Non-GUI Based Game.
 
 ## Tech Stack Required
 Java
