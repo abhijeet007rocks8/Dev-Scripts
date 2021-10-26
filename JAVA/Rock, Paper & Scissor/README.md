@@ -5,4 +5,4 @@ This is a Rock, Paper & Scissor game which almost everyone has played in our chi
 ## Tech Stack Required
 Java
 ## Screenshot
-<img src = " 
+<img src = " JAVA/Rock, Paper & Scissor/Screenshot (43).png" >
