@@ -3,7 +3,7 @@
 - Visualizing the Airline Flights Dataset using Python Libraries.
 - Libraries are : Pandas, Numpy, Matplotlib and Seaborn
 - Here we are going to visualize the data uing different types of Graphs like Bar-chart, Pie chart, Histograms, line-chart, etc.
-- Using thiese chart we can simply our anaylysis on the Dataset.
+- Using these chart we can simply our anaylysis on the Dataset.
 
 ## **Quick Start**
 - Clone this repository
