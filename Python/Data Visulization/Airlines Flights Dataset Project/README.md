@@ -20,7 +20,7 @@ cd Python
 cd Data Visualization
 ```
 ```
-cd Airlines Flights Dataset
+cd Airlines Flights Dataset Project
 ```
 - **Note :** also check **flights_data.csv** file in the same folder where these project.ipynb file located. 
 
