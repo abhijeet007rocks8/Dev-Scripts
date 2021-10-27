@@ -40,3 +40,10 @@ pip install matplotlib
 pip install seaborn
 ```
 
+# **Screen Shots**
+
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s1.png)
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s2.png)  
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s3.png)
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s4.png) | ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s5.png)
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s6.png)
