@@ -49,3 +49,7 @@ pip install seaborn
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s4.png) 
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s5.png)
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s6.png)
+
+**Author : Heet Kumar Kothadiya**
+
+**This Project is contributed to Dev-Script under Hacktoberfest'21, 2021 by Heet kumar Kothadiya**
