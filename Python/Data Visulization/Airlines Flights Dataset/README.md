@@ -22,6 +22,7 @@ cd Data Visualization
 ```
 cd Airlines Flights Dataset
 ```
+- **Note :** also check **flights_data.csv** file in the same folder where these project.ipynb file located. 
 
 ## **Install the Dependencies**
 - Install Python 3.8.3 and above Kit
@@ -45,5 +46,6 @@ pip install seaborn
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s1.png)
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s2.png)  
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s3.png)
-![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s4.png) | ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s5.png)
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s4.png) 
+![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s5.png)
 ![](https://raw.githubusercontent.com/heet-kumar/TestingRepo/main/Pictures/Data_visualization_on_Airlines_Flights_DataSet/s6.png)
