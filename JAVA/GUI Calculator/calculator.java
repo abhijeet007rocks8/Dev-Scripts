@@ -558,3 +558,6 @@ public class ScientificCalculator {
 		frmStandardCalculator.getContentPane().add(panel);
 	}
 }
+
+
+// Author : Heet kumar Kothadiya
