@@ -24,20 +24,20 @@ Refer to the following articles on the basics of Git and Github and can also con
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/Tejas1510/Hacking-Scripts/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/abhijeet007rocks8/Dev-Scripts/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
-- Read the [Code of Conduct](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CODE_OF_CONDUCT.md)
-- Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
-Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
+<!-- - Read the [Code of Conduct](https://github.com/abhijeet007rocks8/Dev-Scripts/blob/main/CODE_OF_CONDUCT.md) -->
+- Fork [this](https://github.com/abhijeet007rocks8/Dev-Scripts/) repository.
+Click on the <a href="https://github.com/abhijeet007rocks8/Dev-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
 - Clone the forked repository.
 
 ```bash
-git clone https://github.com/<your-github-username>/Hacking-Scripts
+git clone https://github.com/<your-github-username>/Dev-Scripts
 ```
 - Navigate to the project directory.
 
 ```bash
-cd Hacking-Scripts
+cd Dev-Scripts
 ```
 <p>
   
@@ -64,8 +64,8 @@ git push
 ```
 - Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)  which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
-- Congratulations! 🎉 Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
-- Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CONTRIBUTION.md)
+- Congratulations! 🎉 Sit and relax, you've made your contribution to [Dev-Scripts](https://github.com/abhijeet007rocks8/Dev-Scripts) project.
+<!-- - Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/abhijeet007rocks8/Dev-Scripts/blob/main/CONTRIBUTION.md) -->
 
 
 <p align = "center">
