@@ -67,11 +67,14 @@ git push
 - Congratulations! 🎉 Sit and relax, you've made your contribution to [Dev-Scripts](https://github.com/abhijeet007rocks8/Dev-Scripts) project.
 <!-- - Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/abhijeet007rocks8/Dev-Scripts/blob/main/CONTRIBUTION.md) -->
 
+<br>
 
 <p align = "center">
 
 <a href="https://github.com/abhijeet007rocks8"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 </p>
+
+<br>
 
 Check out my Github profile [abhijeet007rocks8!](https://github.com/abhijeet007rocks8)
