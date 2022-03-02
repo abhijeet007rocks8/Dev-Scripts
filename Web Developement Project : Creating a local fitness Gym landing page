@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MA Fitness</title>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<link rel="stylesheet" href="MA_Fitness.css">
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+     <header class="header">
+        <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+        <h3> MA <span> Fitness </span> </h3>
+        </div>
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://assets.turbologo.com/blog/en/2020/12/19084212/fitness-2-768x450.png" alt="">
+            <div>MA Fitness</div>
+        </div> 
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+      <div class="sidebar">
+      <center>
+      </center>
+      <a href="#"><i class="fas fa-desktop"></i><span>Home</span></a>
+      <a href="https://www.perfectgym.com/en/blog/business/trendy-fitness-activities-leisure-facilitiesyup"><i class="fas fa-cogs"></i><span>Facilities</span></a>
+      <a href="https://www.calculator.net/fitness-and-health-calculator.html"><i class="fas fa-table"></i><span>Fitness Calculator</span></a>
+      <a href="https://origympersonaltrainercourses.co.uk/blog/how-to-start-a-fitness-instagram"><i class="fas fa-th"></i><span>Accounts</span></a>
+      <a href="https://www.gymandfitness.com.au/pages/about-us"><i class="fas fa-info-circle"></i><span>About Us</span></a>
+      <a href="https://www.lifefitnessindia.com/contact/"><i class="fas fa-sliders-h"></i><span>contact Us</span></a>
+    </div>
+    <div class="container">
+        <h1>Join the best gym of Howrah now</h1>
+        <form action="WELCOME TO MA FITNESS">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <footer>©  M.Agarwal | All Rights Reserved
+          <div class="social">
+               <a class="ma" href="https://www.facebook.com/mousam.agarwal.393" title="Facebook" target="_blank">
+               <img class="social_me" src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png">
+               </a>
+            
+               <a  href="https://twitter.com/adgpi?s=08" title="Twitter" target="_blank">
+               <img class="social_me"src="https://louisville.edu/philosophy/images/icons-for-footer/twittericon2.png/image">
+               </a>
+
+               <a  class="hulu" href="https://instagram.com/rock_ma_1151?igshid=7u7t6xu609g4" title="Instagram" target="_blank">
+               <img class="social_me"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png">
+               </a>
+          </div>
+      </footer>
+</body>
+
+</html>
+
