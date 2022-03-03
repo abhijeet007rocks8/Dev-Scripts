@@ -12,10 +12,23 @@ The scraper uses https://coinmarketcap.com/ to get all the data required.
 
 ## **💻 Running on Local**
 
-- Fork & Clone the Repo.
-- `cd` to `Go/Crypto-Scraper`.
-- run `go mod Crypto-Scraper`.
-- run `go get github.com/gocolly/colly` in the terminal.
+- **Fork** & Clone the Repo.
+```
+git clone https://github.com/{github-username}/Dev-Scripts.git
+```
+- `cd` to `Go/Crypto-Scraper` in the terminal.
+```
+cd Go/Crypto-Scraper
+```
+```
+go mod Crypto-Scraper
+```
+```
+go get github.com/gocolly/colly
+```
 - After installing the package run `go run main.go` to get the prices of the top crypto currencies.
+```
+go run main.go
+```
 
 ![scraper-demo](https://user-images.githubusercontent.com/87603425/156574440-1a38d6d1-a5da-468c-8467-b4837adf692b.gif)
