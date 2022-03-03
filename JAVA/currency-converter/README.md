@@ -11,9 +11,9 @@ It is the GUI Currency Converter written in Java with the help of JavaFX. In cur
 - Clone this repository
 
 ``` 
-git clone https://github.com/rajdip-b/Dev-Scripts
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
-- Switch Branch 
+- Switch Branch
 
 ```
 git checkout currency-converter
