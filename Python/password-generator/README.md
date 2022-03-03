@@ -15,7 +15,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
 - Move to the executable folder
 ```
-cd Dev-Dev-Scripts/Python/password-generator
+cd Dev-Scripts/Python/password-generator
 ```
 
 ## Deployment
