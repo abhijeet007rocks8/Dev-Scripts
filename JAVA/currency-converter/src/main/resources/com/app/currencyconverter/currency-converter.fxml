@@ -47,7 +47,7 @@
             <Font name="Ubuntu" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="362.0" layoutY="189.0" prefHeight="21.0" prefWidth="26.0" text="=">
+      <Label fx:id="lblEqualsSign" layoutX="362.0" layoutY="189.0" prefHeight="21.0" prefWidth="26.0" text="=">
          <font>
             <Font name="Ubuntu" size="18.0" />
          </font>

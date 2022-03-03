@@ -1,22 +1,21 @@
 package com.app.currencyconverter.api;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
-import java.net.http.HttpRequest;
 import java.util.*;
 
+/*
+ * This class is the API gateway for the application.
+ * All the api calls are made by this class.
+ */
 public class CurrencyApi {
 
-    /*
-     *  This function fetches all symbol-country pairs from the API
-     *  Returns a map of the data
-     */
+
+     // This function fetches all symbol-country pairs from the API
+     // Returns a map of the data
     public static Map<String, String> getSymbolNames() throws IOException {
         // Create the connection
         URL url = URLBuilder.buildSymbolNamesURL();
@@ -44,6 +43,7 @@ public class CurrencyApi {
         return symbolNames;
     }
 
+    // This function returns the exchange rate for a pair of given countries
     public static double getExchangeData(String base, String desired) throws IOException {
         // Create the connection
         URL url = URLBuilder.buildExchangeRatesURL(base);
