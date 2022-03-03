@@ -1,6 +1,13 @@
 # CLI Password Generator
 
-Node.js command line app to generate random passwords. This uses crypto module due to which generated passwords are totally random, and unpredictable.
+## Description 
+Command line app to generate random passwords. This uses crypto module due to which generated passwords are totally random, and unpredictable.
+
+## Tech Stack
+
+NodeJS 
+
+## Demonstration
 
 ![Password Generator](utils/passgen.png)
 
