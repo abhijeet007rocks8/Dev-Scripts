@@ -23,9 +23,20 @@ Properties that can be calculated:
 
 * Python3 -> Tkinter
 
+## Install the Dependencies
+
+* Install Python 3.6 or above.
+* Further install these libraries using terminal:
+
+```bash
+pip3 install tkinter
+```
+
 ## Run Local
 
-`python3 calc.py`
+```bash
+python3 calc.py
+```
 
 ## Screenshots
 
