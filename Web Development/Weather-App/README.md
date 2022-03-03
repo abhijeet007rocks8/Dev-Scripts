@@ -18,11 +18,33 @@
 ### Steps to Use:
 
 
-- Download or clone the repository
-- Go to the directory
-- Run the index.html file
-- Just Type the city name you want to know the weather of, and then click on the search button.
-- After that it will automatically display Weather, Humidity, Wind Speed of the city.
+**1.** Start by making a fork the [**Dev-Scripts**](https://github.com/abhijeet007rocks8/Dev-Scripts) repository. Click on the <a href="https://github.com/abhijeet007rocks8/Dev-Scripts/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+
+**2.** Clone your new fork of the repository:
+
+```bash
+git clone https://github.com/<your-github-username>/Dev-Scripts
+```
+
+**3.** Navigate to the project directory:
+
+```bash
+cd Dev-Scripts/Web Development/Weather-App
+
+```
+
+**4.** Navigate to the index.html Page
+
+- Now Write Click on Open With Live Server
+
+**5.** Find the Weather on any City
+
+- Click on the Search Box.
+- Type the Desired City and enter/search icon
+
+
+
+</br>
 
 
 <h3> ScreenShots </h3>  
