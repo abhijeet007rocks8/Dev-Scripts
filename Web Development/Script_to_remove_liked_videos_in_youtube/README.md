@@ -10,7 +10,7 @@ A Script used to remove bulk like videos in Youtube at Once </br>
 
 https://user-images.githubusercontent.com/71494616/156602176-0c0515cc-71fd-44f9-bb84-9d0250ae1ba1.mp4
 
-#Concepts Used
+# Concepts Used
 - Promise
 - await
 - function
