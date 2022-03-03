@@ -1,4 +1,4 @@
-<h1>WeatherApp</h1>
+<h1>Weather-App</h1>
 
 <p>Simple Weather app written in HTML, CSS, and JavaScript using the APIs for fetching weather and geolocation information.</p>
 
@@ -49,5 +49,13 @@ cd Dev-Scripts/Web Development/Weather-App
 
 <h3> ScreenShots </h3>  
 <img width="943" alt="Movie-Search-App" src="https://github.com/Atif0604/Dev-Scripts/blob/f5938d48ef02d3d1a31fdc0bba7bed9aa17153fb/Web Development/Weather-App/Weather-App.jpg">
+
+<br>
+
+<h3> Sample Video </h3>
+
+https://user-images.githubusercontent.com/64218887/156515882-5abea669-4ab9-47c4-80e6-6dd4dc5e67b0.mp4
+
+  
 
 <br>
