@@ -29,8 +29,8 @@ pip install bs4==4.10.0 requests==2.22.0
 
 4. Just run the scrape.py with url as the command line argument. There can be any number of urls.
 
-'''
+```
 python scrape.py https://www.link-to-the-article.comes/here https://www.maybe-another-article.com/
-'''
+```
 
 5. Look for the saved articles in the same directory named by their index numbers.
