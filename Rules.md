@@ -13,29 +13,13 @@
 - Every Project must include **README.md** file is **mandatory** and the following below points mentioned must be included in the **README.md** file:- 
    1. Description
    
-         <img src="/assets/pic4.jpg" alt="Description" >
-   
    2. Tech Stack
-   
-      For Example in this case:-
-      
-      ```
-      Tech Stack:
-      
-      JAVA
-      
-      ```
    
    3. Demonstration(include Demo video or GIF)
   
-      <img src="/assets/pic6.jpg" alt="Demo" >
-  
    4. Basic Component in Project.
    
-   
    5. Show Steps on how to run in Local
-
-      <img src="/assets/pic5.jpg" alt="Tech Stack" >
 
    6. If any further info contributors want to include, you are most welcome to do.
 
