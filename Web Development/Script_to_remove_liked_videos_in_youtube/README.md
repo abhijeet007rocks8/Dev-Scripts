@@ -4,7 +4,7 @@ A Script used to remove bulk like videos in Youtube at Once </br>
 
 # Tech Stack
 
-[x] JavaScript
+- [x] JavaScript
 
 # Demonstration
 
