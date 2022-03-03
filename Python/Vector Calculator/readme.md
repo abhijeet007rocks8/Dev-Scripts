@@ -1,5 +1,7 @@
 # Vector Calculator
 
+## Description
+
 Vector Calculator GUI based app built using Python that can fetch relation between 2 vectors along with the properties of each vector alone.
 
 Relations that can be calculated:
@@ -17,9 +19,13 @@ Properties that can be calculated:
 * Cosine Angles of each vector.
 * Absolute Value of each vector. |A|
 
-## Required modules
+## Tech Stack
 
-* Tkinter
+* Python3 -> Tkinter
+
+## Run Local
+
+`python3 calc.py`
 
 ## Screenshots
 
