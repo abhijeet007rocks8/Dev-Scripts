@@ -13,35 +13,30 @@ It is the GUI Currency Converter written in Java with the help of JavaFX. In cur
 ``` 
 git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
-- Switch Branch
-
-```
-git checkout currency-converter
-```
 
 - Change Directory
 
 ```
-cd JAVA/currency-converter
+cd Dev-Scripts/JAVA/currency-converter
 ```
 ## **Installation and Dependencies**
 This project uses maven for its dependency management. Hence, there is no need for installing the dependencies manually.
 
 #### Installing maven -
 - Download and install from https://maven.apache.org/download.cgi (Windows)
-- sudo apt install maven (Debian linux)
-- sudo yum install maven (Fedora linux)
-- Make sure maven is included in the PATH environmental variable
+- `sudo apt install maven` (Debian linux)
+- `sudo yum install maven` (Fedora linux)
+- Make sure maven is included in the `PATH` environmental variable
 
 #### Running the application 
-- mvn clean javafx:run
+- `mvn clean javafx:run`
 
 #### Deploying the application
-- mvn package
+- `mvn package`
 - Check the output log to see where the application was deployed
 - Install JavaFX on your computer locally
 - Run the produced jar file in the target folder to execute the application
-- Ensure that java-17 is installed
+- Ensure that `java-17` is installed
 - Command - `java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.base,javafx.fxml -jar outputfile.jar`
 
 ## Packages used
