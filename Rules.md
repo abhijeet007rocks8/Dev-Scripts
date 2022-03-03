@@ -1,6 +1,6 @@
 # 📌 Contribution Rules to Dev-Scripts
 
-##- Every project must be included inside a particular **Domain Folder** ( like - Web Development,Python,Java,etc).
+- ##Every project must be included inside a particular **Domain Folder** ( like - Web Development,Python,Java,etc).
 
    <img src="/assets/pic1.jpg" alt="Project domain" >
 
