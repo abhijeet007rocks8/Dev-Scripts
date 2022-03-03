@@ -5,7 +5,7 @@
 <img src="blob/currency-converter-screenshot.png">
 </p>
 
-It is the GUI Currency Converter written in Java with the help of swing and awt components. In currency converter we can convert our Indian currency Rupee to some other currencies.
+It is the GUI Currency Converter written in Java with the help of JavaFX. In currency converter we can interconvert currencies.
 
 ## **Quick Start**
 - Clone this repository
