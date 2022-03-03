@@ -18,4 +18,4 @@ The scraper uses https://coinmarketcap.com/ to get all the data required.
 - run `go get github.com/gocolly/colly` in the terminal.
 - After installing the package run `go run main.go` to get the prices of the top crypto currencies.
 
-
+![scraper-demo](https://user-images.githubusercontent.com/87603425/156574440-1a38d6d1-a5da-468c-8467-b4837adf692b.gif)
