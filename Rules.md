@@ -1,33 +1,43 @@
 # 📌 Contribution Rules to Dev-Scripts
 
-- ##Every project must be included inside a particular **Domain Folder** ( like - Web Development,Python,Java,etc).
+- Every project must be included inside a particular **Domain Folder** ( like - Web Development,Python,Java,etc).
 
    <img src="/assets/pic1.jpg" alt="Project domain" >
 
-##- Inside every **Domain Folder** include your **Project folder with Project name**, inside that include your **Project Files** and **README.md** file.
+- Inside every **Domain Folder** include your **Project folder with Project name**, inside that include your **Project Files** and **README.md** file.
 
    <img src="/assets/pic2.jpg" alt="Project Files" >
    
    <img src="/assets/pic3.jpg" alt="Project Files" >
 
-##- Every Project must include **README.md** file is **mandatory** and the following below points mentioned must be included in the **README.md** file:- 
-   ###1. Description
+- Every Project must include **README.md** file is **mandatory** and the following below points mentioned must be included in the **README.md** file:- 
+   1. Description
    
          <img src="/assets/pic4.jpg" alt="Description" >
    
-   ###2. Tech Stack
+   2. Tech Stack
    
+      For Example in this case:-
       
+      ```
+      Tech Stack:
+      
+      JAVA
+      
+      ```
    
-   ###3. Demonstration(include Demo video or GIF)
+   3. Demonstration(include Demo video or GIF)
+  
+      <img src="/assets/pic6.jpg" alt="Demo" >
+  
+   4. Basic Component in Project.
    
-   ###4. Basic Component in Project.
    
-   ###5. Show Steps on how to run in Local
+   5. Show Steps on how to run in Local
 
-         <img src="/assets/pic5.jpg" alt="Tech Stack" >
+      <img src="/assets/pic5.jpg" alt="Tech Stack" >
 
-   ###6. If any further info contributors want to include, you are most welcome to do.
+   6. If any further info contributors want to include, you are most welcome to do.
 
   
   
