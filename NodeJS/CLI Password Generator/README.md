@@ -13,21 +13,36 @@ NodeJS
 
 ## Usage
 
-Install NodeJS and npm from [official website](https://nodejs.org/en/). The setup includes both node and npm packages.
+* Install NodeJS and npm from [official website](https://nodejs.org/en/). The setup includes both node and npm packages.
 
-Install dependencies
+* Clone this repository
+
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+
+* Change Directory
+
+```
+cd NodeJS
+```
+```
+cd CLI Password Generator
+```
+
+* Install dependencies
 
 ```
 npm install
 ```
 
-Run file
+* Run file
 
 ```
 node index (options)
 ```
 
-To create a symlink to run "passgen" from anywhere
+* To create a symlink to run "passgen" from anywhere
 
 ```
 npm link
