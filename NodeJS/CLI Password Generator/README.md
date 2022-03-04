@@ -59,7 +59,7 @@ npm uninstall -g passgen (to completely remove the package
 
 ```javascript
 passgen -l 9 -nn
-``
+```
 
 ## Options
 
