@@ -9,7 +9,7 @@ NodeJS
 
 ## Demonstration
 
-![Password Generator](utils/passgen.png)
+![Password Generator](utils/demo.gif)
 
 ## Usage
 
