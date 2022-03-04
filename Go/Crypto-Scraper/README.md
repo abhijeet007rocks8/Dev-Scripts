@@ -21,7 +21,7 @@ git clone https://github.com/{github-username}/Dev-Scripts.git
 cd Go/Crypto-Scraper
 ```
 ```
-go mod Crypto-Scraper
+go mod init Crypto-Scraper
 ```
 ```
 go get github.com/gocolly/colly
