@@ -34,6 +34,20 @@ pip3 install tkinter
 
 ## Run Local
 
+* Clone the repository
+
+```bash
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts
+```
+
+* Change Directory
+
+```bash
+cd Dev-Scripts/Python/"Vector Calculator"/
+```
+
+* Run the script
+
 ```bash
 python3 calc.py
 ```
@@ -41,3 +55,5 @@ python3 calc.py
 ## Screenshots
 
 ![image](./documents/Capture.PNG)
+
+## Demonstration [Video](https://drive.google.com/file/d/1VaUBuS7dupgQ0K36955NuyZe7RHGwW_L/view?usp=sharing)
