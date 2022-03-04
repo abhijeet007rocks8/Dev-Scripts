@@ -13,6 +13,8 @@ NodeJS
 
 ## Usage
 
+Install NodeJS and npm from [official website](https://nodejs.org/en/). The setup includes both node and npm packages.
+
 Install dependencies
 
 ```
