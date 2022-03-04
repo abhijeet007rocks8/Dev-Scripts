@@ -53,8 +53,13 @@ passgen (options)
 # To remove symlink
 npm unlink 
 or
-npm uninstall -g passgen (to completely remove the package)
+npm uninstall -g passgen (to completely remove the package
 ```
+* Example
+
+```javascript
+passgen -l 9 -nn
+``
 
 ## Options
 
