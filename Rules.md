@@ -26,4 +26,4 @@
   
   
   **Example:-** Domain Folder/ProjectName/Folder/Projectfiles and README.md files.
-  **If any of the above-mentioned rules are not fulfilled thn particular PR will not get merged until they are resolved**
+  **If any of the above-mentioned rules are not fulfilled then particular PR will not get merged until they are resolved**
