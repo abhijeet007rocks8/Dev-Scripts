@@ -6,7 +6,6 @@ chrome_browser.get("https://web.whatsapp.com")
 
 time.sleep(35)
 
-# user = "Mandariya🐒Daayan🧟"
 user = input("Enter the exact name of the target as stored in your whatsapp -:")
 # mess = "Testing"
 message = input("Message to Spam-:")
