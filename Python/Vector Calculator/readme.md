@@ -56,4 +56,8 @@ python3 calc.py
 
 ![image](./documents/Capture.PNG)
 
-## Demonstration [Video](https://drive.google.com/file/d/1VaUBuS7dupgQ0K36955NuyZe7RHGwW_L/view?usp=sharing)
+## Demonstration Video
+
+<video height="240" controls>
+  <source src="./documents/explanation.mp4" type="video/mp4">
+</video>
