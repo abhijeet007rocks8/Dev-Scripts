@@ -27,8 +27,13 @@ Refer to the following articles on the basics of Git and Github and can also con
 - Take a look at the Existing [Issues](https://github.com/abhijeet007rocks8/Dev-Scripts/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 <!-- - Read the [Code of Conduct](https://github.com/abhijeet007rocks8/Dev-Scripts/blob/main/CODE_OF_CONDUCT.md) -->
+
+## Instructions to setup & Run:arrow_down::computer:
+- Install <a href="https://git-scm.com/downloads">Git</a>.
+
 - Fork [this](https://github.com/abhijeet007rocks8/Dev-Scripts/) repository.
-Click on the <a href="https://github.com/abhijeet007rocks8/Dev-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
+
+    Click on <a href="#" target="_self"><img src="https://user-images.githubusercontent.com/58631762/120588030-11cee200-c454-11eb-98ad-060ef99428c5.png" width="16"></img></a> to fork <a href="https://github.com/abhijeet007rocks8/Dev-Scripts/">this</a> repsository.
 - Clone the forked repository.
 
 ```bash
@@ -41,8 +46,13 @@ cd Dev-Scripts
 ```
 <p>
   
-* Create new branch for your feature.
+- Create new branch for your feature.
 
+```bash
+$ git branch <name_of_branch>
+$ git checkout -b <name_of_branch>
+```
+	
 * Make all changes of source code in new branch.
   
 <img src="https://user-images.githubusercontent.com/74819092/124509254-3faa9c00-ddef-11eb-9fd5-4e2ca9ee64cb.png">
@@ -101,3 +111,6 @@ git push
 <br>
 
 Check out my Github profile [abhijeet007rocks8!](https://github.com/abhijeet007rocks8)
+
+<h1 align=center>Happy Coding 👨‍💻 </h1>
+                                                      <p align=center>Show some ❤️&nbsp; by giving the star to this repository.</p>
