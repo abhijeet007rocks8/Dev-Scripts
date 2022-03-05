@@ -72,7 +72,7 @@ export default {
   },
   data () {
     return{
-      api_key: '7893b2ce00eb479fab951d6beda30c25',
+      api_key: 'Your api key',
       headspo: '',
       worldsurl: 'https://newsapi.org/v2/top-headlines/sources?&apiKey=',
       businessurl: 'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=',
