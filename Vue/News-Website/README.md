@@ -9,6 +9,10 @@
   ```
   ## Demonstration
   
+  <img src="./assets/pic1.jpg" >
+  
+  <img src="./assets/pic2.jpg" >
+  
   ## Basic Components in Project
   ```
   HelloWorld.vue
