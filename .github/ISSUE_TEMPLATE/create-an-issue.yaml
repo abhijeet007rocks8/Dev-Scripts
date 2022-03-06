@@ -8,7 +8,7 @@ body:
         Create an issue to start working on your project
 
   - type: checkboxes #prerequisites
-      attributes:
+    attributes:
         label: Prerequisites
         description: Please answer the following questions for yourself before submitting an issue. 
         options:
@@ -16,16 +16,16 @@ body:
         - label: I checked to make sure that this issue has not already been filed
           required: true
  
-   - type: textarea #description
-       attributes:
-         label: Description
-         description: Please describe the project you will be working on
-         placeholder: Describe here!
-       validations:
+  - type: textarea #description
+    attributes:
+        label: Description
+        description: Please describe the project you will be working on
+        placeholder: Describe here!
+    validations:
          required: true
  
-   - type: checkboxes #techstack
-       attributes:
+  - type: checkboxes #techstack
+    attributes:
          label: Tech Stack
          description: Select tech stack you would be working on
          options:
