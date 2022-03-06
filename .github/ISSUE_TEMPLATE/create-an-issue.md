@@ -1,9 +1,6 @@
 ---
 name: Create an issue
 about: Create an issue to start working on your script
-title: ''
-labels: ''
-assignees: ''
 
 ---
 
