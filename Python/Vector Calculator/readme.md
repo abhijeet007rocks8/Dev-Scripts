@@ -58,5 +58,6 @@ python3 calc.py
 
 ## Demonstration Video
 
-
-![](./documents/explanation.mp4)
+<video height="240" controls>
+  <source src="./documents/explanation.mp4" type="video/mp4">
+</video>
