@@ -37,4 +37,3 @@ body:
          - label: Python
          - label: React
          - label: Web Development
-           required: true
