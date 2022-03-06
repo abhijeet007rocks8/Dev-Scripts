@@ -33,8 +33,4 @@ cd Dev-Scripts/"Web Development/BaseX_Calculator/"
 
 * Click Convert to reveal the result.
 
-## Demonstration Video
-
-<video height="240" controls>
-  <source src="explanation.mp4" type="video/mp4">
-</video>
+## Demonstration [Video](https://drive.google.com/file/d/19hk7j-5EjiTlxYCXNz8pRKqNv7f1LyaB/view?usp=sharing)
