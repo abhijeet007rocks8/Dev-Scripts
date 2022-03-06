@@ -58,4 +58,4 @@ python3 calc.py
 
 ## Demonstration Video
 
-![video]("./documents/explanation.mp4)
+![video](./documents/explanation.mp4)
