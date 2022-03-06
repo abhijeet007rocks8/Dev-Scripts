@@ -25,15 +25,16 @@ body:
     validations:
          required: true
  
-  - type: checkboxes #techstack
+  - type: dropdown #techstack
+    id: Tech-stack
     attributes:
-         label: Tech Stack
-         description: Select tech stack you would be working on
-         options:
-         - label: C++
-         - label: Go
-         - label: Java
-         - label: NodeJS
-         - label: Python
-         - label: React
-         - label: Web Development
+      label: Tech Stack
+      multiple: false
+      options:
+        - C++
+        - Go
+        - Java
+        - NodeJS
+        - Python
+        - React
+        - Web Development
