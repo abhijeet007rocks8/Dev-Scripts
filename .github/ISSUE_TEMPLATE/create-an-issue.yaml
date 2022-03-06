@@ -14,6 +14,7 @@ body:
         options:
         - label: I am a GSSoC-22 Participant
         - label: I checked to make sure that this issue has not already been filed
+    validations:
           required: true
  
   - type: textarea #description
