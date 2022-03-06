@@ -26,6 +26,8 @@ body:
          required: true
  
   - type: checkboxes #techstack
+    validations:
+         required: true
     attributes:
          label: Tech Stack
          description: Select tech stack you would be working on
@@ -37,5 +39,3 @@ body:
          - label: Python
          - label: React
          - label: Web Development
-    validations:
-         required: true
