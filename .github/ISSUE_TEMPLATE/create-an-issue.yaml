@@ -37,3 +37,5 @@ body:
          - label: Python
          - label: React
          - label: Web Development
+    validations:
+         required: true
