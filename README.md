@@ -88,7 +88,8 @@ git push
 ### This project is a part of following Open Source Programs
 
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
-	</p>
+[![Hacktoberfest'21](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)](https://hacktoberfest.digitalocean.com)
+</p>
 <br><br>
 
 
