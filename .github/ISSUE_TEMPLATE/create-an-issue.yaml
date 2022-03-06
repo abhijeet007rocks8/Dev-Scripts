@@ -25,7 +25,7 @@ body:
     validations:
          required: true
  
-  - type: dropdown #techstack
+  - type: dropdown
     id: Tech-stack
     attributes:
       label: Tech Stack
@@ -38,3 +38,5 @@ body:
         - Python
         - React
         - Web Development
+    validations:
+         required: true
