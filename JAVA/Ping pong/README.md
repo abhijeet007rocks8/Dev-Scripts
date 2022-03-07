@@ -10,6 +10,10 @@ Try it out yourself😉
 
 
 ## Packages used
+
+![image](https://user-images.githubusercontent.com/56508036/157041471-31e6c331-0cde-4fc9-bf2b-3ffecae4bf84.png)
+These are the files,with PongGame being the starting class and GamePanel having most of the logic of the game. Score,Ball and Paddle programs are used for creating and managing their respective uses.
+
 Swing package
 Java Swing is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) package and entirely written in java. javax.swing components are platform-independent or lightweight components i.e. its components doesn't depends on the resources of the OS (Operating System).
 
