@@ -32,7 +32,6 @@ https://user-images.githubusercontent.com/56508036/157037920-b43de0b4-32e3-4832-
 3)Then follow the Quick start steps inside any IDE and then compile and run the project.
 <br>
 
-But 1st let's have a quick start:
 
 ## Quick Start
 ### Clone this repository
