@@ -1,5 +1,6 @@
 # Auto SMS
 Easy CLI interface for users looking to test their SMS campaign integration with Kaleyra 
+![Software Sample](img.png)
 
 The requirements for any user are :-
 * A kaleyra account and api key, secret key
