@@ -7,9 +7,7 @@ Try it out yourself😉
 
 
 
-## Working
 
-https://user-images.githubusercontent.com/56508036/157037920-b43de0b4-32e3-4832-a07b-bae883d69e94.mp4
 
 ## Packages used
 Swing package
@@ -22,6 +20,9 @@ AWT stands for Abstract Window Toolkit. In Java, AWT is a package used to develo
 
 java.awt package provides classes such as Graphics (which has helped a lot in this project), CheckBox, Choice, List etc.
 
+## Working
+
+https://user-images.githubusercontent.com/56508036/157037920-b43de0b4-32e3-4832-a07b-bae883d69e94.mp4
 
 ## Installation and Dependencies
 1)Install JDK kit for java devlopment.
