@@ -1,15 +1,35 @@
 # A Ping Pong Java Game
 
-- It is an endless 2 player Ping Pong game made using Java Swings that is played on the same device.
-
-Let's try out yourself😉
+## Description
+It is an endless 2 player Ping Pong game made using Java Swings and AWT that is played on the same pc, using W and S keys for player 1 with the blue paddle and player 2's red paddle is controlled by UP and DOWN keys.
+Try it out yourself😉
 <br>
 
 
 
+## Working
 
 https://user-images.githubusercontent.com/56508036/157037920-b43de0b4-32e3-4832-a07b-bae883d69e94.mp4
 
+## Packages used
+Swing package
+Java Swing is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) package and entirely written in java. javax.swing components are platform-independent or lightweight components i.e. its components doesn't depends on the resources of the OS (Operating System).
+
+javax.swing package provides classes such as JFrame, JTextField, JTextArea, JRadioButton, JMenu, JColorChooser etc.
+
+AWT package
+AWT stands for Abstract Window Toolkit. In Java, AWT is a package used to develop GUI or window-based applications in java. But java.awt components are platform-dependent i.e. components are displayed according to the view of operating system. AWT components are heavyweight i.e. its components depends on the resources of OS (Operating System).
+
+java.awt package provides classes such as Graphics (which has helped a lot in this project), CheckBox, Choice, List etc.
+
+
+## Installation and Dependencies
+1)Install JDK kit for java devlopment.
+<br>
+2)Install any latest version IDE for java like: Net-Beans, Eclipse, IntelliJ ,VS Code, etc.
+<br>
+3)Then follow the Quick start steps inside any IDE and then compile and run the project.
+<br>
 
 But 1st let's have a quick start:
 
@@ -38,3 +58,7 @@ cd Ping pong
 ### Hope you have a lot of fun.
 
 # Happy Playing✨🎉
+
+Author : Harsh Jain
+<br>
+This Project is contributed to Dev-Script under GSSOC'22 by Harsh Jain.
