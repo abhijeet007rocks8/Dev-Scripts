@@ -25,7 +25,7 @@
     * fire - Space Key
     
 
-##Game Views:
+## Game Views:
   ![](/Python/SpaceWar_Game/Game_SS/start.png)
   <hr>
 
