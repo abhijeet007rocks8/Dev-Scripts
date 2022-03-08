@@ -10,3 +10,6 @@ This game is build on python with Tkinter. It follows the basic rules of Rock Pa
 *  *** Tkinter** 
 
 
+### Screenshot 
+![rpshome.png](rpshome.png)
+![rps1.png](rps1.png)
