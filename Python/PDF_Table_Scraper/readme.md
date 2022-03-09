@@ -31,3 +31,6 @@ python3 scraper.py
 4) A small summary will be included in the terminal window recalling the successful and failed PDFs scrapped.
 
 ## Demonstration Video
+
+https://user-images.githubusercontent.com/64689436/157415963-6b33f226-5911-4502-9015-3e53b1ecf70d.mp4
+
