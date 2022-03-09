@@ -17,6 +17,8 @@
 
 ### Games
 
+These are some beginner friendly games
+
 1. Writing Turtle
 2. Turtle Race
 3. Turtle Crossing
