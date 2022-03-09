@@ -8,7 +8,7 @@
 
   Python
   
-### Python library you will need
+### Python libraries you will need
 
 1. Turtle 
 2. Random 
