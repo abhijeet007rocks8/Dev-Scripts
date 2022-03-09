@@ -1,10 +1,11 @@
 
 from turtle import Turtle, Screen
 
+
 uu=Turtle()
 screen=Screen()
 
-def moveforward():
+def moveforward(): #create a function to move forward
     uu.forward(10)
 def moveback():
     uu.back(10)
@@ -18,7 +19,7 @@ def clear():
     uu.home()
     uu.pendown()
 
-screen.listen()
+screen.listen() #take the user input 
 screen.onkey(moveforward,"w")
 screen.onkey(moveback,"s")
 screen.onkey(moveright,"d")
