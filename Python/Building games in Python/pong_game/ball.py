@@ -1,4 +1,4 @@
-from hashlib import new
+
 from turtle import Turtle
 
 
