@@ -1,3 +1,5 @@
+
+# import the turtle and random libraries
 from turtle import Turtle,Screen
 import random
 
