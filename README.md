@@ -14,6 +14,7 @@ This repository is a beginner-friendly repository where devs can contribute thei
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+- [Go through Contribution Guidelines](Rules.md)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
