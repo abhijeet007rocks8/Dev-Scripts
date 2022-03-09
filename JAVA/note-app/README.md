@@ -1,10 +1,9 @@
 # Note App
 
-<p align="center">
-<img src="blob/noteapp.png">
-</p>
-
 This is a simple note keeping application built using java.
+This application helps users to create notes locally on their computer and save it for later use.
+The backend database is sqlite so there is no worry of your notes getting stolen because the entire thing is stored in your own device.
+Also, this application saves your changes automatically, hence, no over head of checking whether you have saved your note Or not.
 
 ## **Quick Start**
 - Clone this repository
