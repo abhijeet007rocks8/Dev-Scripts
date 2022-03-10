@@ -15,7 +15,7 @@
    
    2. Tech Stack
    
-   3. Demonstration(include Demo video or GIF)
+   3. Demonstration(include Demo video or GIF and `add them in your project folder under name assets/demo`)
   
    4. Basic Component in Project.
    
