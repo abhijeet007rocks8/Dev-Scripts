@@ -99,3 +99,17 @@ cd Dev-Scripts/Python/OfflinePasswordManager
 <br>
 
 ## Note: A lot more features can be added :) happy storing passwords!!
+
+## A video walkthrough
+
+### running the setup.py file
+
+https://user-images.githubusercontent.com/55997552/157315983-5ac466d0-ea17-4e9d-8930-74dc08e23256.mp4
+
+### running the main app
+
+https://user-images.githubusercontent.com/55997552/157316429-a048b599-8b0d-453d-9b5c-e3bc81930460.mp4
+
+
+
+
