@@ -1,5 +1,10 @@
 # Sentiment-Analysis
+
+## Description
 In this project, we analyse the reviews of a women's clothing company. The data has been extracted from a CSV file. 
+
+## Tech stack:
+Python
 
 ## Packages Used:
 1. pandas
