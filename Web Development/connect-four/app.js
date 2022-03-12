@@ -162,6 +162,7 @@ const checkStatusOfGame=(cell)=>{
 
 
     // Check Diagonally 
+    // Left Diagonal
      winningCell=[cell];
      rowToCheck=rowIndex +1;
      colToCheck=colIndex -1;
@@ -184,6 +185,38 @@ const checkStatusOfGame=(cell)=>{
         if(getColorOfCell(cellToCheck)===color){
             winningCell.push(cellToCheck);
             rowToCheck--;
+            colToCheck++;
+        }
+        else{
+            break;
+        }
+    };
+    isWinningCombo=checkWinningCells(winningCell);
+    if(isWinningCombo) return;
+
+    // Right Diagonal
+     winningCell=[cell];
+     rowToCheck=rowIndex -1;
+     colToCheck=colIndex -1;
+
+    while( colToCheck>=0 && rowToCheck >=0){
+        const cellToCheck=rows[rowToCheck][colToCheck];
+        if(getColorOfCell(cellToCheck)===color){
+            winningCell.push(cellToCheck);
+            rowToCheck--;
+            colToCheck--;
+        }
+        else{
+            break;
+        }
+    }
+    rowToCheck=rowIndex+1;
+    colToCheck=colIndex+1;
+    while(colToCheck <= 6 && rowToCheck<=5  ){
+        const cellToCheck=rows[rowToCheck][colToCheck];
+        if(getColorOfCell(cellToCheck)===color){
+            winningCell.push(cellToCheck);
+            rowToCheck++;
             colToCheck++;
         }
         else{
