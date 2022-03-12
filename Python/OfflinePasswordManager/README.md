@@ -60,8 +60,18 @@ cd Dev-Scripts/Python/OfflinePasswordManager
 <img src="./Images/searchpg.png">
 </p>
 
-* ## 6. In order to copy a password write the title of the password in the title box and press on the clipboard button next to it and u'll have it copied in your clipboard
- <br>
+* ## 6. Now in order to copy the passsword click on the password title that u want to view and press view a new windoe will open up with all the registered information clipboard button will be present with the help of which u will be able to copy the password to the clipboard
+
+<p align="center">
+<img src="./Images/img1.png">
+</p>
+
+<p align="center">
+<img src="./Images/img2.png">
+</p>
+
+
+* ### Note :You can also type the password title in the title inout box and hit the clipboard button beside that to copy the password for that title..
 
 * ## 7. Inorder to change the master password or the registered email click on the security button and u will see the options to change them and on clicking the corresponding buttons u can set the new imformation
 
@@ -69,9 +79,11 @@ cd Dev-Scripts/Python/OfflinePasswordManager
 <img src="./Images/securitypg.png">
 </p>
 
+
 <p align="center">
 <img src="./Images/changinginfo.png">
 </p>
+
 
 * ## 8. There is also the option to convert the db to a csv file , to delete database or to backup the database, as well as to share the databse in pdf
 

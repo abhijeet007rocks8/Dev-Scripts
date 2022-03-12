@@ -4,11 +4,9 @@ from PIL import Image,ImageTk
 import pyperclip as pc
 import sqlite3
 import create_database
-from tkinter import END, LEFT, TOP, messagebox, ttk, TOP, LEFT, BOTH, VERTICAL, RIGHT, Y
+from tkinter import ANCHOR, END, LEFT, NW, TOP, messagebox, ttk, TOP, LEFT, BOTH, VERTICAL, RIGHT, Y
 import sending_email
 import random
-
-
 
 
 ### COLORS
@@ -136,11 +134,7 @@ def copypasswd():                                                          ## fu
     sfield.delete(0,END)
 
 def scrchng():
-    sfield.place_forget()
-    srlbl.place_forget()
-    wrap.pack_forget()
-    bbtn.place_forget()
-    ebtn.place_forget()
+    searchfrm.pack_forget()
     frame2.pack()
 
 def updatepass(value):
@@ -225,47 +219,72 @@ def dbpage():                                 ## funtion that sets up the databa
     pddb.grid(row=4,column=0,padx=50,pady=20)
     pdbtn.grid(row=4,column=1,padx=5,pady=20)
 
+
 def searchwin():                                    ## funtoin that sets up the search window
-    global sfield,srlbl
+
     frame2.pack_forget()
-    srlbl = tk.Label(window,text="Title", bg=floralwhite, fg='#000000', font = f1,border=2,width=6)
-    srlbl.place(x=10,y=20)
-    sfield = tk.Entry(window,width=50)
-    sfield.place(x=70,y=20)
-    sfield.focus_set()  
-    ebtn.place(x=410,y=10)
-    bbtn.place(x=450,y=10)
+    searchfrm.pack()
+    main_list.delete(0,END)
+    con = sqlite3.connect('./database_folder/password.db')
+    c = con.cursor()
+    data = c.execute("SELECT * FROM Userinfo")
+    for i,d in enumerate(data):
+            main_list.insert(i,d[0])
 
-    global wrap
-    wrap = ttk.LabelFrame(window,height=650)
+    c.close()
+   
 
-    my_can = tk.Canvas(wrap)
-    my_can.pack(side=LEFT,fill = BOTH,expand=1)
 
-    my_scroll = ttk.Scrollbar(wrap,orient=VERTICAL,command=my_can.yview)
-    my_scroll.pack(side=RIGHT,fill=Y)
-
-    my_can.configure(yscrollcommand=my_scroll.set)
-    my_can.bind('<Configure>', lambda e: my_can.configure(scrollregion = my_can.bbox("all")))
-
-    global s_frm
-    s_frm = tk.Frame(my_can)
-
-    my_can.create_window((0,0),window=s_frm,anchor="nw")
-    
-    wrap.pack(fill=BOTH,expand=1,padx=10,pady=60)
+def view_item():                                                              ## funtion to poen a new window containing info abt the password
+    newwin = tk.Toplevel()
+    newwin.title(main_list.get(ANCHOR))
+    newwin.geometry("400x200")
 
     con = sqlite3.connect('./database_folder/password.db')
     c = con.cursor()
     data = c.execute("SELECT * FROM Userinfo")
-    for i,r in enumerate(data):
-       
-        btn = tk.Button(s_frm,image=accimg,borderwidth=0)
-        btn.grid(row=i,column=0,padx=5,pady=5)
-        nline = '\n'
-        tk.Label(s_frm,text=f"Title : {r[0]} {nline} Account : {r[1]}{nline} Username : {r[2]} {nline} Website : {r[4]}",font = f2).grid(row=i,column=1,pady=15)
-
+    for r in data:
+        if r[0] == main_list.get(ANCHOR):
+            tle = r[0]
+            usr = r[1]
+            acnt = r[2]
+            pas = r[3]
+            web = r[4]
+            break
     c.close()
+
+    titlelbl = tk.Label(newwin,bg  = floralwhite,text  = "Title",fg = '#000000',font = f1,width = 12,border=2)
+    titlelbl.grid(row=0,column=0,padx=10,pady=10)
+    titletxt = tk.Label(newwin,text = tle,font = f1)
+    titletxt.grid(row=0,column=1,padx=10,pady=10)
+
+    usrlbl = tk.Label(newwin,bg  = floralwhite,text  = "Username",fg = '#000000',font = f1,width = 12,border=2)
+    usrlbl.grid(row =1,column=0,padx=10)
+    usrtxt = tk.Label(newwin,text=usr,font = f1)
+    usrtxt.grid(row=1,column=1,padx=10,pady=10)
+    btn1 = tk.Button(newwin,image = nclip,border=2,command = lambda : pc.copy(usr))
+    btn1.grid(row = 1,column = 2,padx=20)
+
+    passwdlbl = tk.Label(newwin,bg  = floralwhite,text  = "Password",fg = '#000000',font = f1,width = 12,border=2)
+    passwdlbl.grid(row=2,column=0,padx=10,pady=10)
+    passtxt = tk.Label(newwin,text=pas,font = f1)
+    passtxt.grid(row=2,column=1,padx=10,pady=10)
+    btn2 = tk.Button(newwin,image = nclip,border=2,command= lambda : pc.copy(pas))
+    btn2.grid(row = 2,column = 2,padx=20)
+
+    accntlbl = tk.Label(newwin,bg  = floralwhite,text  = "Account",fg = '#000000',font = f1,width = 12,border=2)
+    accntlbl.grid(row=3,column=0,padx=10)
+    accntxt = tk.Label(newwin,text= acnt,font = f1)
+    accntxt.grid(row=3,column=1,padx=10,pady=10)
+
+    websitelbl = tk.Label(newwin,bg  = floralwhite,text  = "Website",fg = '#000000',font = f1,width = 12,border=2)
+    websitelbl.grid(row = 4,column=0,padx=10,pady=10)
+    websitetxt = tk.Label(newwin,text= web,font = f1)
+    websitetxt.grid(row=4,column=1,padx=10,pady=10)
+
+    nbbtn = tk.Button(newwin,image = nback,border=2,command=lambda : newwin.destroy())
+    nbbtn.grid(row=0,column=10,sticky=NW,padx=30)
+
 
 def deletepass(value):
     try:
@@ -397,14 +416,37 @@ submitbtn = tk.Button(frameaddentry, text= "Submit",width = 10,bd=4,activebackgr
 
 # SEARCH FRAME
 
-searchfrm = tk.Frame(window,width=500,height=750)
+searchfrm = tk.Frame(window,width=500,height=500)
+searchfrm.configure(bg = floralwhite)
 backar = ImageTk.PhotoImage(Image.open('./Images/bar2.png').resize((30,30)))
-bbtn = tk.Button(window,image=backar,borderwidth=0,bg=floralwhite, border=2,command=scrchng)
+bbtn = tk.Button(searchfrm,image=backar,borderwidth=0,bg=floralwhite, border=2,command=scrchng)
 
 clip = ImageTk.PhotoImage(Image.open('./Images/clipboard.png').resize((30,30)))
-ebtn = tk.Button(window,fg=floralwhite,borderwidth=2,image=clip,command=copypasswd,bg=floralwhite, border=2)
+ebtn = tk.Button(searchfrm,fg=floralwhite,borderwidth=2,image=clip,command=copypasswd,bg=floralwhite, border=2)
 
 accimg =ImageTk.PhotoImage(Image.open('./Images/accessdata.png').resize((30,30)))
+
+srlbl = tk.Label(searchfrm,text="Title", bg=floralwhite, fg='#000000', font = f1,border=2,width=6)
+srlbl.grid(row=0,column=0,padx = 5,pady=10)
+sfield = tk.Entry(searchfrm,width=50)
+sfield.grid(row=0,column=1,padx=10)
+sfield.focus_set()  
+ebtn.grid(row = 0,column=2,padx=5)
+bbtn.grid(row=0,column=3,padx=5)
+
+main_list = tk.Listbox(searchfrm,height=10,width=30,border=3,font = f2,selectbackground=darkorange,fg=darkTurquoise)                         ## the list box that will contain the title of the passswords stored
+main_list.grid(row=3,column=0,columnspan=4,rowspan=1000,pady=10)
+viewbtn = tk.Button(searchfrm,width = 15,bg=floralwhite,fg = darkTurquoise,border=2,command=view_item,text = "View",font = f1)
+viewbtn.grid(row=1,column=1,pady=10,padx=20)
+nclip = ImageTk.PhotoImage(Image.open('./Images/clipboard.png').resize((20,20)))
+nback = ImageTk.PhotoImage(Image.open('./Images/bar2.png').resize((20,20)))
+
+scroll = tk.Scrollbar(searchfrm)
+scroll.grid(row=3,column=3)
+
+main_list.configure(yscrollcommand=scroll.set)
+scroll.configure(command = main_list.yview)
+
 
 
 # SECURITY FRAME
@@ -422,6 +464,8 @@ chngem = tk.Label(scfrm, bg=darkTurquoise, fg = '#000000',text = "CHANGE EMAIL",
 chngem.grid(row=2,column=0,padx=10,pady=10)
 embtn =  tk.Button(scfrm, image=chngimg, borderwidth=0, bg=floralwhite, border=2, command=topem)
 embtn.grid(row=2,column=1,padx=10,pady=10)
+
+
 
 # DATABASE FRAME
 
@@ -450,6 +494,7 @@ pdbtn = tk.Button(dbfrm,image= pdimg, bg = floralwhite,border=2,command= deletet
 window.configure(bg=floralwhite)
 frame1.pack()
 window.mainloop()
+
 
 
 
