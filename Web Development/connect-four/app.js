@@ -83,13 +83,14 @@ const getColorOfCell=(cell)=>{
 
 const checkWinningCells =(cells)=>{
     
-    if(cells.length <4) return
+    if(cells.length <4) return false;
 
         gamelive=false;
         for(const cell of cells){
             cell.classList.add('win');
         }
      statusSpan.textContent= `${yellownext ? 'yellow' : 'red'} has won! `
+     return true;
     
 }
 
@@ -126,12 +127,45 @@ const checkStatusOfGame=(cell)=>{
             break;
         }
     };
-    checkWinningCells(winningCell);
+    let isWinningCombo=checkWinningCells(winningCell);
+    if(isWinningCombo) return;
+
+
+    // Check Vertically
+     winningCell=[cell];
+     rowToCheck=rowIndex -1 ;
+     colToCheck=colIndex;
+
+    while(rowToCheck >=0){
+        const cellToCheck=rows[rowToCheck][colToCheck];
+        if(getColorOfCell(cellToCheck)===color){
+            winningCell.push(cellToCheck);
+            rowToCheck--;
+        }
+        else{
+            break;
+        }
+    }
+    rowToCheck=rowIndex+1;
+    while(rowToCheck <= 5  ){
+        const cellToCheck=rows[rowToCheck][colToCheck];
+        if(getColorOfCell(cellToCheck)===color){
+            winningCell.push(cellToCheck);
+            rowToCheck++;
+        }
+        else{
+            break;
+        }
+    };
+    isWinningCombo=checkWinningCells(winningCell);
+    if(isWinningCombo) return;
+    
 };
 
 // Event Handlers
 
 const handleCellMouseOver=(e)=>{
+    if(!gamelive) return;
     const cell=e.target;
     const [rowIndex,colIndex]=getCellLocation(cell);
 
@@ -152,6 +186,7 @@ const handleCellMouseOut=(e)=>{
 };
 
 const handleCellClick=(e)=>{
+    if(!gamelive) return;
     const cell=e.target;
     const [rowIndex,colIndex]=getCellLocation(cell);
     const openCell=getFirstOpenCellForColumn(colIndex);
@@ -166,8 +201,11 @@ const handleCellClick=(e)=>{
 
     clearColorFromTop(colIndex);
 
-    const topCell=topCells[colIndex];
-    topCell.classList.add(yellownext ? 'yellow' : 'red');
+    if(gamelive){
+        const topCell=topCells[colIndex];
+        topCell.classList.add(yellownext ? 'yellow' : 'red');
+    }
+
 
 
 }
@@ -193,4 +231,5 @@ resetButton.addEventListener('click',()=>{
     }
     gamelive=true;
     yellownext=true;
+    statusSpan.textContent=''
 })
