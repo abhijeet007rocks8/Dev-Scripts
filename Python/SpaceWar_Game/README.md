@@ -44,7 +44,7 @@ python spacewar.py
 ## Demo:
 ---
 
-  ![](/Python/SpaceWar_Game/Demo/Demo.mp4)
+  ![](/Python/SpaceWar_Game/Demo/demo.gif)
   
 ---
 
