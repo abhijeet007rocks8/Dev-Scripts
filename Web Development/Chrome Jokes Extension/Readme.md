@@ -58,7 +58,7 @@ No prerequisites required for adding and executing this chrome extension.
 <img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/snip.png" alt="screenshot" >
 
 </div>
-
+<br><br>
 Click on the Extension to pop out a random joke.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
