@@ -1,18 +1,18 @@
 # SPACEWAR Game
 ## Description
-Spacewar is a two-player war game built in Python using the Pygame module.
+Spacewar is a two-players war game built in Python using the Pygame module.
 In this game both players fight with each other until one of them lost their all lives.
   
     * Controls of the game:
     
-    ### Guardian:
+    Guardian:
     * ⬅️ - left
     * ➡️ - right
     * ⬆️ - up
     * ⬇️ - down
     * fire - RCTRL
  
-    ### Aliens:
+    Aliens:
     * A - left
     * D - right
     * W - up
@@ -23,13 +23,9 @@ In this game both players fight with each other until one of them lost their all
 
 
 ## Tech Stack Required
-  * ### python 
-  * ### pygame
+  * Python 
+  * Pygame
 
-## Before Run:
-  * install python 3.6 or above.
-  * install pygame package using .
-    * pip install pygame
 ## To run the code--
   1- First download the code base. <br>
   2- Open the Command Prompt.<br>
@@ -43,21 +39,12 @@ pip install pygame
 ```
 python spacewar.py
 ```
-python Tracker.
 
 
-## Screenshots:
-  ![](/Python/SpaceWar_Game/Demo/start.png)
-  <hr>
+## Demo:
+---
 
-   ![](/Python/SpaceWar_Game/Demo/2.png)
-  <hr>
+  ![](/Python/SpaceWar_Game/Demo/Demo.mp4)
+  
+---
 
-   ![](/Python/SpaceWar_Game/Demo/3.png)
-  <hr>
-
-   ![](/Python/SpaceWar_Game/Demo/4.png)
-  <hr>
-
-  ![](/Python/SpaceWar_Game/Demo/5.png)
-  <hr>
