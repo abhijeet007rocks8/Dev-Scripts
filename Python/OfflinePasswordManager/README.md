@@ -120,7 +120,7 @@ https://user-images.githubusercontent.com/55997552/157315983-5ac466d0-ea17-4e9d-
 
 ### running the main app
 
-https://user-images.githubusercontent.com/55997552/157316429-a048b599-8b0d-453d-9b5c-e3bc81930460.mp4
+https://user-images.githubusercontent.com/55997552/158007960-6eb11d5e-6729-490f-8a15-0de9809d9f57.mp4
 
 
 
