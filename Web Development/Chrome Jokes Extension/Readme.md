@@ -50,6 +50,16 @@ No prerequisites required for adding and executing this chrome extension.
 <div align="center">
 <img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/adding_extension.png" alt="screenshot" >
 </div>
+4. Navigate and add the Chrome Jokes Extension Folder:
+<br><br>
+<div align="center">
+<img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/nav.png" alt="screenshot" >
+</div>
+4. If all the steps are followed correctly, you should see the extensions listed in your Chrome Extensions page:
+<br><br>
+<div align="center">
+<img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/final_extension.png" alt="screenshot" >
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,8 +68,13 @@ No prerequisites required for adding and executing this chrome extension.
 <img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/snip.png" alt="screenshot" >
 
 </div>
-<br><br>
-Click on the Extension to pop out a random joke.
+
+Click on the Extension to pop out a random joke:
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/Web%20Development/Chrome%20Jokes%20Extension/images/extension.png" alt="screenshot" >
+
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
