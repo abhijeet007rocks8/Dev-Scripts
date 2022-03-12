@@ -66,6 +66,14 @@ const getFirstOpenCellForColumn=(colIndex)=>{
     return null;
 }
 
+const clearColorFromTop=(colIndex)=>{
+    const topCell=topCells[colIndex];
+    topCell.classList.remove('yellow');
+    topCell.classList.remove('red');
+
+    
+}
+
 // Event Handlers
 
 const handleCellMouseOver=(e)=>{
@@ -84,8 +92,7 @@ const handleCellMouseOut=(e)=>{
     
     const topCell=topCells[colIndex];
     
-    topCell.classList.remove('yellow');
-    topCell.classList.remove('red');
+    clearColorFromTop(colIndex);
     
 };
 
@@ -98,8 +105,14 @@ const handleCellClick=(e)=>{
     openCell.classList.add(yellownext ? 'yellow':'red');
 
     // todo: Check the status of the game
+    
 
     yellownext=!yellownext;
+
+    clearColorFromTop(colIndex);
+
+    const topCell=topCells[colIndex];
+    topCell.classList.add(yellownext ? 'yellow' : 'red');
 
 
 }
