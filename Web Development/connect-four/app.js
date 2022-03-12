@@ -225,6 +225,20 @@ const checkStatusOfGame=(cell)=>{
     };
     isWinningCombo=checkWinningCells(winningCell);
     if(isWinningCombo) return;
+
+    // Checking Tie
+    const rowWithoutTop=rows.slice(0,6)
+    for(const row of rowWithoutTop){
+        for(const cell of row){
+            const classList=getClassListArray(cell)
+            if(!classList.includes('yellow')&& !classList.includes('red')){
+                return;
+            }
+        }
+    }
+
+    gamelive=false;
+    statusSpan.textContent='Game is a Tie!';
     
 };
 
