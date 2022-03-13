@@ -1,5 +1,4 @@
 name: Issue Template
-description: Create an issue
 body:
   - type: textarea
     id: Description
