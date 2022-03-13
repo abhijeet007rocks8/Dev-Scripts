@@ -25,12 +25,10 @@ body:
    
   - type: checkboxes
     id: terms
-    validations:
-      required: true
     attributes:
       label: Are you creating this issue for yoursefl
       options:
         - label: "Yes"
         - label: "No"
-      validations:
-        requried: true
+    validations:
+      requried: true
