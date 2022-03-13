@@ -8,7 +8,7 @@ body:
       description: Tell us about this issue
       placeholder: Briefly explain about the issue. Also mention if it is a new issue or a bug. 
   - type: textarea
-    id: Tech Stack
+    id: Tech-Stack
     attributes:
       label: Tech Stack
       description: Tell us about the tech stack you are going to use to solve this issue.
@@ -25,5 +25,5 @@ body:
       description: Are you creating this issue for yourself
       required: true
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
