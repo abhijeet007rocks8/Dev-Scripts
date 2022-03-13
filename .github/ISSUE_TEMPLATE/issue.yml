@@ -7,13 +7,11 @@ body:
       label: Description
       description: Tell us about this issue
       placeholder: Briefly explain about the issue. Also mention if it is a new issue or a bug. 
-      required: true
   - type: textarea
     id: Tech Stack
     attributes:
       label: Tech Stack
       description: Tell us about the tech stack you are going to use to solve this issue.
-      required: true
   - type: textarea
     id: Reference
     attributes:
