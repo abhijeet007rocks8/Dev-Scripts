@@ -1,6 +1,6 @@
 name: Issue Template
 description: template for brief issue creation
-title: "New Issue"
+title: "[New Issue] "
 body:
   - type: textarea
     id: Description
@@ -26,9 +26,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Are you creating this issue for yoursefl
+      label: Are you creating this issue for yourself
+        required: true
       options:
         - label: "Yes"
         - label: "No"
-    validations:
-      requried: true
