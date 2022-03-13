@@ -26,8 +26,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Are you creating this issue for yourself
-        required: true
+      label: Are you creating this issue for yourself?
+      description: Please mark the appropriate checkbox
       options:
         - label: "Yes"
         - label: "No"
