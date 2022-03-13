@@ -21,9 +21,9 @@ body:
    
   - type: checkboxes
     id: terms
+    requried: true
     attributes:
       label: Code of Conduct
-      required: true
       description: Are you creating this issue for yourself
       options:
         - label: "Yes"
