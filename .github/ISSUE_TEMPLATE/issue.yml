@@ -1,10 +1,12 @@
 name: Issue Template
+description: template for brief issue creation
+title: [New Issue]
 body:
-  - type: textarea
+  - type: markdown
     id: Description
     attributes:
       label: Description
-      description: Tell us about this issue
+      description: "## Tell us about this issue"
       placeholder: Briefly explain about the issue. Also mention if it is a new issue or a bug. 
   - type: textarea
     id: Tech-Stack
