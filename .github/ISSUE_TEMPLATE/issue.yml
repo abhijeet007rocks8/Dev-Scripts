@@ -1,5 +1,5 @@
 name: Issue Template
-description: template for brief issue creation
+description: Issue template for contributors
 title: "[New Issue] "
 body:
   - type: textarea
