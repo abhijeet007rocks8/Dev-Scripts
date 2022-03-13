@@ -23,7 +23,6 @@ body:
     attributes:
       label: Code of Conduct
       description: Are you creating this issue for yourself
-      required: true
       options:
         - label: "Yes"
         - label: "No"
