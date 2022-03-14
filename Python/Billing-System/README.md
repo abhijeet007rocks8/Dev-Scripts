@@ -10,6 +10,9 @@
 <p>Run pip install tkinter</p>
 
 <h3>To execute the project:</h3>
-<p>Run billing system.py</p>
+<p>Run Billing_System.py </p>
 
-<h3>Screenshot/GIF of this project.</h3>
+# Screenshot
+
+![Bill](https://user-images.githubusercontent.com/72568715/158186923-bad6ffa2-4a11-4d26-b3e5-f957dfea609b.PNG)
+
