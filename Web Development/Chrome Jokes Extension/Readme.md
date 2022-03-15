@@ -77,6 +77,15 @@ Click on the Extension to pop out a random joke:
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+##  Demo Video
+Still facing issues? Check out this Demo Video:
+
+
+[![Watch the video](https://i.ibb.co/QkzXjmW/image.png)](https://drive.google.com/file/d/1xSUL0ot7vw16LQyzt59bjySPvsOnEjhH/view?usp=sharing)
+
+
+
+
 ## Contact
 Shubham Singh - [LinkedIn](https://www.linkedin.com/in/shubham-singh-519769220/) 
 <p align="right">(<a href="#top">back to top</a>)</p>
