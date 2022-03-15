@@ -22,26 +22,42 @@ In this game both players fight with each other until one of them lost their all
 
 
 
-## Tech Stack Required
+## Tech Stack 
   * Python 
   * Pygame
-
-## To run the code--
-  1- First download the code base. <br>
-  2- Open the Command Prompt.<br>
-  3- Install the dependencies
-
+  
+## Install the Dependencies: 
+ - install python python 3.8.1 and above. <br>
+ - install pygame and pip  library using terminal.<br>
 ```
-python -m pip install --upgrade pip
-pip install pygame
+   pip install pygame  
 ```
-4- Run the application
-```
-python spacewar.py
-```
+ 
 
 
-## Demo:
+## To run the code in local:
+- Clone the Repository.<br>
+```
+  git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git 
+```
+  
+- Change Directory. <br>
+(cd \<path of the script> ) <br>
+
+```
+  cd  Dev-Scripts\Python\SpaceWar_Game
+```
+  
+- Run the application<br>
+```
+  python spacewar.py
+```
+  
+   
+
+
+
+## Demo Video:
 ---
 
   ![](/Python/SpaceWar_Game/Demo/demo.gif)
