@@ -4,7 +4,8 @@
 
 A Quotes Generator generates Beautiful and motivated quotes .....
 
-
+# Video Link :-
+https://drive.google.com/file/d/1Zal-4UHIzHJBXlx2geJx9U_XrQuR0znT/view?usp=drivesdk 
 
 ## Tech Stack :-
 
@@ -27,5 +28,7 @@ cd Dev-Scripts/"Web Development/Qoutes_Generator/"
 ```
 
 * Open `index.html` in browser.
+
+
 
 And Enjoy motivated Quotes.......
