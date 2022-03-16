@@ -9,10 +9,13 @@ Its basic functionality will enable a user to:</br>
 - Python
 ## How to Run locally
 - Python/Python3/Spyder must be installed on your local machine.
-- Fork this repository in your main repository.
-- Clone this repository in your local machine.
-- Search for A Python based Address-book Folder
-- Run the file telemanager.py
+- Clone this repository:<br> ```git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git```
+- Change directory:<br> ```cd Python```<br>```cd A Python based Address-book```
+- Find ```telemanager.py``` and run it.
+## Install the dependencies
+- Install Python 3.9.0 or above.
+- If you are using a lower version of python, install the pickle module:
+  ```pip install pickle-mixin```
 ## How to Use
 - When you start executing telemanger.py, it gives you the following message:<br>
 <br>![image](https://user-images.githubusercontent.com/91911418/158371873-b039037b-80f7-4824-a2d8-83cdf3eb37a7.png)
@@ -41,3 +44,9 @@ Its basic functionality will enable a user to:</br>
 <br>![image](https://user-images.githubusercontent.com/91911418/158410335-03167f9a-cba1-419a-a7c1-8007a6228825.png)
 <br>
 - The code terminates itself if the searched result is not obtained.
+## Video for reference
+
+
+https://user-images.githubusercontent.com/91911418/158627270-b20a5541-7c34-4554-b6bd-63cadf74e36b.mp4
+
+- Note: GetPass does not echo text on Python 3.9.0 and above.
