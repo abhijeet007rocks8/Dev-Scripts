@@ -16,7 +16,10 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
 
 **3.** Navigate to the project directory:
  ```
- cd Dev-Scripts/React/Counter/increment-decrement
+ cd Dev-Scripts
+ cd React
+ cd Counter 
+ cd increment-decrement
  ```
  
 ### `npm install`
