@@ -85,7 +85,11 @@ Click on the Extension to pop out a random joke:
 Still facing issues? Check out this Demo Video:
 <br><br>
 
-[![Watch the video](https://i.ibb.co/QkzXjmW/image.png)](https://drive.google.com/file/d/1xSUL0ot7vw16LQyzt59bjySPvsOnEjhH/view?usp=sharing)
+
+
+https://user-images.githubusercontent.com/94376674/158845282-5de0d6bf-382f-40d6-94ad-9f5cd26e7efc.mp4
+
+
 
 
 
