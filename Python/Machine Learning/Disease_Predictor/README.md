@@ -1,30 +1,71 @@
 # DisesesPredictor
-<h3> Author: Vikas</h3>
+## About Disease Predictor
+ML model that detects diseases from provided symptoms provide by user using Decisiopn Tree ,RandomForest and NaiveBayes classifications algorithms.
 
-<h1>About Disease Predictor</h1
-<p>ML model that detects diseases from provided symptoms provide by user using Decisiopn Tree ,RAndomForest and NaiveBayes classifications<p>
-
-<h3>know more </h3>
-<h5>Decision Tree <a href="https://www.edureka.co/blog/decision-trees/">click here</a> </h5>
-<h5>RandomForest <a href="https://www.edureka.co/blog/random-forest-classifier/">click here</a> </h5>
-<h5>NaiveBayes <a href="https://www.edureka.co/blog/naive-bayes-tutorial//">click here</a> </h5>
+- learn more about
+    - Decision Tree <a href="https://www.edureka.co/blog/decision-trees/">click here</a> 
+    - RandomForest <a href="https://www.edureka.co/blog/random-forest-classifier/">click here</a> 
+    - NaiveBayes <a href="https://www.edureka.co/blog/naive-bayes-tutorial//">click here</a> 
 
 
 
-<h3 >Packages used---</h3>
+## Tech Stack
+  - Jupter Notebook version-- Anaconda-3
+  - Python Version--3.9
+  - tkinter
+ 
+## Install the Dependencies: 
+ - install python python 3.8.1 and above. <br>
+ - install <a href="https://docs.python.org/3/library/tkinter.html"> tkinter</a><br>
+```
+   pip install tk  
+```
+ - install <a href="https://numpy.org/doc/stable/"> numpy</a><br>
+```
+   pip install numpy  
+```
+ - install <a href="https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html">pandas</a><br>
+```
+   pip install pandas  
+```
+ - install <a href="https://www.tutorialspoint.com/scikit_learn/index.htm">scikit-learn</a><br>
+```
+   pip install scikit-learn
+```
 
-<a href="https://docs.python.org/3/library/tkinter.html"> tkinter</a><hr>
-<a href="https://numpy.org/doc/stable/"> numpy</a><hr>
-<a href="https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html"> pandas</a><hr>
-<a href="https://www.tutorialspoint.com/scikit_learn/index.htm"> sklearn</a><hr>
 
+## To run the code in local:
+- Clone the Repository.<br>
+```
+  git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git 
+```
+  
+- Change Directory. <br>
+(cd \<path of the script> ) <br>
 
-<h3 >Environment  used---</h3>
-<p> Jupter Notebook version-- Anaconda-3</p>
-<p> Python Version--3.9 </p>
+```
+  cd  Dev-Scripts\Python\SpaceWar_Game
+```
+  
+- Run the application<br>
+```
+  python spacewar.py
+```
+  
+   
+
+ 
 
 
 <h3 >Gui Preview---</h3>
-  
+
   ![dd](https://user-images.githubusercontent.com/73611313/143544258-7b37cd15-6aad-41a1-a284-314d529c1e90.png)
 
+  
+
+
+
+
+
+## Demo Video:
+---
