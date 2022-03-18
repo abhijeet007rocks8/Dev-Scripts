@@ -40,7 +40,7 @@ python3 plotter.py
 
 ## Demonstration Video
 
-
+https://user-images.githubusercontent.com/64689436/159015182-28e2523a-c0c2-4465-8ec7-6b6a94c46268.mp4
 
 ## Working Examples
 
