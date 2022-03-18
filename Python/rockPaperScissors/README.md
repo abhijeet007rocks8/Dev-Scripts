@@ -30,6 +30,7 @@ cd Python
 ```
 cd rockPaperScissors
 ```
+Run Program
 ```
 python3 rockPaperScissors.py
 ```
