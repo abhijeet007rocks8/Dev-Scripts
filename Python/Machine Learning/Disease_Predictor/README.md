@@ -16,6 +16,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
  
 ## Install the Dependencies: 
  - install python python 3.8.1 and above. <br>
+ -  install jupyter notebook<br>
  - install <a href="https://docs.python.org/3/library/tkinter.html"> tkinter</a><br>
 ```
    pip install tk  
@@ -59,7 +60,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 <h3 >Gui Preview---</h3>
 
-  ![dd](https://user-images.githubusercontent.com/73611313/143544258-7b37cd15-6aad-41a1-a284-314d529c1e90.png)
+  ![dd]()
 
   
 
