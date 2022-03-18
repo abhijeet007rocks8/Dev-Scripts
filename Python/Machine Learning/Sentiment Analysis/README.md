@@ -21,6 +21,13 @@ I extracted the data from a CSV file that contained the reviews along with some 
 #### 2. Data Visualization
 In this step, I used the package seaborn to plot the ratings and polarity ratings on graphs. It also included data preprocessing.
 
+#### Screenshots:
+![Data Visualization](https://github.com/deepeshaburse/Dev-Scripts/blob/main/Python/Machine%20Learning/Sentiment%20Analysis/Assets/Screenshot%201.png)
+
+![Data Visualization](https://github.com/deepeshaburse/Dev-Scripts/blob/main/Python/Machine%20Learning/Sentiment%20Analysis/Assets/Screenshot%202.png)
+
+![Data Visualization](https://github.com/deepeshaburse/Dev-Scripts/blob/main/Python/Machine%20Learning/Sentiment%20Analysis/Assets/Screenshot%203.png)
+
 #### 3. Data Cleaning
 This stage included:
   - Dropping unnecessary columns
