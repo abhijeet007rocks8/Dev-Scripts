@@ -10,8 +10,11 @@
 
 ## Demonstration
 
+  <img src="./assets/Screenshot 2022-03-18 7.49.53 PM.png" />
+
 ## Basic Component
   
+  ### HelloWorld.vue
 
 ## Project setup
 ```
