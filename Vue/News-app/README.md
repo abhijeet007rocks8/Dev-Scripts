@@ -1,5 +1,18 @@
 # vuenews2
 
+## Description
+  It is a news website made with VueJS with a clean ui using API data.
+ 
+## Tech Stack
+  - Vue JS
+  - Tailwind CSS
+  - Chakra UI
+
+## Demonstration
+
+## Basic Component
+  
+
 ## Project setup
 ```
 npm install
