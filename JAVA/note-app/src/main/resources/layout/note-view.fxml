@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="93.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtEditNoteName" disable="true" layoutX="8.0" layoutY="12.0" onKeyPressed="#onKeyPressed" prefHeight="31.0" prefWidth="283.0" visible="false" />
+      <Label fx:id="lblNoteName" layoutX="8.0" layoutY="12.0" prefHeight="31.0" prefWidth="253.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblCreatedOn" layoutX="8.0" layoutY="63.0" prefHeight="16.0" prefWidth="253.0" text="Label" />
+      <Button fx:id="btnEditNoteName" layoutX="268.0" layoutY="12.0" mnemonicParsing="false" onAction="#onEditNoteNameClicked" prefHeight="31.0" prefWidth="66.0" text="Edit" visible="false" />
+      <Button fx:id="btnDeleteNote" layoutX="268.0" layoutY="48.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="66.0" text="Delete" visible="false" />
+   </children>
+</AnchorPane>
