@@ -7,12 +7,13 @@ ML model that detects diseases from provided symptoms provide by user using Deci
     - RandomForest <a href="https://www.edureka.co/blog/random-forest-classifier/">click here</a> 
     - NaiveBayes <a href="https://www.edureka.co/blog/naive-bayes-tutorial//">click here</a> 
 
-
+<hr>
 
 ## Tech Stack
   - Jupter Notebook version-- Anaconda-3
   - Python Version--3.9
   - tkinter
+ <hr>
  
 ## Install the Dependencies: 
  - install python python 3.8.1 and above. <br>
@@ -34,36 +35,36 @@ ML model that detects diseases from provided symptoms provide by user using Deci
    pip install scikit-learn
 ```
 
+<hr>
 
 ## To run the code in local:
-- Clone the Repository.<br>
+1. Clone the Repository.<br>
 ```
   git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git 
 ```
-  
-- Change Directory. <br>
-(cd \<path of the script> ) <br>
-
-```
-  cd  Dev-Scripts\Python\SpaceWar_Game
-```
-  
-- Run the application<br>
-```
-  python spacewar.py
-```
-  
-   
-
- 
+2. Run Jupyter Notebook.<br>
+3. Navigate to the source  file.
+---
+    Dev-Scripts\Python\Machine Learning\Disease_Predictor
+---
 
 
-<h3 >Gui Preview---</h3>
+4. Click on " DiseasePrediction.ipynb " to open the file.
+<img width = " 100%" src="https://user-images.githubusercontent.com/73611313/159130217-a62b22ca-223f-4c52-ad57-3ee5cc6ff605.png">
 
-  ![dd]()
+5. Select Cell and Choose Run All <br>
+
+ <img width="100%" src="https://user-images.githubusercontent.com/73611313/159129960-b202d8b7-4218-4340-9494-c4215a9f4af3.png">
+
+<hr>
+
+## Gui Preview
+
+![ss](https://user-images.githubusercontent.com/73611313/159130087-c3024c7f-06a1-4d42-873a-cb73900d7f6b.png)
 
   
 
+<hr>
 
 
 
