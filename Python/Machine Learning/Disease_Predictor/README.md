@@ -1,5 +1,5 @@
-# DisesesPredictor 🧾
-## About Disease Predictor
+# DisesesPredictor: 
+## About Disease Predictor: 🧾
 ML model that detects diseases from provided symptoms provide by user using Decisiopn Tree ,RandomForest and NaiveBayes classifications algorithms.
 
 - learn more about
