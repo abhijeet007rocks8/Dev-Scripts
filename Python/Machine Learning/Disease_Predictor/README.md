@@ -1,4 +1,4 @@
-# DisesesPredictor
+# DisesesPredictor 🧾
 ## About Disease Predictor
 ML model that detects diseases from provided symptoms provide by user using Decisiopn Tree ,RandomForest and NaiveBayes classifications algorithms.
 
@@ -9,13 +9,13 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 <hr>
 
-## Tech Stack
+## Tech Stack 🧑🏻‍💻
   - Jupter Notebook version-- Anaconda-3
   - Python Version--3.9
   - tkinter
  <hr>
  
-## Install the Dependencies: 
+## Install the Dependencies: 📚
  - install python python 3.8.1 and above. <br>
  -  install jupyter notebook<br>
  - install <a href="https://docs.python.org/3/library/tkinter.html"> tkinter</a><br>
@@ -37,7 +37,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 <hr>
 
-## To run the code in local:
+## To run the code in local: 🏃🏻‍♀️💻
 1. Clone the Repository.<br>
 ```
   git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git 
@@ -58,7 +58,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 <hr>
 
-## Gui Preview
+## Gui Preview: 📷
 
 ![ss](https://user-images.githubusercontent.com/73611313/159130087-c3024c7f-06a1-4d42-873a-cb73900d7f6b.png)
 
@@ -69,7 +69,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 
 
-## Demo Video:
+## Demo Video: 📽️ 
 ---
 
 
