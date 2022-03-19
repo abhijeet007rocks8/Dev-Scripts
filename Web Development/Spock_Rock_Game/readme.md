@@ -5,7 +5,10 @@
 It is a stone paper sicssor game time .....
 
 # Video Link :-
+https://user-images.githubusercontent.com/78314622/159133292-ee32eac5-6925-4c26-a4e8-2d171aa419e6.mp4
 
+
+https://user-images.githubusercontent.com/78314622/159133563-09017f94-9136-4a0e-bbd7-afc092301e47.mp4
 
 ## Tech Stack :-
 
