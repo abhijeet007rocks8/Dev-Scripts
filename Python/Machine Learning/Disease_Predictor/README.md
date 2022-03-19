@@ -10,7 +10,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 <hr>
 
 ## Tech Stack 🧑🏻‍💻
-  - Jupter Notebook version-- Anaconda-3
+  - Jupyter Notebook version-- Anaconda-3
   - Python Version--3.9
   - tkinter
  <hr>
@@ -58,7 +58,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 <hr>
 
-## Gui Preview: 📷
+## GUI Preview: 📷
 
 ![ss](https://user-images.githubusercontent.com/73611313/159130087-c3024c7f-06a1-4d42-873a-cb73900d7f6b.png)
 
