@@ -9,7 +9,8 @@ A Pong Game is intresting game and one can enjoy this in free time by playing wi
 https://user-images.githubusercontent.com/78314622/159009655-1291262a-1992-4981-a7d1-50229285e75c.mp4
 
 - Code go through :-
-https://user-images.githubusercontent.com/78314622/159049601-195b9c35-9e76-41b9-a233-688c387593ee.mp4
+
+https://user-images.githubusercontent.com/78314622/159148964-a2c41156-a2f1-4598-937a-fb0f4a26bbf8.mp4
 
 
 ## Tech Stack :-
