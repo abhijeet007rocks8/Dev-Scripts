@@ -1,6 +1,6 @@
 # DisesesPredictor: 
 ## About Disease Predictor: 🧾
-ML model that detects diseases from provided symptoms provide by user using Decisiopn Tree ,RandomForest and NaiveBayes classifications algorithms.
+ML model that detects diseases from the symptoms provided by the user using Decision Tree ,RandomForest and NaiveBayes classifications algorithms.
 
 - learn more about
     - Decision Tree <a href="https://www.edureka.co/blog/decision-trees/">click here</a> 
@@ -10,7 +10,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 <hr>
 
 ## Tech Stack 🧑🏻‍💻
-  - Jupter Notebook version-- Anaconda-3
+  - Jupyter Notebook version-- Anaconda-3
   - Python Version--3.9
   - tkinter
  <hr>
@@ -62,7 +62,7 @@ ML model that detects diseases from provided symptoms provide by user using Deci
 
 ![ss](https://user-images.githubusercontent.com/73611313/159130087-c3024c7f-06a1-4d42-873a-cb73900d7f6b.png)
 
-  
+ 
 
 <hr>
 
