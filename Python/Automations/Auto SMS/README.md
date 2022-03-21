@@ -2,10 +2,11 @@
 Easy CLI interface for users looking to test their SMS campaign integration with Kaleyra 
 ![Software Sample](demo.gif)
 
-The requirements for any user are :-
+## Install the Dependencies :-
 * A kaleyra account and api key, secret key
 * python3 installed
-* pip packages required are requests, json
+* ```pip install requests```
+* ```pip install json```
 
 To get the API key from Kaleyra follow these steps:
 
@@ -18,6 +19,12 @@ To get the API key from Kaleyra follow these steps:
 * After API key generation please copy those key to `line no. 10,11,12`
 * Click on Billing to make sure your billing details are up-to-date. If they not, follow this link.
 For futhers details of the API please refer to the official documentation https://developers.kaleyra.io/docs/getting-started-with-kaleyra-cloud-apis
+
+## Quick Start :-
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts
+cd Dev-Scripts/Python/Automations/Auto SMS/
+```
 
 ##### Please replace the comments in main.py with your SID, API Key, SenderID
 
