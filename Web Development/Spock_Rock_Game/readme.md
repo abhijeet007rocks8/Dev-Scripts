@@ -2,7 +2,10 @@
 
 ## Description :-
 
-It is a stone paper sicssor game time .....
+It is a Game like Rock paper seissor ......
+Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.
+Kind of game u can enjoy in free time..... UI is simple u can play Easily .....
+
 
 # Video Link :-
 https://user-images.githubusercontent.com/78314622/159133292-ee32eac5-6925-4c26-a4e8-2d171aa419e6.mp4
