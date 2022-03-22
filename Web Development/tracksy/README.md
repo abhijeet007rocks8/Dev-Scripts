@@ -16,21 +16,26 @@
 
 ### Steps to Use:
 
+## Run Local
 
 **1.** Clone this Repository to your local machine.
 
-bash
-
+```bash
 git clone https://github.com/<your-github-username>/Dev-Scripts
+```
+* Change Directory
+
+```bash
+cd Dev-Scripts/"Web Development/tracksy/"
+```
+
+* Open `index.html` in browser.
+  
+  
+**2.** Or Load Project folder to your Extensions settings in Chrome
 
 
-**2.** Navigate to the project directory:
-
-After cloning this to your local machine. Open the project folder. And here you can directly run the Index.html file.
-
-**3.** Load Project folder to your Extensions settings in Chrome
-
-Now go to your Chrome browser and open Manage Extensions. Click on “Load Unpack” button and load the project folder in Chrome Extensions.
+After cloning this to your local machine. Open the project folder. Now go to your Chrome browser and open Manage Extensions. Click on “Load Unpack” button and load the project folder in Chrome Extensions.
 
 Now you are all set to run this extension.  
 
