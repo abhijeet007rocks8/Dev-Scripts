@@ -45,13 +45,14 @@ Now you are all set to run this extension.
 
 Whenever you go to any website or any important contact's LinkedIn profile or whatever, you can just click on Save Tab button to save the web address permanently.
 
-https://drive.google.com/file/d/1MwDYsFBNv4QxtwiPP9VcQ9VDlbNEWveD/view?usp=sharing
+
+![chrome extension opening image](https://user-images.githubusercontent.com/84259582/159497383-29f4d510-6e08-4131-9c0c-da5e134dd808.PNG)
 
 **2.** Save  Button
 
 Save Button will work when you paste any link to the box, and you save it to your local memory.
 
-https://drive.google.com/file/d/1UTNrbV5HlWLjWTHIe7gM96iXhjKeSWTW/view?usp=sharing
+![save button](https://user-images.githubusercontent.com/84259582/159497489-eb9f6702-dd0f-4219-bbce-c1705e6b756d.PNG)
 
 **3.** Delete  Button
 
@@ -62,5 +63,10 @@ When you double click on this button, it will delete all your history.
 <h3> Sample Video </h3>
 
 https://drive.google.com/file/d/1owEAFdfNuDWLbfe0OJTEfa-Ug1h06Bvm/view?usp=sharing
+
+
+
+https://user-images.githubusercontent.com/84259582/159497572-d3fbf5d3-b6b5-430f-ae0f-745f9f907755.mp4
+
 
 <br>
