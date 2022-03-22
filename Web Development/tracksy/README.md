@@ -45,13 +45,13 @@ Now you are all set to run this extension.
 
 Whenever you go to any website or any important contact's LinkedIn profile or whatever, you can just click on Save Tab button to save the web address permanently.
 
-![save tab click.PNG](Aspose.Words.151baa0e-bc18-4e36-b2b8-40f423a227a7.001.png)
+https://drive.google.com/file/d/1MwDYsFBNv4QxtwiPP9VcQ9VDlbNEWveD/view?usp=sharing
 
 **2.** Save  Button
 
 Save Button will work when you paste any link to the box, and you save it to your local memory.
 
-![chrome extension opening image.PNG](Aspose.Words.151baa0e-bc18-4e36-b2b8-40f423a227a7.002.png)
+https://drive.google.com/file/d/1UTNrbV5HlWLjWTHIe7gM96iXhjKeSWTW/view?usp=sharing
 
 **3.** Delete  Button
 
