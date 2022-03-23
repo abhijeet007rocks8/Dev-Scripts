@@ -13,6 +13,7 @@ class BMI_Calculator {
         System.out.println("2. Weight in pounds and Height in inches");
         System.out.println("Enter you choice....");
         int choice = sc.nextInt();
+        int count = 0;
         switch (choice) {
             case 1:             // case to calculate BMI in Kilograms and Meter
                 System.out.println("Enter your Weight in Kilograms (Kgs) : ");
@@ -32,33 +33,30 @@ class BMI_Calculator {
 
             default:
                 System.out.println("Oops! Wrong choice");
+                count = 1;
         }
-        System.out.println("--------------------------------------------------");
-        System.out.print("Your BMI according to your height and weight is : ");
-        System.out.printf("%.2f%n", bmi);
-        if(bmi<16){       // Further description about user's BMI
-            System.out.println("You are Severely Underweight, so you may need to put on some weight.");
-        }
-        else if((16<=bmi)&&(bmi<=18.4)){
-            System.out.println("You are Underweight");
-        }
-        else if((18.5<=bmi)&&(bmi<=24.9)){
-            System.out.println("You are Normal, you are at a healthy weight for your height.");
-        }
-        else if((25<=bmi)&&(bmi<=29.9)){
-            System.out.println("You are Overweight, you may be advised to lose some weight.");
-        }
-        else if((30<=bmi)&&(bmi<=34.9)){
-            System.out.println("You are Moderately Obese, you may be advised to lose some weight.");
-        }
-        else if((35<=bmi)&&(bmi<=39.9)){
-            System.out.println("You are Severely Obese, you are advised to lose some weight.");
-        }
-        else{
-            System.out.println("You are Morbidly Obese, your health may be at risk if you do not lose weight.");
-        }
-        System.out.println("--------------------------------------------------");
+        if (count != 1) {
+            System.out.println("--------------------------------------------------");
+            System.out.print("Your BMI according to your height and weight is : ");
+            System.out.printf("%.2f%n", bmi);
+            if (bmi < 16) {       // Further description about user's BMI
+                System.out.println("You are Severely Underweight, so you may need to put on some weight.");
+            } else if ((16 <= bmi) && (bmi <= 18.4)) {
+                System.out.println("You are Underweight");
+            } else if ((18.5 <= bmi) && (bmi <= 24.9)) {
+                System.out.println("You are Normal, you are at a healthy weight for your height.");
+            } else if ((25 <= bmi) && (bmi <= 29.9)) {
+                System.out.println("You are Overweight, you may be advised to lose some weight.");
+            } else if ((30 <= bmi) && (bmi <= 34.9)) {
+                System.out.println("You are Moderately Obese, you may be advised to lose some weight.");
+            } else if ((35 <= bmi) && (bmi <= 39.9)) {
+                System.out.println("You are Severely Obese, you are advised to lose some weight.");
+            } else {
+                System.out.println("You are Morbidly Obese, your health may be at risk if you do not lose weight.");
+            }
+            System.out.println("--------------------------------------------------");
 
+        }
     }
 }
 
