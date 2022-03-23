@@ -1,4 +1,4 @@
-# **Connect Four*
+# **Connect Four**
 
 -Players are distinguished by game piece color (yellow and red).
 -Players must alternate turns, and only one disc can be dropped in each turn. 
@@ -9,6 +9,10 @@
 -Html 
 -Css
 -Javascript
+## **VideoDemonstration**
+
+https://user-images.githubusercontent.com/67006588/159767642-79f8edde-e983-4bd7-a31e-caa65f8c32f6.mp4
+
 
 ## **Demonstration**
 -Player one gets the yellow color and player 2 gets the red color.
