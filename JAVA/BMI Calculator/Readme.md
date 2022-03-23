@@ -1,3 +1,4 @@
+
 <div align="center">
  
    <img src="https://i.ibb.co/rtrYYFq/image.png" alt="Logo" > 
@@ -69,6 +70,20 @@ Body mass index, or BMI, is a measure of body size. It combines a person’s wei
 
 There are no prerequisites for running this program.
 
+### Running the Program:
+
+1. Start by cloning the repository.
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+2. Navigate to the BMI Calculator Java Project.
+```
+Dev-Scripts\JAVA\BMI Calculator
+```
+3. Open the `BMI_Calculator.java` file in your Java IDE.
+
+
+
 
 
 
@@ -118,7 +133,6 @@ Shubham Singh - [LinkedIn](https://www.linkedin.com/in/shubham-singh-519769220/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 
