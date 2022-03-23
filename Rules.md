@@ -15,11 +15,11 @@
    
    2. Tech Stack
    
-   3. Demonstration(include Demo video or GIF)
+   3. Demonstration(include Demo video or GIF and `add them in your project folder under name assets/demo`)
   
    4. Basic Component in Project.
    
-   5. Show Steps on how to run in Local
+   5. Show Steps on how to run in Local [check here](https://github.com/abhijeet007rocks8/Dev-Scripts/tree/main/Python/Web%20Scraping/AnimeTracker#to-run-the-code--)
 
    6. If any further info contributors want to include, you are most welcome to do.
 
