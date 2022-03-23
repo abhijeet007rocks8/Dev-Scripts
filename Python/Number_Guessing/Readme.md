@@ -1,5 +1,15 @@
- <h1>Number Guessing Game</h1>
- 
+# Number Guessing Game
+## Description
+This is Number Guessing game.
+The objective of the game is to guess the number untill a choosen number matches with the original number.All the landing page of this game is attcahed below .This also tell's whether the number is more than the original number or less than that number , which make's user to think more and take more closer to that number. ALong with this the colour of the background also change's with the number.
+PLay and have fun with this game . 🤞
+
+GUI Based Game.
+
+## Tech Stack Required
+Python
+
+ # Screenshot
  <h4>Landing page</h4>
  
  <img src="https://user-images.githubusercontent.com/85225156/157018993-0ec5ab82-1e82-49cf-ad99-19ca836ee0b1.jpeg" width="500" height="400">
