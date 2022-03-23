@@ -14,6 +14,7 @@ This repository is a beginner-friendly repository where devs can contribute thei
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+- [Go through Contribution Guidelines](Rules.md)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
@@ -67,7 +68,31 @@ git push
 - Congratulations! 🎉 Sit and relax, you've made your contribution to [Dev-Scripts](https://github.com/abhijeet007rocks8/Dev-Scripts) project.
 <!-- - Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/abhijeet007rocks8/Dev-Scripts/blob/main/CONTRIBUTION.md) -->
 
+
+<h1 align=center> Project Admin ⚡ </h1>
+<p align="center">
+  <a href="https://github.com/abhijeet007rocks8"><img src="https://avatars.githubusercontent.com/u/64676594?v=4" width=150px height=150px /></a> 
+</p>
 <br>
+<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
+<p align="center">
+  
+	
+<a href="https://github.com/abhijeet007rocks8/Dev-Scripts/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhijeet007rocks8/Dev-Scripts" />
+</a>
+	
+<br><br>
+	
+## 📌 Opensource Programs
+
+### This project is a part of following Open Source Programs
+
+[![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
+[![Hacktoberfest'21](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)](https://hacktoberfest.digitalocean.com)
+</p>
+<br><br>
+
 
 <p align = "center">
 

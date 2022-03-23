@@ -1,0 +1,19 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "simple cli password generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Asmit Malakannawar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.3.0"
+  }
+}
