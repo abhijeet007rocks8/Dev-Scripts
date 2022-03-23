@@ -91,6 +91,7 @@ There are no prerequisites for running this program.
    <img src="https://i.ibb.co/Yt7FVQg/snip.png" alt="Logo" > 
    
 </div>
+<br><br>
 
 Facing issues running this program? Have a look at the demo video:
 
