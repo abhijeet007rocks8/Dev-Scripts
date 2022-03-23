@@ -11,7 +11,6 @@ warnings.filterwarnings('ignore')
 
 s=Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
-# driver = webdriver.Chrome(executable_path='Python/Automations/WhatsappBotForTimedTexts/chromedriver')
 driver.get("https://web.whatsapp.com")
 
 def spam(message, times):
@@ -21,7 +20,7 @@ def spam(message, times):
         times - time stamps to spam on
     '''
     textfield_xpath = '//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[2]'
-    
+
     try:
         text_field = driver.find_element(by=By.XPATH, value=textfield_xpath)
 
