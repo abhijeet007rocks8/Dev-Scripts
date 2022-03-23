@@ -27,7 +27,7 @@ def spam(message, times):
         for duration in times:
             time.sleep(duration)
             text_field.send_keys(message)
-            text_field.send_keys(Keys.ENTER)
+            text_field.send_keys(Keys.ENTER) # Pressing Enter will send the message directly so no need to get the button element seperately
 
     except:
         input('Something is not right. Check if you have logged in successfully or if you are inside an inbox. Then press any key.')
