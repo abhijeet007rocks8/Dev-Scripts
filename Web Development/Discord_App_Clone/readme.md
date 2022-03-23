@@ -28,3 +28,4 @@ cd Dev-Scripts/"Web Development/Discord_App_Clone/"
 
 ## Screenshot
 
+![](https://user-images.githubusercontent.com/64689436/159763982-63a6fedc-f6c1-4bd3-a5f3-c3ce8a32edf5.png)
