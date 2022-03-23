@@ -28,9 +28,33 @@ Python
  <h4>When the User won the game</h4>
  
  <img src="https://user-images.githubusercontent.com/85225156/157022170-fd8ff564-79b2-4cc8-9a56-d0caea88705c.jpeg" width="500" height="400">)
-
+ 
+ 
 # Video
 
 https://user-images.githubusercontent.com/85225156/159721121-a414648a-0ad2-4be8-83d9-8da43e985285.mp4
 
 
+
+## Install the Dependencies: 
+
+ - install python python 3.8.1 and above. <br>
+ 
+
+## To run the code in local:
+- Clone the Repository.<br>
+```
+  git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git 
+```
+  
+- Change Directory. <br>
+(cd \<path of the script> ) <br>
+
+```
+  cd  Dev-Scripts\Python\Number_Guessing
+```
+  
+- Run the application<br>
+```
+  python Number_Guessing.py
+```
