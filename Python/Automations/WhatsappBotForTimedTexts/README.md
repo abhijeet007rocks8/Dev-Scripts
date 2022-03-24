@@ -1,5 +1,5 @@
 # Whatsapp bot for timed texts
-Spams given text on WhatsApp at given time stamps
+Spams given text on WhatsApp at given time stamps. This is different from the other [WhatsappSpamBot](https://github.com/abhijeet007rocks8/Dev-Scripts/tree/main/Python/Automations/WhatsappSpamBot) as this sends messages on specified timestamps in contrast to the other one that sends messages instantaniously for a given number of times.
 
 ## Tech Stack
 Python, Selenium
