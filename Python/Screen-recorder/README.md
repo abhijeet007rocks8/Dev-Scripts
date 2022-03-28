@@ -27,6 +27,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
 - Change directory:
 ```bash
+cd Dev-Scripts
 cd Python
 cd Screen-recorder
 ```
