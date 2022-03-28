@@ -25,6 +25,11 @@
   - ![235Mx](https://user-images.githubusercontent.com/77090462/160240790-0d2213f5-814e-46a5-907b-7bc36943129f.png)
   - Then Don't worry, we are here to the path of solution. The solution is: just provide picture path in imread.
 
+# Video Demonstration:
+
+https://user-images.githubusercontent.com/77090462/160421791-00effcc8-ae4e-490e-8b57-1b1b6bfadc7b.mov
+
+
 # Quick start (how to run locally):
 
 Clone this repository:
