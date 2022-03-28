@@ -28,6 +28,7 @@
 # Video Demonstration:
 
 https://user-images.githubusercontent.com/77090462/160421791-00effcc8-ae4e-490e-8b57-1b1b6bfadc7b.mov
+- But it is best to use png images for this project.
 
 
 # Quick start (how to run locally):
