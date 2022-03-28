@@ -1,4 +1,4 @@
-#Image To Pencil Sketch.
+# Image To Pencil Sketch.
 
 # About the Project:
   - It converts a given image to a pencil Sketch. Just Twerk The code a little and see the results.
