@@ -17,7 +17,7 @@
 
 # A picture as an example:
 <img width="1440" alt="Screenshot 2022-03-26 at 6 20 08 PM" src="https://user-images.githubusercontent.com/77090462/160240634-15ba5581-9986-4e29-828f-30e0a38d55ff.png">
-  -As You guys can see with the above pic.
+  -As You guys can see what it does with the above pic.
 
 # How to Change the Picture:
   - Just Change the text inside imread to any picture you want.
