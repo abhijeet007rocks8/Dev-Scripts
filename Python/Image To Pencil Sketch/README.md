@@ -36,6 +36,7 @@ https://user-images.githubusercontent.com/77090462/160421791-00effcc8-ae4e-490e-
 Clone this repository:
 - git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 - Change directory:
+- cd Dev-Scripts
 - cd Python
 - cd Image To Pencil Sketch
 - Find main.py and run it.
