@@ -2,6 +2,7 @@ import React, {useState} from "react" ;
 import logo from './logo.svg';
 import './App.css';
 import Show from "./Show.js";
+import Delete from "./Delete.js"
 
 function App() {
   // const initialValues = {
@@ -52,7 +53,7 @@ function App() {
   //     </table>
   //     ); 
   // }
-
+  const n=0 ;
   return (
     <>
     <div className="App">
@@ -86,7 +87,9 @@ function App() {
           <td><input type="text" name="email" id="email" /></td>
         </tr>        
         </tbody>
-        <button className="Add-btn" onClick={Show}>Add</button>
+        
+      <button className="Add-btn" onClick={()=>Show(n+1)}>Add</button>
+    <button className="Add-btn" onClick={Delete} >Delete</button>
         {/* <input type="button" name="button" className="Add-btn" value="Add" onClick={Show}></input> */}
       </table>
       <h1>DETAILS:-</h1>
