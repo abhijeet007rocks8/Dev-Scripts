@@ -51,5 +51,4 @@ cd Dev-Scripts/Web Development/MA_Fitness
 
 <h3> ScreenShot </h3>  
 <img width="945" alt="MA_Fitness" src="https://raw.githubusercontent.com/abhijeet007rocks8/Dev-Scripts/92685879f942b3ba111c635726c0c9f677c1fc55/Web%20Development/MA_Fitness/MA_Fitness.png">
-
 <br>
