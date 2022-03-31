@@ -13,7 +13,7 @@ s=Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
 driver.get("https://web.whatsapp.com")
 
-def spam(message, wait_time):
+def send(message, wait_time):
     '''
     Parameters:
         message - The message in string format
@@ -33,13 +33,13 @@ def spam(message, wait_time):
 
     except:
         input('Something is not right. Check if you have logged in successfully or if you are inside an inbox. Then press any key.')
-        spam(message, wait_time)
+        send(message, wait_time)
 
 input('\n\nAt this moment, You must log into your whatsapp account and open up the desired inbox to send the message. Then press any key.')
 
 message = sys.argv[1]
 wait_time = int(sys.argv[2])
 
-spam(message, wait_time)
+send(message, wait_time)
 
 print('DONE.')
