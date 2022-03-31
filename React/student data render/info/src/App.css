@@ -85,9 +85,17 @@ td {
 
 .Add-btn{
   display: flex;
+  height: 20px;
   background-color: rgb(85, 85, 128);
   color: white;
+  justify-content: space-evenly;
 }
+/* 
+.Add-delete{
+  background-color: rgb(85,85,128);
+  color: white;
+  display: flex;
+} */
 
 #show{
   border-radius: 10px;
