@@ -109,7 +109,7 @@ const Home: NextPage = ({}) => {
                 const file = await dataURLtoFile(base64, "number");
                 let formData = new FormData();
                 formData.append("image", file);
-                await fetch("https://lenet-mnist.herokuapp.com/api/mnist", {
+                await fetch("http://localhost:3001/api/mnist", {
                   method: "POST",
                   body: formData,
                 })
@@ -163,16 +163,3 @@ const Home: NextPage = ({}) => {
 };
 
 export default Home;
-
-// const canvas = document.getElementById("canvas");
-
-// const ctx = canvas.getContext("2d");
-// resize();
-// const pos = { x: 0, y: 0 };
-
-// canvas.addEventListener("resize", resize);
-// canvas.addEventListener("mousemove", draw, false);
-
-// document.querySelector("#clear-btn").addEventListener("click", (e) => {
-//   ctx.clearRect(0, 0, canvas.width, canvas.height);
-// });

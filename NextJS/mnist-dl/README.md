@@ -2,12 +2,7 @@
 
 This is a simple deep learning application for hand digits recognition in realtime.
 
-<img src="/mnist.png" alt="img" width="100%"/>
-
-### Deployed applications
-
-1. [server](https://lenet-mnist.herokuapp.com/)
-2. [client](https://mnist-next-client.vercel.app/)
+<img src="https://github.com/CrispenGari/Dev-Scripts/blob/mnist-dl/NextJS/mnist-dl/mnist.png" alt="img" width="100%"/>
 
 This application is using a multi-repo approach with the following packages:
 
@@ -51,119 +46,81 @@ class LeNet(nn.Module):
 
 ### 📁 notebooks
 
-This contain a `ipynb` notebook that was used for training the digit recognition classifier in `pytorch`.
+This contain a `.ipynb` notebook that was used for training the digit recognition classifier in `pytorch`. If you want to retrain the model you can run the notebook `/notebooks/MNIST_LeNet.ipyb`
 
 ### 📁 client
 
 Client is nothing but a next.js application. This application will consume the api from the server and make predictions on the hand digits that will be sketched by the user on the canvas.
 
-### Deploying and Hosting.
+### Running the web application locally.
 
-In this section we are going to walk through all deployment process of our server and client packages.
-
-### Hosting our server
-
-We are going to host the server on Heroku. We are going to follow the following step to host our site.
-
-1. Make sure you have `Git` and `Python` installed on your computer
-2. [Create or Sign In to Heroku](https://id.heroku.com/login)
-3. [Install Heroku](https://devcenter.heroku.com/articles/heroku-cli#other-installation-methods)
-
-#### Installing gunicorn
-
-To install `gunicorn` we run the following command:
+To run the web application locally first you need to clone this repository by running the following command:
 
 ```shell
-pip install gunicorn
+https://github.com/CrispenGari/Dev-Scripts.git
 ```
 
-##### Making required filed by Heroku
+You need to open two terminals the one for the server and the other one for the client.
 
-1. `requirements.txt`
+### Client
 
-Create a requirements.txt by running the following command:
+To start the client server open a terminal or command prompt in the `Dev-Scripts` and navigate to the client package by running the following command:
 
 ```shell
-pip freeze > requirements.txt
+cd NextJS/mnist-dl/client
 ```
 
-2. Create a _Procfile_
-
-- [Procfile](https://devcenter.heroku.com/articles/procfile) is a Process file that is required for all Heroku applications. Procfile specifies the commands that are executed by the app on startup.
-- Create _`Procfile`_ in the root of your project and add the following
+Then run:
 
 ```shell
-web: gunicorn app:app
+yarn install && yarn run dev
+# OR
+
+npm install && npm run dev
 ```
 
-Here, the `app` is the name of your main (`.py`) file. In my case, it is `app.py`.
+> If everything went well the server will start running on a default port of `3000` then you can visit http://localhost:3000 or http://127.0.0.1:3000
 
-3. Create the `runtime.txt`
+### server
 
-In this file we are going to put the version of python that we are using in my case i'm using version `3.8.5` so i will add the following in the `runtime.txt`:
-
-```txt
-python-3.8.5
-```
-
-#### Creating a heroku application
-
-To create a heroku application we first going to login by running the following command:
+Just like what we di on the client we need to install packages and start the server. First you need to navigate to the server folder by running the following command:
 
 ```shell
-heroku login
+cd NextJS/mnist-dl/server
 ```
 
-Create a new github repository and push your project using git commands
+1. create a virtual environment
+
+To create a virtual environment you run the following command:
 
 ```shell
-$ git init
-$ git add .
-$ git branch -M master
-$ git remote add origin <repo url>
-$ git commit -m "message-commit"
-$ git push -u origin master
+virtualenv venv
 ```
 
-- Enter the credentials and run the following command to create a heroku application
+2. activate the virtual environment
+
+To activate the virtual environment you run the following command:
 
 ```shell
-heroku create < your_app_name >
-# example
-heroku create lenet-mnist
+venv\Scripts\activate.bat
 ```
 
-To deploy run the following command:
+3. Install the packages
+
+To install the packages run the following command:
 
 ```shell
-git push heroku main
+pip install -r requirements.txt
 ```
 
-### Deploying client to vercel
+4. Then start the server
 
-1. First create or login to [vercel.com](https://vercel.com/signup)
-2. Authorize with a provider (i recommend github)
-
-#### Pushing the client code to github
-
-- Before importing the project to `vercel` we need to create a repository for our client app and push it to our github account so that we will have access to it in the vercel dashboard.
+To start the server (machine learning server) you need to run the following command:
 
 ```shell
-git init
-git add .
-git commit branch -M main
-git remote add origin <repo url>
-git commit -m "init-commit"
-git push -u origin main
+cd app
+#  Then
+python app.py
 ```
 
-3. Look for the project that you want to deploy and click `import`
-4. Select the project and click `deploy`
-
-### Deployed version of the client
-
-- [mnist-next-client](https://mnist-next-client.vercel.app/)
-
-### Deployed version of the server
-
-- [deployed version of the server](https://lenet-mnist.herokuapp.com/)
+> The machine learning server will start running on port `3001` in development.
