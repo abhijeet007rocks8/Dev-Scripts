@@ -11,6 +11,11 @@ The project is made using python and mysql.
 ## Demonstration video - here is a view of the project :
 
 
+
+https://user-images.githubusercontent.com/74623726/161324812-4dae53e7-261b-4c91-8ee4-c2402d8a6072.mp4
+
+
+
 ## Install dependencies
 - Install Python 3.8.3 or above
 - Further install these packages using terminal:
