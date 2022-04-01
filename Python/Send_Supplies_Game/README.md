@@ -29,3 +29,6 @@ Gear up as you are the last hope of lieutenant<br>
 
 - pygame :- 2.0.1
 - python :-3.8.12
+
+## Video Demo
+https://user-images.githubusercontent.com/40180496/161312452-9ee14cba-44b7-4298-a619-93d3e0538385.mp4
