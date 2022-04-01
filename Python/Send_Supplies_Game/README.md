@@ -2,6 +2,10 @@
 
 ---
 
+## Description:
+
+This simple game is made with **Pygame**, a game library written in python
+
 <h3>STORY</h3>
 <b>Lieutenant John Fowl</b> is admist a war torn area.His troops need supplies ASAP and 
 there is no time to waste.He makes his way to different strategic places to receive the
@@ -21,7 +25,7 @@ Gear up as you are the last hope of lieutenant<br>
 
 ---
 
-This simple game is made with pygame, a game library written in python
+## Tech Stack
 
 - pygame :- 2.0.1
 - python :-3.8.12
