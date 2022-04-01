@@ -9,10 +9,9 @@ In this program, we have to guess the month on year for which the blank spaces a
 * ***Python***  
 
 ## Video of program
-
+https://user-images.githubusercontent.com/78628027/161176635-52889a50-cda8-435a-a64d-d55eb8b552d6.mp4
 
 ### Install Dependencies 
-
 - Install Python 2.7 or above 
 
 ### Quick Start (how to run in local environment)
@@ -31,7 +30,7 @@ cd "Animal Guessing Game"
 ```
 Run Program
 ```
-py Main.py
+py Animal_Guessing_Game.py
 ```
 
 - Enjoy the game...
