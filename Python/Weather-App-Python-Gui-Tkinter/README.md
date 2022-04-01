@@ -12,7 +12,10 @@ The project is made using python and mysql.
 
 
 
-https://user-images.githubusercontent.com/74623726/161324812-4dae53e7-261b-4c91-8ee4-c2402d8a6072.mp4
+
+https://user-images.githubusercontent.com/74623726/161325458-10455ad0-6cee-45a9-8ba8-7f4b8617bd9c.mp4
+
+
 
 
 
