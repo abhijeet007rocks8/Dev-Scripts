@@ -5,10 +5,14 @@ This is the snake, water and gun game written in python without using class. Her
 - It's a basic Snake, water and gun game using python
 - Play the game and have fun.
 
+## Video of running program using python.
+https://user-images.githubusercontent.com/78628027/160663297-3598d908-a7d4-445a-9420-37ff9dfa05f7.mp4
+
+
 ### Tech Stack 
 
 * ***Python*** 
-*  *** Tkinter** 
+* ***Tkinter***
 
 ### Install Dependencies 
 
