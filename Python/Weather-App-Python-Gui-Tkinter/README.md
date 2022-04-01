@@ -35,7 +35,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
 cd Dev-Scripts
 cd Python
-cd 
+cd Weather-App-Python-Gui-Tkinter
 
 ```
 
