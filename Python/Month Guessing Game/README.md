@@ -6,12 +6,11 @@ This is month guessing game in python
 - Play the game and have fun.
 
 ## Video of running program using python.
-
+https://user-images.githubusercontent.com/78628027/161398816-1cdd80c8-499a-4850-a225-fe36299511d4.mp4
 
 ### Tech Stack 
 
 * ***Python*** 
-* ***Tkinter***
 
 ### Install Dependencies 
 
