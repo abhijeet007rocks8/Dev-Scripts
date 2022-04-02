@@ -94,20 +94,24 @@ Dev-Scripts\JAVA\Temperature Converter
    
    <img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/JAVA/Temperature%20Converter/snips/snip1.png" alt="snip" > 
 
+  </div>
+  <br>
 The program can detect the type of unit system you are using. When entering the temperature using the respective unit letter. After the program identifies the unit system. 
 
 The following lines will be displayed.
    
-</div>
+
 
  <div align="center">
    
    <img src="https://raw.githubusercontent.com/LiQuiD-404/Dev-Scripts/main/JAVA/Temperature%20Converter/snips/snip2.png" alt="snip" > 
    
+  </div>
+    <br>
    If the temperature is entered in Celsius (suppose) then the program will let you know the conversions possible. By selecting the desired option, the computation will be done and the final temperature after conversion will be shown.
-</div>
-<br><br>
 
+
+  <br>  <br>
 Facing issues running this program? Have a look at the demo video:
 
 
