@@ -26,8 +26,12 @@ class Temp_Converter {
                     choice = sc.nextInt();
                     switch (choice){
                         case 1: converted_temp = (temp_value*1.8)+32;
+                                System.out.println("Temperature in Fahrenheit is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         case 2: converted_temp = temp_value + 273;
+                                System.out.println("Temperature in Kelvin is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         default:
                             System.out.println("Invalid choice");
@@ -40,9 +44,13 @@ class Temp_Converter {
                     choice = sc.nextInt();
                     switch (choice){
                         case 1: converted_temp = (temp_value-32)*.556;
+                                System.out.println("Temperature in Celsius is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         case 2: converted_temp = (temp_value-32)*.556;
                                 converted_temp = converted_temp + 273;
+                                System.out.println("Temperature in Kelvin is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         default:
                             System.out.println("Invalid choice");
@@ -56,8 +64,12 @@ class Temp_Converter {
                     switch (choice){
                         case 1: converted_temp = temp_value - 273;
                                 converted_temp = (converted_temp*1.8)+32;
+                                System.out.println("Temperature in Fahrenheit is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         case 2: converted_temp = temp_value-273;
+                                System.out.println("Temperature in Celsius is : ");
+                                System.out.printf("%.2f%n", converted_temp);
                                 break;
                         default:
                             System.out.println("Invalid choice");
@@ -72,7 +84,7 @@ class Temp_Converter {
         else {
             System.out.println("Unit not defined!");
         }
-        System.out.printf("%.2f%n", converted_temp);
+
 
     }
 }
