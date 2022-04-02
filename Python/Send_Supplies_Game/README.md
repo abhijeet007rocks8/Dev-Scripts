@@ -26,9 +26,23 @@ Gear up as you are the last hope of lieutenant<br>
 ---
 
 ## Tech Stack
-
-- pygame :- 2.0.1
 - python :-3.8.12
-
+- pygame :- 2.0.1<br>
+`
+pip install pygame
+`
+## Get Started
+- Clone the repository<br>
+`
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts
+`
+- Change the directory<br>
+`
+cd ./Python/Send_Supplies_Game
+`
+- Run the game file in the terminal<br>
+`
+python game.py
+`
 ## Video Demo
 https://user-images.githubusercontent.com/40180496/161312452-9ee14cba-44b7-4298-a619-93d3e0538385.mp4
