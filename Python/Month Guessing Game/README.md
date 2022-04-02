@@ -1,4 +1,4 @@
-# Snake-Water-and-Gun-game-in-python (Description)
+# Animal-Guessing-game-in-python (Description)
 This is month guessing game in python
 
 ## Feature Type
