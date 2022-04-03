@@ -12,6 +12,10 @@ CryptoRush is a React Web App which gives you details of over 100 CryptoCurrenci
 
 https://user-images.githubusercontent.com/71981463/161414012-92dc0b06-407a-44f2-8a18-3154ce3bf4f3.mp4
 
+# Basic Components in Project
+
+Just write `npm install` in the terminal to install all the dependencies required to run the project in local system
+
 # Steps To Run Project on Local System
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
