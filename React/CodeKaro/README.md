@@ -14,6 +14,8 @@ https://user-images.githubusercontent.com/71981463/161413423-406854c4-3c34-42d2-
 
 ## Basic Components in Project
 
+Just write `npm install` in the terminal to install all the dependencies required to run the project in local system 
+
 ## Steps to Run on your Local System
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
