@@ -1,5 +1,19 @@
 # Getting Started with Create React App
 
+## Description
+CryptoRush is a React Web App which gives you details of over 100 CryptoCurrencies in the world. Not only that, it keep you updated with you the latest news of your favourite crypto currency. Little investment partner. CryptoRush
+
+## Tech Stack
+1. ReactJS
+2. Material UI
+3. APIs( CoinRanking & Binge News Search )
+
+## Demostration
+
+https://user-images.githubusercontent.com/71981463/161414012-92dc0b06-407a-44f2-8a18-3154ce3bf4f3.mp4
+
+# Steps To Run Project on Local System
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +82,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Conclusion
+IF ANY CONTRIBUTER WANT TO ADD FURTHER MORE INTO THIS PROJECT, CAN SUGGEST AND CONTRIBUTE. YOU ARE MOST WELCOME TO DO SO.
