@@ -1,20 +1,20 @@
 # Getting Started with Create React App
 
-##Description
+## Description
 CodeKaro Website is just like your consistency partner. Its is very obvious for beginner to keep track on upcoming contest. Codekaro let you know about every coding contest helding in future. You can go to our website, sort the contest according to your favourite site. An boom happy coding. UI / UX is something on which i have focued more. so that user do not get confused.
 
-##Tech Stack Used 
+## Tech Stack Used 
 1. ReactJS
 2. Tailwind CSS
 3. API (Kontest API)
 
-##Demostration
+## Demostration
 
 https://user-images.githubusercontent.com/71981463/161413423-406854c4-3c34-42d2-8dc1-5e7353bd7e47.mp4
 
-##Basic Components in Project
+## Basic Components in Project
 
-##Steps to Run on your Local System
+## Steps to Run on your Local System
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
