@@ -11,7 +11,7 @@ def myPosition(x, y):
     
 pensize(2)
 
-def ankur():
+def rahul():
     fillcolor('#ffec40')
     begin_fill()
     right(25)
