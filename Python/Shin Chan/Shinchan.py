@@ -518,7 +518,7 @@ def myRobot():
     begin_fill()
     circle(5)
     end_fill()
-    
+
 def allLegs():
     leftLeg()
     leftSock()
@@ -526,3 +526,8 @@ def allLegs():
     rightLeg()
     rightSock()
     rightShoe()
+def allHands():
+    rightHand()
+    leftHand()
+    myBis()
+    leftHand2()
