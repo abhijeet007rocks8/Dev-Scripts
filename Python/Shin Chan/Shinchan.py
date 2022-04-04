@@ -538,3 +538,6 @@ def allEyebrows():
     myEyelid(-9,270)
     left(15)
     myEyelid(68,265)    
+def allEyes():
+    myallEyes1(17,275)
+    myallEyes2(95,270)
