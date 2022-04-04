@@ -22,7 +22,7 @@ use `npm istall` in Terminal to install all the package dependencies required to
 
 1. Clone the Repo using `git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git` or simply downloading zip
 2. then simply `cd NodeJS`
-3. then cd `Secrets` 
+3. then `cd Secrets` 
 4. Open terminal and use `npm install` to install all dependencies
 5. After that go to folder location and open that in `vscode`
 6. Go to the terminal and type `nodemon app.js`
