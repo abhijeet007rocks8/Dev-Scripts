@@ -20,12 +20,13 @@ use `npm istall` in Terminal to install all the package dependencies required to
 
 ## How to Run on Local System
 
-1. Clone the Repo using `git clone <url>` or simply downloading zip
-2. Use `npm install` to install all dependencies
-3. After that go to folder location and open that in `vscode`
-4. Go to the terminal and type `nodemon app.js`
-5. Then go to browser and type `localhost:3000`
-6. Enjoy !
+1. Clone the Repo using `git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git` or simply downloading zip
+2. then simply `cd secrets` 
+3. Open terminal and use `npm install` to install all dependencies
+4. After that go to folder location and open that in `vscode`
+5. Go to the terminal and type `nodemon app.js`
+6. Then go to browser and type `localhost:3000`
+7. Enjoy !
 
 ## Conclusion
 If Any contributer wants to contribute or want to do further more changes to the project, he / she is welcome to do so. :)
