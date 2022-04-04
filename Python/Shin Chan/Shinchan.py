@@ -1,3 +1,4 @@
+from this import d
 from turtle import *
 
 s=Screen()
@@ -272,4 +273,20 @@ def rightHand():
     forward(6)
     right(90)
     forward(10)
+    end_fill()
+
+def leftHand():
+    myPosition(-94,242)
+    fillcolor('#fcc6a0')
+    begin_fill()
+    right(10)
+    forward(6)
+    left(90)
+    penup()
+    forward(12)
+    pendown()
+    left(90)
+    forward(8)
+    left(90)
+    forward(12)
     end_fill()
