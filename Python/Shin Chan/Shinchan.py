@@ -98,3 +98,17 @@ def rightLeg():
     right(85)
     forward(55)
     end_fill()
+
+def rightSock():
+    myPosition(64,-79)
+    fillcolor("#ffffff")
+    begin_fill()
+    right(90)
+    circle(90,14)
+    right(110)
+    forward(23)
+    right(90)
+    forward(15)
+    right(80)
+    forward(21)
+    end_fill()
