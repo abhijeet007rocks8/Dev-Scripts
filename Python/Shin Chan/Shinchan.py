@@ -384,3 +384,15 @@ def leftHand2():
         for i in range(2): 
             circle(4,90)
     end_fill()
+
+def Mouth():
+    myPosition(-25,200)
+    left(65)
+    fillcolor('#77332e')
+    begin_fill()
+    #circle(20)
+    #forward(20)
+    for i in range(2): 
+        circle(25,90) 
+        circle(25//2,90)
+    end_fill()
