@@ -541,3 +541,15 @@ def allEyebrows():
 def allEyes():
     myallEyes1(17,275)
     myallEyes2(95,270)
+
+rahul()
+allLegs()
+myShirt()
+myHead()
+allHands()
+Mouth()
+allEyebrows()
+allEyes()
+myRobot()
+ht()
+done()
