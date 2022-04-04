@@ -83,3 +83,18 @@ def leftShoe():
     forward(15)
     circle(25,25)
     end_fill()
+
+def rightLeg():
+    myPosition(60,-28)
+    fillcolor("#ffd699")
+    begin_fill()
+    #right(90)
+    left(128)
+    forward(25)
+    right(95)
+    forward(55)
+    right(90)
+    forward(20)
+    right(85)
+    forward(55)
+    end_fill()
