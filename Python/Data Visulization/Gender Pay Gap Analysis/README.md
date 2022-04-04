@@ -12,6 +12,18 @@ Dataset can be downloaded from [here](https://www.kaggle.com/nilimajauhari/glass
 - Importing Libraries
 - Data Visualisation
 
+**Data Visualisation**
+  
+![](misc/1.png)
+
+![](misc/2.png)
+
+![](misc/3.png)
+
+![](misc/4.png)
+
+![](misc/5.png)
+
 **LIBRARIES USED**
 - pandas
 - numpy
