@@ -1,0 +1,41 @@
+.not__found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not__found__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.not__found__main > p {
+  color: gray;
+}
+.not__found__main > h1 {
+  font-size: 3rem;
+  /* transition: all 1s; */
+  color: #2e4358;
+}
+.not__found__main > h1 > span {
+  color: #1bc096;
+  position: relative;
+  animation: bounce 1s ease-in 0.5ms infinite alternate-reverse forwards;
+}
+.not__found__main {
+  margin-bottom: 20px;
+}
+.not__found > a {
+  color: #1bc096 !important;
+}
+
+@keyframes bounce {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -60px;
+  }
+}

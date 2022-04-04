@@ -1,0 +1,88 @@
+.app {
+  flex: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  user-zoom: none;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+}
+.app__main {
+  flex: 1;
+  max-width: 800px;
+  padding: 0px 5px;
+  margin: 0px auto;
+  display: flex;
+  padding: 10px;
+}
+.app::-webkit-scrollbar {
+  display: none !important;
+}
+.app__main__board {
+  width: 100px;
+  height: 200px;
+  background-color: black;
+  border-radius: 5px;
+}
+.app__main__canvas {
+  display: flex;
+  flex-direction: column;
+}
+.app__main__chart {
+  flex: 1;
+  margin-left: 10px;
+  min-width: 300px;
+}
+.app__main__chart > h1 {
+  font-size: 0.9rem;
+}
+.app__main__canvas__buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+.app__main__canvas > p {
+  color: gray;
+  text-align: center;
+}
+.app__main__canvas__buttons > button {
+  outline: none;
+  border: none;
+  padding: 3px 10px;
+  width: 100px;
+  cursor: pointer;
+  transition: all 1s;
+  border-radius: 5px;
+}
+.app__main__canvas__buttons > button:hover {
+  color: white;
+  background-image: linear-gradient(to right, #2e4358, #1bc096);
+}
+.app__main__label {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+.app__main__label p {
+  color: gray;
+  font-weight: 0.8rem !important;
+}
+.app__main__label > h1 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.app__main__chart > p {
+  color: #1bc096;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__main {
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+}
