@@ -139,7 +139,7 @@ def rightShoe():
 
 def myShirt():
     myPosition(-75,48)
-    fillcolor("red")
+    fillcolor("blue")
     begin_fill()
     left(72)
     forward(185)
