@@ -17,7 +17,10 @@ NO Dependencies Required
 
 # How to Run on local System
 
-Just Clone the repo using:  git clone (repo url)
+1. Clone the Repository using `git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git`
+2. then `cd Web development`
+3. then `cd Tindog`
+4. Enjoy !
 
 # Conclusion
 
