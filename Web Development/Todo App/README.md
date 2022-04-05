@@ -2,7 +2,7 @@
 
 ## Description :-
 
-Todo App with React Js 
+Todo App using React Js
 
 ## Tech Stack :-
 
@@ -37,4 +37,16 @@ after that run this command to check the live view
 npm start
 ```
 
-## Screenshots
+__Screenshots:__
+
+
+__Video Demonstration:__
+
+
+
+__Live Preview:__
+
+[Todo App](https://todo-app-9da99.web.app/)
+
+
+
