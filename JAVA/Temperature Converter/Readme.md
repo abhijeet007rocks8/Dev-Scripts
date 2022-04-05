@@ -40,7 +40,7 @@
 ## About The Project
 
 
-A simple Java based Temperature Converter which can convert a given temperature in other unit system based on user's choice.
+A simple Java-based Temperature Converter that can convert a given temperature in another unit system based on the user's choice.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
