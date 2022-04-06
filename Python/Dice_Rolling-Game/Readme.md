@@ -4,7 +4,13 @@
  
  </br>
  
- ## How to Run
+ ## Installing Dependencies
+ 
+ - No external dependencies, uses inbuilt module random.
+
+</br>
+
+ ## &nbsp;How to Run
  
  - Clone this repo in your local machine.
  - Open Shell and go to the root of the cloned directory
