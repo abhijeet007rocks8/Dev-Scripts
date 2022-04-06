@@ -43,3 +43,7 @@ python3 script.py -e <email> -p <password>
 * It then visits the `my network` page and starts scrolling the page up and down multiple times to reveal all the connections on the account
 * After finishing the scrolling, the script scraps the html content and gets the name, headline, and profile link of each connection.
 * Finally, It saves the scrapped data into a CSV file with the help of Pandas DataFrame.
+
+## Demonstration Video
+
+https://user-images.githubusercontent.com/64689436/162070383-5ed64c98-2a4c-4df8-bba5-c9693372a2b8.mp4
