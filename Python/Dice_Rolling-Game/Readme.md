@@ -2,7 +2,11 @@
 
  A python script to simulate a dice rolling game that can be played by multiple players. It provides a neat cli interface and the shows progress after each round.The dice rolls are comletely random and the first player to score 100 points wins!!</br>The random module is used in this project.
  
- </br>
+ 
+ ## Tech Stack
+ 
+ - Python
+ 
  
  ## Installing Dependencies
  
