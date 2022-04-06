@@ -50,3 +50,10 @@ cd Dev-Scripts/Web Development/Star Catching Game
 <img width="889" alt="tictactoe-light" src="star_catching_game.JPG">
 
 <br>
+
+<h3> Sample Video </h3>
+
+
+![star_catching_game](https://user-images.githubusercontent.com/72400676/161920396-8f9ca4c3-1785-45d8-b7e4-75fdd3a91ce8.gif)
+
+
