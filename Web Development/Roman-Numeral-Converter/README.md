@@ -25,7 +25,7 @@ cd Roman-Numeral-Converter
 ```
 cd index.html
 ```
-Inside portfolio folder open ```index.html``` file in your default Browser.
+Open ```index.html``` file in your default Browser.
 
 ## **Installation and Dependencies**
 
