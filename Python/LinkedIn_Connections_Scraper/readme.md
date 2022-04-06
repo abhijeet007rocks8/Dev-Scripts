@@ -46,4 +46,4 @@ python3 script.py -e <email> -p <password>
 
 ## Demonstration Video
 
-https://user-images.githubusercontent.com/64689436/162070383-5ed64c98-2a4c-4df8-bba5-c9693372a2b8.mp4
+https://user-images.githubusercontent.com/64689436/162074932-f1c01e01-d038-4421-b8b8-e1265a4a5546.mp4
