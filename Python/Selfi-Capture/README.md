@@ -1,7 +1,7 @@
 # Selfi-Capture
 
 ## Introduction  
-This project , opens up your webcam , where on pressing space it captures your selfi . The on pressing escape it terminates the webcam.
+This project , opens up your webcam , where on pressing space bar key it captures your selfi . The on pressing escape key it terminates the webcam.
 
 ## Tech stack 
 
