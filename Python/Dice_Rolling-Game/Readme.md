@@ -6,15 +6,16 @@
  
  ## Installing Dependencies
  
- - No external dependencies, uses inbuilt module random.
+ - Python 3 and above kit should work fine.
+ - No external dependencies, uses inbuilt module `random`.
 
 </br>
 
- ## &nbsp;How to Run
+ ## Quick Start
  
- - Clone this repo in your local machine.
- - Open Shell and go to the root of the cloned directory
- - run `python dice_roll_sim.py`
+ - Clone this repo in your local machine. 
+ - Start Terminal and go to the root of the local directory.
+ - Run `python dice_roll_sim.py`
  
  </br>
  
