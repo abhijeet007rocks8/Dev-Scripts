@@ -54,6 +54,10 @@ cd Dev-Scripts/Web Development/Star Catching Game
 <h3> Sample Video </h3>
 
 
-![star_catching_game](https://user-images.githubusercontent.com/72400676/161920396-8f9ca4c3-1785-45d8-b7e4-75fdd3a91ce8.gif)
+
+https://user-images.githubusercontent.com/72400676/162098602-fe77987a-82b6-4a62-a16a-4c414c3420a7.mp4
+
+
+<br>
 
 
