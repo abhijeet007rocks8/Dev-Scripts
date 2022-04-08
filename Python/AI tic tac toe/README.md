@@ -33,7 +33,7 @@ The algorithm search, recursively, the best move that leads the Max player to wi
 
 - Understanding the Algorithm
 
-    -The algorithm was studied by the book Algorithms in a Nutshell (George Heineman; Gary Pollice; Stanley Selkow, 2009). Pseudocode (adapted):
+    - The algorithm was studied by the book Algorithms in a Nutshell (George Heineman; Gary Pollice; Stanley Selkow, 2009). Pseudocode (adapted):
 
 minimax(state, depth, player)
 
@@ -60,19 +60,22 @@ minimax(state, depth, player)
 end
 Now we'll see each part of this pseudocode with Python implementation. The Python implementation is available at this repository. First of all, consider it:
 
-board = [ [0, 0, 0], [0, 0, 0], [0, 0, 0] ]
+board = [ [0, 0, 0],
+	[0, 0, 0],
+	[0, 0, 0] ]
 MAX = +1
 MIN = -1
 The MAX may be X or O and the MIN may be O or X, whatever. The board is 3x3.
 
 def minimax(state, depth, player):
-state: the current board in tic-tac-toe (node)
-depth: index of the node in the game tree
-player: may be a MAX player or MIN player
+	state: the current board in tic-tac-toe (node)
+	depth: index of the node in the game tree
+	player: may be a MAX player or MIN player
 if player == MAX:
 	return [-1, -1, -infinity]
 else:
 	return [-1, -1, +infinity]
+
 Both players start with your worst score. If player is MAX, its score is -infinity. Else if player is MIN, its score is +infinity. Note: infinity is an alias for inf (from math module, in Python).
 
 The best move on the board is [-1, -1] (row and column) for all.
@@ -80,41 +83,15 @@ The best move on the board is [-1, -1] (row and column) for all.
 if depth == 0 or game_over(state):
 	score = evaluate(state)
 	return score
+
 If the depth is equal zero, then the board hasn't new empty cells to play. Or, if a player wins, then the game ended for MAX or MIN. So the score for that state will be returned.
 
-If MAX won: return +1
-If MIN won: return -1
-Else: return 0 (draw)
-Now we'll see the main part of this code that contains recursion.
-
-for cell in empty_cells(state):
-	x, y = cell[0], cell[1]
-	state[x][y] = player
-	score = minimax(state, depth - 1, -player)
-	state[x][y] = 0
-	score[0], score[1] = x, y
-For each valid moves (empty cells):
-
-x: receives cell row index
-y: receives cell column index
-state[x][y]: it's like board[available_row][available_col] receives MAX or MIN player
-score = minimax(state, depth - 1, -player):
-state: is the current board in recursion;
-depth -1: index of the next state;
--player: if a player is MAX (+1) will be MIN (-1) and vice versa.
-The move (+1 or -1) on the board is undo and the row, column are collected.
-
-The next step is compare the score with best.
-
-if player == MAX:
-	if score[2] > best[2]:
-		best = score
-else:
-	if score[2] < best[2]:
-		best = score
-For MAX player, a bigger score will be received. For a MIN player, a lower score will be received. And in the end, the best move is returned. Final algorithm:
-
-def minimax(state, depth, player):
+- If MAX won: return +1
+- If MIN won: return -1
+- Else: return 0 (draw)
+ # Main Alogrithm:
+ 
+- def minimax(state, depth, player):
 	if player == MAX:
 		best = [-1, -1, -infinity]
 	else:
@@ -140,6 +117,9 @@ def minimax(state, depth, player):
 
 	return best
 
+# Pictorial Representation of MinMax Method:
+
+https://miro.medium.com/max/1400/0*QOVWqr_see5wxexK.png![image](https://user-images.githubusercontent.com/77090462/162480296-a438eebf-c660-410e-a799-836be3962bbd.png)
 
 
 # Quick start (how to run locally):
