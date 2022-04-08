@@ -50,4 +50,10 @@ cd Dev-Scripts/Web Development/Spritesheet Animation
 
 <h3> Sample Video </h3>
 
+
+
+https://user-images.githubusercontent.com/72400676/162341839-1567cdbd-a39f-4aca-8f80-9080626fc523.mp4
+
+
+
 <br>
