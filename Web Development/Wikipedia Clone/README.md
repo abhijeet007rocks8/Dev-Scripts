@@ -1,8 +1,8 @@
-# Todo App
+# Wikipedia Clone
 
 ## Description :-
 
-Todo App using React Js
+It's a simple UI of wikipedia
 
 ## Tech Stack :-
 
