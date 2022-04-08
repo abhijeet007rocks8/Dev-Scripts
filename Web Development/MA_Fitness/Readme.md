@@ -55,6 +55,8 @@ cd Dev-Scripts/Web Development/MA_Fitness
 
 <h3> Sample Video </h3>
 
-https://drive.google.com/file/d/13nAKclBB1S16k0OqCqcrVgYEMo0hPD0M/view?usp=sharing
+
+https://user-images.githubusercontent.com/96842393/162531644-2e9d2724-5678-4ac5-a742-8f9361adaf36.mp4
+
 
 <br>
