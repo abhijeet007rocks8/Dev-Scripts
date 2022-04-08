@@ -91,7 +91,7 @@ If the depth is equal zero, then the board hasn't new empty cells to play. Or, i
 - Else: return 0 (draw)
  # Main Alogrithm:
  
-- def minimax(state, depth, player):
+def minimax(state, depth, player):
 	if player == MAX:
 		best = [-1, -1, -infinity]
 	else:
