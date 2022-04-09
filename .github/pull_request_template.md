@@ -18,7 +18,7 @@
 
 # Tech Stack used:
 
-<!--Please mention the Tech Stack used-->
+<!--Please mention the Tech Stack if used any.-->
 
 # Checklist:
 
