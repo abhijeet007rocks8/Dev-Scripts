@@ -1,0 +1,50 @@
+.body-page{
+    height: 1000px;
+} 
+
+.container{
+    margin-top: 50px;
+}
+
+.counter{
+    font-size: 70px;
+}
+
+.val-count{
+    color: rgb(248, 132, 233);
+    margin-top: 20px ;
+    margin-bottom : 20px ;
+    font-size: 60px;
+}
+
+.button-decrement{
+   border-color: red ;
+   margin-right: 20px ;
+   border-width: 6px;
+   font-size: x-large ;
+   border-radius: 20px;
+}
+
+.button-increment{
+    border-color: green; 
+    margin-left : 20px ;
+    border-width: 6px;
+    font-size: x-large ;
+    border-radius: 20px ;
+}
+
+.button-reset{
+    border-color: black ;
+    font-size: x-large ;
+}
+
+.dark-mode{
+    color: white;
+    background-color: black;
+    border-width: 5px;
+}
+
+.light-mode{
+    color: black ;
+    border-width: 5px;
+}
