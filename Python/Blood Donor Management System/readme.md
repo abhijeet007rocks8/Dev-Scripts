@@ -6,9 +6,9 @@ This system keeps the record of all the blood donor’s and assign the blood to 
 
 # APPROACH 
 
-I have used MySQL Python connecter in order connect the python program with back-enddatabase.To connect with MySQL in  python  weneed  to  give  Host  Name,  
-Username  MySQL  server  and  Password  of MySQL  server.  With  the  help of  MySQL queries,we  have createda  table  called “donordetails”and then divided it 
-into functions.In this project we have used 5 functions. 
+I have used MySQL Python connecter in order connect the python program with back-enddatabase. 
+To connect with MySQL in  python  weneed  to  give  Host  Name, Username  MySQL  server  and  Password  of MySQL  server.  
+With  the  help of  MySQL queries, I have createda  table  called “donordetails” and then divided it into functions.
 They are:
 1.donordetails () 
 2. EnterDonorDetails()
