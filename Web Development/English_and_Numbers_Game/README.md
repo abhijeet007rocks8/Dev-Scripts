@@ -29,6 +29,4 @@ cd Dev-Scripts/"Web Development/English_and_Numbers_Game/"
 * Listen the result of the typed letter or number.
 
 ## Demonstration Video
-
-
-
+https://user-images.githubusercontent.com/73993775/162612847-2ea15e75-841d-4b6f-8804-6f04754fdf32.mp4
