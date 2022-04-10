@@ -6,7 +6,6 @@ body:
     attributes:
       value: |
         Create an issue to start working on your project
-
   - type: checkboxes #prerequisites
     attributes:
         label: Prerequisites
@@ -16,7 +15,6 @@ body:
           required: true
         - label: I checked to make sure that this issue has not already been filed
           required: true
- 
   - type: textarea #description
     attributes:
         label: Description
@@ -24,13 +22,13 @@ body:
         placeholder: Describe here!
     validations:
          required: true
- 
   - type: dropdown #techstack
     id: Tech-stack
     attributes:
       label: Tech Stack
       multiple: false
       options:
+        - C
         - C++
         - Go
         - Java
