@@ -1,14 +1,14 @@
-# Todo App
+## Wikipedia Clone
 
 ## Description :-
 
-Todo App using React Js
+It's just a UI of Wikipedia Clone
 
 ## Tech Stack :-
 
 - HTML
 - CSS
-
+- Javascript
 
 ## Run Local
 
@@ -21,7 +21,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts
 * Change Directory
 
 ```pwsh
-cd Dev-Scripts\"Web Development\2048 Clone"
+cd Dev-Scripts\"Web Development\Wikipedia Clone"
 ```
 
 Then Go Live 
