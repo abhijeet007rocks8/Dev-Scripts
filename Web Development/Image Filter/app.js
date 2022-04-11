@@ -78,3 +78,9 @@ document.addEventListener("click", (e) => {
         }
     }
 });
+
+revertBtn.addEventListener("click", (e) => {
+    Caman("#canvas", img, function() {
+        this.revert();
+    });
+});
