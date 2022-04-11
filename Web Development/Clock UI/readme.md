@@ -44,7 +44,7 @@ cd index.html
 
 ## **Installation and Dependencies**
 - Install any Code Editors like : VS Code, Atom, etc.
-- Then follow the ```Quick Start``` steps given above and open the Portfolio project in your Code Editor.
+- Then follow the ```Quick Start``` steps given above and open the clock UI in your Code Editor.
 - Then open ```index.html``` file then edit the details and save it .
 
 
