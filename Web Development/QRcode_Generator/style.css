@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(223, 222, 222);
+}
+.wrapper {
+    background: rgb(233, 231, 231);
+    max-width: 410px;
+    border-radius: 7px;
+    padding: 16px 25px;
+    height: 260px;
+    transition: height 0.2s ease;
+    box-shadow: -3px -3px 7px #bababa,
+                2px 2px 5px #bababa;
+}
+header h1{
+    font-size: 21px;
+    font-weight: 500;
+}
+header p {
+    margin-top: 5px;
+    color: #474747;
+    font-size: 16px;
+}
+.wrapper .form {
+    margin: 20px 0 25px;
+}
+.form :where(input, button) {
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.form input {
+    border: 1px solid #999;
+    font-size: 18px;
+    padding: 0 17px;
+}
+.form button {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #3498DB;
+    font-size: 17px;
+}
+
+.wrapper .qr-code{
+    border: 1px solid #ccc;
+    padding: 33px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
+.wrapper.active {
+    height: 530px;
+}
+
+.wrapper.active .qr-code {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+}

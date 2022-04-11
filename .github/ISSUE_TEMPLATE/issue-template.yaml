@@ -22,7 +22,11 @@ body:
     attributes:
       label: Reference
       description: Please mention reference if any.
-   
+  - type: textarea
+    id: Additional-Context
+    attributes:
+      label: Additional Context
+      description: Anything else you might want to share, i.e, Screenshots.
   - type: checkboxes
     id: terms
     attributes:
