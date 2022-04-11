@@ -77,8 +77,11 @@ Run the application
 ```
 
 ## Demo Video
-For Demo Video click the link below
+For Demo Video click the link below(Without Front Cam)
 <a href="https://amritacampuschennai-my.sharepoint.com/:v:/g/personal/ch_en_u4cse20039_ch_students_amrita_edu/EZ4vFeSb3z9GgJun-3uPMO4Bj3CWXp8YJhfYP-EjYOE1eA">Click Here</a>
+
+For Demo Video click the link below(Without Front Cam)
+<a href="https://amritacampuschennai-my.sharepoint.com/✌️/g/personal/ch_en_u4cse20039_ch_students_amrita_edu/EQpPquCsxS5DpuGRPXlkMHIBuVdayBMrkY5do7opSCq1ig?e=8SZ2Cb">Click Here</a>
 
 ## Output Screen-Shots:
 When the application is executed then LogIn Screen pops-up prompting for authentication
