@@ -25,5 +25,6 @@ A Image Filter App helps to apply filters to your image as well modify different
 
 ![ss1](./img/Web%20capture_11-4-2022_92438_127.0.0.1.jpeg)
 ![ss2](./img/Web%20capture_11-4-2022_9250_127.0.0.1.jpeg)
+![ss3](./img/imgf.gif))
 
 
