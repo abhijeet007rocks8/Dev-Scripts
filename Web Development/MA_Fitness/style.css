@@ -1,0 +1,188 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.5s;
+}
+header{
+position: fixed;
+top: 0px;
+background: #22242A;
+/*border: 3px solid pink;*/
+padding:20px;
+width: 100%;
+height: 30px;
+}
+.left_area h3{
+color: #fff;
+margin: -20px auto;
+width: 300px;
+text-transform: uppercase;
+font-size: 50px;
+font-weight: 900;  
+text-align: center;
+}
+
+.left_area span{
+color: #19B3D3;
+}
+
+.left {
+    display: inline-block;
+  /*  border: 2px solid red; */
+    position: absolute;
+    left: 70px;
+    top: 80px;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.right{
+    position: absolute;
+    right: 45px;
+    top: 85px;
+  /*  border: 2px solid green; */
+}
+.sidebar {
+background: #2f323a;
+margin-top: -530px;
+padding-top: 20px;
+position: fixed;
+left: 0;
+width: 250px;
+height: 10000px;
+transition: 0.5s;
+transition-property: left;
+}
+.sidebar a{
+color: #fff;
+display: block;
+width: 100%;
+line-height: 60px;
+text-decoration: none;
+padding-left: 40px;
+box-sizing: border-box;
+transition: 0.5s;
+transition-property: background;
+}
+.sidebar a:hover{
+background: #19B3D3;
+}
+
+.sidebar i{
+padding-right: 10px;
+}
+
+label #sidebar_btn{
+z-index: 1;
+color: #fff;
+position: fixed;
+cursor: pointer;
+left: 30px;
+font-size: 30px;
+margin: 5px 0;
+transition: 0.5s;
+transition-property: color;
+}
+
+label #sidebar_btn:hover{
+color: #19B3D3;
+}
+
+#check:checked ~ .sidebar{
+left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+display: none;
+}
+
+#check:checked ~ .sidebar a{
+font-size: 20px;
+margin-left: 170px;
+width: 80px;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 4px solid white;
+    margin: 600px 80px;
+    padding: 60px;
+    width: 50%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+#check{
+display: none;
+}
+
+  footer {
+         margin:1200px 0px;
+         background-color: #45a1ff;
+         color: #fff;
+         padding: 30px 15px;
+         text-align: center;
+         font-size: 30px;
+         width: 100%;        
+}
+ .social_me {
+      width: 70px;
+      margin: 18px 10px;
+      height: 60px;
+   }
+ .ma .social_me {
+       width: 90px;
+     }
+  .hulu .social_me {
+       margin: 18px 25px;
+    }
