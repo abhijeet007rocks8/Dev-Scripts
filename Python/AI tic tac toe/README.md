@@ -119,7 +119,11 @@ def minimax(state, depth, player):
 
 # Pictorial Representation of MinMax Method:
 
-https://miro.medium.com/max/1400/0*QOVWqr_see5wxexK.png![image](https://user-images.githubusercontent.com/77090462/162480296-a438eebf-c660-410e-a799-836be3962bbd.png)
+![tic-tac-toe-minimax-game-tree](https://user-images.githubusercontent.com/77090462/162797927-933e5c4e-04ea-4dc1-b999-28ed5d7d49be.png)
+
+![0*QOVWqr_see5wxexK](https://user-images.githubusercontent.com/77090462/162797942-aebdd323-cf8e-439d-a517-b647dafa21af.png)
+
+- Two Examples of Game Tree.
 
 
 # Quick start (how to run locally):
