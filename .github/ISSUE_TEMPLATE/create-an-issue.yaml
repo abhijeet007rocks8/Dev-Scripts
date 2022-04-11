@@ -34,7 +34,11 @@ body:
         - Java
         - NodeJS
         - Python
-        - React
-        - Web Development
+        - ReactJS
+        - Web Development (HTML,CSS,JS)
+        - VueJS
+        - Angular
+        - Ruby
+        - Others (Mention in Description)
     validations:
          required: true
