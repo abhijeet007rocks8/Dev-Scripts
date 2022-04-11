@@ -1,12 +1,13 @@
-## LinkedIn Connectin Scraper
+## Image Object Detector Script
 
-A python script that scraps linkedin connections and saves it into a CSV file.
+A python script that highlights a template that exists inside a provided image by utilizing computer vision.
 
 ## Tech Stack
 
 * Python
-	* Pandas
-	* Selenium
+	* numpy
+	* imutils
+	* opencv
 
 ## Run Local
 
