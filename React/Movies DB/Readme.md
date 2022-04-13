@@ -4,7 +4,7 @@ It is a ReactApp where you can search and find your favorite show to watch all n
 ## Tech Stack
 1. ReactJS
 2. CSS
-3. API
+3. API (Go to `https://www.omdbapi.com/apikey.aspx`) to get your own API key with Secret number.
 
 ## Demostration
 
