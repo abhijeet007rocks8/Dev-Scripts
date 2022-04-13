@@ -9,17 +9,19 @@
   - turtle (module of python)
 
 # Install Dependecies:
-  - You must have Python 3.8.3 or above. I expect everyone will have it. If not then update it now what are you waiting for.
+  - Install Python 3.9.0 or above.
+  - Further Install this all Libraries using terminal : <br>
+    ```pip install PythonTurtle```
 
 # How to Run the code:
 
-Clone this repository:
-- git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
-- Change directory:
-- cd Dev-Scripts
-- cd Python
-- cd Shin-Chan
-- Find Shinchan.py and run it.
+- Clone this repository <br>
+```git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git```
+- Change directory <br>
+```cd Dev-Scripts``` <br>
+```cd Python```      <br>
+```cd Shin-Chan```   <br>
+```Find Shinchan.py and run it```
 
   
 # Video Demonstration:
