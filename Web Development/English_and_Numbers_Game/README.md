@@ -19,7 +19,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts
 * Change Directory
 
 ```bash
-cd Dev-Scripts/"Web Development/English_and_Numbers_Game/"
+cd Dev-Scripts/Web Development/English_and_Numbers_Game/
 ```
 
 * Open `index.html` in browser.
@@ -29,4 +29,4 @@ cd Dev-Scripts/"Web Development/English_and_Numbers_Game/"
 * Listen the result of the typed letter or number.
 
 ## Demonstration Video
-https://user-images.githubusercontent.com/73993775/162612847-2ea15e75-841d-4b6f-8804-6f04754fdf32.mp4
+https://user-images.githubusercontent.com/73993775/163312759-712f39fe-b46c-4008-ad88-f57e6b58bae1.mp4
