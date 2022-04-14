@@ -18,7 +18,17 @@
  ## Quick Start
  
  - Clone this repo in your local machine. 
- - Start Terminal and go to the root of the local directory.
+ 
+   `git clone https://github.com/abhijeet007rocks8/Dev-Scripts`
+   
+ </br>  
+ 
+ - Start Terminal and navigate to the root of the local project directory.
+ 
+   `cd Dev-Scripts/Python/Dice_Rolling-Game`
+   
+ </br>
+ 
  - Run `python dice_roll_sim.py`
  
  </br>
