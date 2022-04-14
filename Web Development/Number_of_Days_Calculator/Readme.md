@@ -23,7 +23,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts
 * Change Directory
 
 ```bash
-cd Dev-Scripts/"Web Development/Number_of_Days_Calculator/"
+cd Dev-Scripts/Web Development/Number_of_Days_Calculator/
 ```
 
 * Open `index.html` in browser.
@@ -42,5 +42,4 @@ For Example :
 Let's find the number of days between 10/04/2022 and 15/04/2022.
 
 ## Demonstration Video
-
-https://user-images.githubusercontent.com/73993775/162610894-3f873444-7c00-4c6f-881c-38b119f9bdc4.mp4
+https://user-images.githubusercontent.com/73993775/163313014-945de888-5003-40d2-97d4-c4459877d3ec.mp4
