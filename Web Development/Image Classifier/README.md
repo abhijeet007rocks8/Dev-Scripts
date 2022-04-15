@@ -43,3 +43,10 @@ cd Dev-Scripts/Web Development/Image Classifier
 <br>
 
 <h3> Sample Video </h3>
+
+
+[video](https://user-images.githubusercontent.com/72400676/163588351-b4439f01-0186-4d61-8661-1b0afdbcbb8f.mp4)
+
+
+
+<br>
