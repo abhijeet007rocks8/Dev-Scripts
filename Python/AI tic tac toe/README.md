@@ -60,13 +60,17 @@ minimax(state, depth, player)
 end
 Now we'll see each part of this pseudocode with Python implementation. The Python implementation is available at this repository. First of all, consider it:
 
+```
 board = [ [0, 0, 0],
 	[0, 0, 0],
 	[0, 0, 0] ]
 MAX = +1
 MIN = -1
+```
+
 The MAX may be X or O and the MIN may be O or X, whatever. The board is 3x3.
 
+```
 def minimax(state, depth, player):
 	state: the current board in tic-tac-toe (node)
 	depth: index of the node in the game tree
@@ -75,6 +79,8 @@ if player == MAX:
 	return [-1, -1, -infinity]
 else:
 	return [-1, -1, +infinity]
+```
+
 
 Both players start with your worst score. If player is MAX, its score is -infinity. Else if player is MIN, its score is +infinity. Note: infinity is an alias for inf (from math module, in Python).
 
@@ -90,7 +96,8 @@ If the depth is equal zero, then the board hasn't new empty cells to play. Or, i
 - If MIN won: return -1
 - Else: return 0 (draw)
  # Main Alogrithm:
- 
+
+```
 def minimax(state, depth, player):
 	if player == MAX:
 		best = [-1, -1, -infinity]
@@ -116,6 +123,7 @@ def minimax(state, depth, player):
 				best = score
 
 	return best
+```
 
 # Pictorial Representation of MinMax Method:
 
