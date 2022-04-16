@@ -1,13 +1,3 @@
-# tkinter-calculator
-
-
-
-Requirements 
-- python3
-- python tkinter module (tkmacosx for mac users)
-
-
-Run the python file in your terminal
 # tkinter-calculator (Description)
 This is a calculator in python
 
