@@ -85,10 +85,11 @@ else:
 Both players start with your worst score. If player is MAX, its score is -infinity. Else if player is MIN, its score is +infinity. Note: infinity is an alias for inf (from math module, in Python).
 
 The best move on the board is [-1, -1] (row and column) for all.
-
+```
 if depth == 0 or game_over(state):
 	score = evaluate(state)
 	return score
+```
 
 If the depth is equal zero, then the board hasn't new empty cells to play. Or, if a player wins, then the game ended for MAX or MIN. So the score for that state will be returned.
 
