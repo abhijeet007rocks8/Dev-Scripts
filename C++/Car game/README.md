@@ -11,9 +11,14 @@
 # Getting Started:
 
  - Clone the repository
+ ```bash 
  git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+ ```
  - Move to the executable folder
+ ```bash
  cd Dev-Scripts/C++/Car game
+ ```
+ - Open ```cargame.cpp``` file with any c++ compiler.
  
  # Video Demonstration of the Project:
  
