@@ -10,7 +10,7 @@ This is a calculator in python
 ![tk-calc](https://user-images.githubusercontent.com/85568177/162735601-1c807824-403a-4ec2-afb6-13f3a48c544c.jpeg)
 
 ## Video of running program using python.
-
+![video](https://user-images.githubusercontent.com/85568177/163669005-99985133-f268-44b9-a174-ad83008051ad.mov)
 ### Tech Stack 
 
 * ***Python*** 
