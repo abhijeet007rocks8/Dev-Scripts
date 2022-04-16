@@ -18,7 +18,7 @@
  ```bash
  cd Dev-Scripts/C++/Car game
  ```
- - Open ```cargame.cpp``` file with any c++ compiler.
+ - Compile and Run ```cargame.cpp``` file with any c++ compiler.
  
  # Video Demonstration of the Project:
  
