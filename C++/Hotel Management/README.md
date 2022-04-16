@@ -11,9 +11,14 @@
 # Getting Started:
 
   - Clone the repository
+```
   git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
   - Move to the executable folder
+```
   cd Dev-Scripts/C++/Hotel Management
+  
+```
   
 # Video Demonstration:
 
@@ -25,3 +30,4 @@ https://user-images.githubusercontent.com/77090462/163572062-cf2c23f0-73af-4fa5-
  - It is only able to run in dos systems.
  - Run it through any C++ compiler in dos system. Best to use the recent ones.
  - Run and enjoy it.🥲☺️
+ - Use any IDE to compile it and then run it.
