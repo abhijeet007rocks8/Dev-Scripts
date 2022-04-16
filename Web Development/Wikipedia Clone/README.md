@@ -33,6 +33,14 @@ __Screenshots:__
 
 ![Screenshot (826)](https://user-images.githubusercontent.com/73753957/162803068-4d68e8f4-ae0e-4d90-bdc4-8963a7a37e0e.png)
 
+__Video__
+
+
+https://user-images.githubusercontent.com/73753957/163689268-34bac08c-f03a-4173-96b7-5c6c5ce463a2.mp4
+
+
+
+
 
 
 
