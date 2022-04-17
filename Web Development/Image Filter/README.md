@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="" height="80" src="./img/add-read.png">
+    <img alt="" height="80" src="./img/add-readme.png">
   </a>
 </p>
 <h1 align="center">Image Filter </h1>
@@ -7,6 +7,7 @@
 <div align="center">
  An Awesome Image Filter App written in HTML, CSS, JavaScript and CamanJS .
 </div>
+
 
 
 ## Description:
@@ -21,7 +22,7 @@ HTML5,CSS3,JavaScript
 
 ## It Look's Like:
 
-![image]()
+![image](./img/oknoi.jpeg)
 
 ---
 
@@ -54,6 +55,7 @@ cd Web Development
 cd Change Image Filter
 
 ```
+
 ```
 cd index.html
 ```
