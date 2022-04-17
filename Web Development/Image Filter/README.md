@@ -33,6 +33,10 @@ HTML5,CSS3,JavaScript
 
 
 
+https://user-images.githubusercontent.com/49890655/163720180-13dee3b0-593d-4d3d-a225-20d0bbc189b9.mp4
+
+
+
 
 ---
 
@@ -65,6 +69,6 @@ cd index.html
 ## **Installation and Dependencies**
 - Install any Code Editors like : VS Code, Atom, etc.
 - Then follow the ```Quick Start``` steps given above and open the 
-Change Letter Casing in your Code Editor.
+Change Image Filter in your Code Editor.
 - Then open ```index.html``` file then edit the details and save it .
 
