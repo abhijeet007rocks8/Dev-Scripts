@@ -2,7 +2,7 @@
 import java.io.IOException;
 import java.util.*;
 
-class Temp_Converter {
+class Quiz_Application {
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner sc = new Scanner(System.in);
         System.out.println("--------------------------------------------------");
