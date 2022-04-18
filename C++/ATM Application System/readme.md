@@ -8,10 +8,15 @@
 
 ---
 ## Screenshot :
+![image](https://user-images.githubusercontent.com/77873383/163768727-9b84ea2f-b2fc-4ba8-a39f-86fcde1a073d.png)
 
 ---
 
 ## Video Demo:
+
+
+https://user-images.githubusercontent.com/77873383/163768747-8319f87a-9055-4dc3-a352-b557dac46f34.mp4
+
 
 
 ---
