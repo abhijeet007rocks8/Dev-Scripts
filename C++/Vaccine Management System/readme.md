@@ -22,6 +22,10 @@
 
 
 
+https://user-images.githubusercontent.com/77873383/163904158-fe6d9ea6-a8c6-48fb-9622-6df3e1b973cc.mp4
+
+
+
 
 
 
@@ -37,14 +41,14 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 
 - Move to the executable folder
 ```
-cd Dev-Scripts/C++/ATM Apllication
+cd Dev-Scripts/C++/Vaccine Management System
 ```
 
-- Compile and Run ``` ATMapp.cpp ``` file with any C++ Compiler.
+- Compile and Run ``` vaccineManagement.cpp ``` file with any C++ Compiler.
 
 
 ---
 
 ### Installation and Dependencies
 - Install C++ compiler and any IDE like : VS Code,Dev C++,  Atom etc.
--Then follow the Quick Start steps given above and run the ```ATMapp.cpp``` in your Code Editor.
+-Then follow the Quick Start steps given above and run the ```vaccineManagement.cpp``` in your Code Editor.
