@@ -1,117 +1,106 @@
-
+import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
-class Quiz_Application {
+class QuizApplication {
     public static void main(String[] args) throws IOException, InterruptedException {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("--------------------------------------------------");
-        System.out.println("------------------Quiz Application----------------");
-        System.out.println("--------------------------------------------------");
-        System.out.println("A question will be displayed along with 4 options");
-        System.out.println("Choose the correct option to score a point");
-        Thread.sleep(3000);
-        int score = 0;
-            System.out.println("Question No. 1 Coming Up!");
-            Thread.sleep(2000);
-            System.out.println("Grand Central Terminal, Park Avenue, New York is the world's :");
-            System.out.println(" A. largest railway station\n B. highest railway station\n C. longest railway station\n D. None of the above\",");
-            System.out.println("Select an option:");
-            char ch = sc.next().charAt(0);
-            if(ch == 'A' || ch =='a') {
-                System.out.println("That's Correct!");
-                System.out.println();
-                score++;
-            }
-            else{
-                    System.out.println("Oops! That's wrong");
-                    System.out.println("Correct Answer : A. largest railway station");
-                }
+        String questions[] = new String[6];
+        String answers[] = new String[6];
+        String options[] = new String[6];
+        Integer[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+        List<Integer> intList = Arrays.asList(intArray);
+        Collections.shuffle(intList);
+        intList.toArray(intArray);
+        System.out.println(Arrays.toString(intArray));
+        File ques = new File("ques.txt");
+        File ans = new File("ans.txt");
+        File opt = new File("options.txt");
+        for(int i=0;i<6;i++){
+            int rand = intArray[i];
+            String quest = Files.readAllLines(Paths.get("ques.txt")).get(rand);
+            questions[i] = quest;
+            String answ = Files.readAllLines(Paths.get("ans.txt")).get(rand);
+            answers[i] = answ;
+            String opti = Files.readAllLines(Paths.get("options.txt")).get(rand);
+            options[i] = opti;
 
-            System.out.println("----------------------------------------------");
-            System.out.println("Current Score: "+score);
-            System.out.println("----------------------------------------------");
-            System.out.println("Question No. 2 Coming Up!");
-            Thread.sleep(2000);
-            System.out.println("Entomology is the science that studies :");
-            System.out.println(" A. Behavior of human beings\n B. Insects\n C. The origin and history of technical and scientific terms\n D. The formation of rocks");
-            System.out.println("Select an option:");
-            ch = sc.next().charAt(0);
-            if(ch == 'B' || ch =='b') {
-                System.out.println("That's Correct!");
-                System.out.println();
-                score++;
-            }
-            else{
-                System.out.println("Oops! That's wrong");
-                System.out.println("Correct Answer : B.	Insects");
-            }
-            System.out.println("----------------------------------------------");
-            System.out.println("Current Score: "+score);
-            System.out.println("----------------------------------------------");
-            System.out.println("Question No. 3 Coming Up!");
-            Thread.sleep(2000);
-            System.out.println("For which of the following disciplines is Nobel Prize awarded?");
-            System.out.println(" A. Physics and Chemistry\n B. Physiology or Medicine\n C. Literature, Peace and Economics\n D. All of the above");
-            System.out.println("Select an option:");
-            ch = sc.next().charAt(0);
-            if(ch == 'D' || ch =='d') {
-                System.out.println("That's Correct!");
-                System.out.println();
-                score++;
-            }
-            else{
-                System.out.println("Oops! That's wrong");
-                System.out.println("Correct Answer :  D. All of the above");
-            }
-            System.out.println("----------------------------------------------");
-            System.out.println("Current Score: "+score);
-            System.out.println("----------------------------------------------");
-            System.out.println("Question No. 4 Coming Up!");
-            Thread.sleep(2000);
-            System.out.println("Hitler party which came into power in 1933 is known as :");
-            System.out.println(" A. Labour Party\n B. Nazi Party\n C. Ku-Klux-Klan\n D. Democratic Party");
-            System.out.println("Select an option:");
-            ch = sc.next().charAt(0);
-            if(ch == 'B' || ch =='b') {
-                System.out.println("That's Correct!");
-                System.out.println();
-                score++;
-            }
-            else{
-                System.out.println("Oops! That's wrong");
-                System.out.println("Correct Answer :  B. Nazi Party");
-            }
-            System.out.println("----------------------------------------------");
-            System.out.println("Current Score: "+score);
-            System.out.println("----------------------------------------------");
-            System.out.println("Question No. 5 Coming Up!");
-            Thread.sleep(2000);
-            System.out.println("Who is the father of Geometry?");
-            System.out.println(" A.Aristotle\n B. Euclid\n C. Pythagoras\n D. Kepler");
-            System.out.println("Select an option:");
-            ch = sc.next().charAt(0);
-            if(ch == 'B' || ch =='b') {
-                System.out.println("That's Correct!");
-                System.out.println();
-                score++;
-            }
-            else{
-                System.out.println("Oops! That's wrong");
-                System.out.println("Correct Answer :  B. Euclid");
-            }
-        System.out.println("----------------------------------------------");
-        System.out.println("Final Score : "+score);
-        System.out.println("----------------------------------------------");
+
         }
+        Scanner sc = new Scanner(System.in);
+        int score = 0;
+        int flip = 0;
+        System.out.println("----------------------------------------------------");
+        System.out.println("------------------Quiz Application------------------");
+        System.out.println("----------------------------------------------------");
+        Thread.sleep(3000);
+        System.out.println("There will be five questions");
+        System.out.println("Select the correct option to score a point");
+        System.out.println("Answering the question correctly will fetch 1 point");
+        System.out.println("Good Luck!");
+        Thread.sleep(5000);
+        for(int j=0;j<5;j++){
+            System.out.println("--------------------------------------------------");
+            System.out.println("Question No. "+(j+1)+" Coming up...");
+            Thread.sleep(3000);
+            System.out.println(questions[j]);
+            System.out.println("Take your time...");
+            Thread.sleep(2000);
+            System.out.println("Here are your options :");
+            System.out.println(options[j]);
+            System.out.println("Select an option...(case is ignored)");
+            if(flip == 0) {
+                System.out.println("-------------------------------");
+                System.out.println("Can't figure it out? ");
+                System.out.println("You can flip the question : )");
+                System.out.println("Note : Can be used only ONCE ");
+                System.out.println("Enter F to flip the question or select an option");
+                System.out.println("-------------------------------");
+            }
+            char ch = sc.nextLine().charAt(0);
+            if(ch == 'F'){
+                Thread.sleep(1000);
+                System.out.println("Wise decision indeed!");
+                flip = 1;
+                Thread.sleep(2000);
+                System.out.println("Here is your new question");
+                System.out.println(questions[5]);
+                System.out.println("Take your time...");
+                Thread.sleep(2000);
+                System.out.println("Here are your options :");
+                System.out.println(options[5]);
+                System.out.println("Select an option...(case is ignored)");
+                ch = sc.nextLine().charAt(0);
+                if (Character.toString(ch).toUpperCase().equals(answers[5])) {
+                    System.out.println("That's right! Good job...");
+                    score++;
+                }
+                else {
+                    System.out.println("Oops! That's incorrect");
+                    System.out.println("Answer is Option " + answers[5]);
+                    System.out.println("Better luck next time...");
+                }
+            }
+            else {
+                if (Character.toString(ch).toUpperCase().equals(answers[j])) {
+                    System.out.println("That's right! Good job...");
+                    score++;
+                } else {
+                    System.out.println("Oops! That's incorrect");
+                    System.out.println("Answer is Option " + answers[j]);
+                    System.out.println("Better luck next time...");
+                }
+            }
+            System.out.println("------------------------------------------------------");
+        }
+        System.out.println("Hope you had fun!");
+        System.out.println("------------------------------------------------------");
+        System.out.println("Your Score : "+score);
+        System.out.println("------------------------------------------------------");
 
     }
-
-
-
-
-
-
-
-
-
+}
