@@ -33,3 +33,9 @@ Python
  - Click on Credit_card_approval_prediction.ipynb to open the file
  - Select cell and choose run all 
 
+## Video
+
+https://user-images.githubusercontent.com/60027035/164426073-7740eed1-532c-459c-8b74-5800c8e0284c.mp4
+
+
+
