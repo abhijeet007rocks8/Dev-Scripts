@@ -61,7 +61,7 @@ class QuizApplication {
                 System.out.println("-------------------------------");
             }
             char ch = sc.nextLine().charAt(0);
-            if(ch == 'F'){
+            if(ch == 'F' || ch == 'f'){
                 Thread.sleep(1000);
                 System.out.println("Wise decision indeed!");
                 flip = 1;
