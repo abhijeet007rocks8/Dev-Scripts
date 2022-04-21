@@ -16,7 +16,6 @@ class QuizApplication {
         List<Integer> intList = Arrays.asList(intArray);
         Collections.shuffle(intList);
         intList.toArray(intArray);
-        System.out.println(Arrays.toString(intArray));
         File ques = new File("ques.txt");
         File ans = new File("ans.txt");
         File opt = new File("options.txt");
