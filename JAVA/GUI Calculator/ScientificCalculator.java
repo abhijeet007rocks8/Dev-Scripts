@@ -22,7 +22,7 @@ public class ScientificCalculator {
 	private JFrame frmStandardCalculator;
 	private JTextField txtDisplay;
 	private JTextField jtxtConverts;
-	private JTextField jlblConverts;
+	private JTextField currResultLbl;
 	
 	double firstnum;
 	double secondnum;
@@ -30,6 +30,14 @@ public class ScientificCalculator {
 	String operations;
 	String answer;
 	
+	private int searchIndex(String[] a, String b){
+		for(int i=0; i<a.length; i++){
+			if(a[i].equals(b))
+				return i;
+		}
+		return -1;
+	}
+
 	double[] i = new double[5];
 	double Nigerian_Naira = 5.54;
 	double US_Dollar = 0.013;
@@ -442,110 +450,142 @@ public class ScientificCalculator {
 		btnPlus.setBounds(156, 252, 46, 47);
 		frmStandardCalculator.getContentPane().add(btnPlus);
 		
-		JLabel lblNewLabel = new JLabel("Convert Indian Currency To");
-		lblNewLabel.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 21));
+		JLabel lblNewLabel = new JLabel("        Currency Exchange");
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 21));
 		lblNewLabel.setBounds(296, 22, 298, 37);
 		frmStandardCalculator.getContentPane().add(lblNewLabel);
 		
-		JComboBox jcmbCurrencys = new JComboBox();
-		jcmbCurrencys.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 14));
-		jcmbCurrencys.setModel(new DefaultComboBoxModel(new String[] {"-Select One Option-", "India", "USA", "Nigeria", "Kenyan", "Canada", "Brazil", "Indonessia", "Philippine"}));
-		jcmbCurrencys.addActionListener(new ActionListener() {
+		JComboBox jcmbCurrencyFrom = new JComboBox();
+		jcmbCurrencyFrom.setFont(new Font("Arial", Font.BOLD, 14));
+		jcmbCurrencyFrom.setModel(new DefaultComboBoxModel(new String[] {"Brazil", "Canada", "India", "Indonesia", "Kenya", "Nigeria", "Phillipines", "USA"}));
+		jcmbCurrencyFrom.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		jcmbCurrencys.setBounds(345, 70, 176, 34);
-		frmStandardCalculator.getContentPane().add(jcmbCurrencys);
+		jcmbCurrencyFrom.setBounds(300, 70, 120, 34);
+		frmStandardCalculator.getContentPane().add(jcmbCurrencyFrom);
+
+		//Currency to:
+
+		String[] Currency = {"Brazil", "Canada", "India", "Indonesia", "Kenya", "Nigeria", "Phillipines", "USA"};
+		String[] symbol = {"Brz", "C$", "INR", "IDR", "KS", "N", "PHP", "$"};
+		double[] BrExch = {1, 0.273, 16.512, 3106.91, 25.01, 89.90, 11.32, 0.22};
+		double[] CanExch = {3.66, 1, 60.45, 11373.50, 91.54, 329.08, 41.43, 0.79};
+		double[] InExch = {0.068, 0.016, 1, 187.900, 1.51, 5.46, 0.68, 0.013};       // 1 rupee equivalent
+		double[] IndoExch = {0.00032, 0.000088, 0.0053, 1, 0.0081, 0.029, 0.0036, 0.00007};
+		double[] KenExch = {0.04, 0.011, 0.66, 124.17, 1, 3.59, 0.45, 0.0087 };
+		double[] NigExch = {0.011, 0.003, 0.18, 34.43, 0.28, 1, 0.13, 0.0024 };
+		double[] PhilExch = {0.088, 0.024, 1.46, 274.66, 2.21, 7.95, 1, 0.019};
+		double[] UsExch = {4.62, 1.26, 76.33, 14363.45, 115.65, 415.58, 52.28, 1};	
+
+		JComboBox jcmbCurrencyTo = new JComboBox();
+		jcmbCurrencyTo.setFont(new Font("Arial", Font.BOLD, 14));
+		jcmbCurrencyTo.setModel(new DefaultComboBoxModel(new String[] {"Brazil", "Canada", "India", "Indonesia", "Kenya", "Nigeria", "Phillipines", "USA"}));
+		jcmbCurrencyTo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		jcmbCurrencyTo.setBounds(450, 70, 120, 34);
+		frmStandardCalculator.getContentPane().add(jcmbCurrencyTo);
+
 		
 		jtxtConverts = new JTextField();
 		jtxtConverts.setHorizontalAlignment(SwingConstants.RIGHT);
-		jtxtConverts.setBounds(345, 115, 176, 47);
+		jtxtConverts.setBounds(300, 115, 120, 47);
 		frmStandardCalculator.getContentPane().add(jtxtConverts);
 		jtxtConverts.setColumns(10);
 		
-		jlblConverts = new JTextField();
-		jlblConverts.setHorizontalAlignment(SwingConstants.RIGHT);
-		jlblConverts.setEditable(false);
-		jlblConverts.setBounds(345, 181, 176, 47);
-		frmStandardCalculator.getContentPane().add(jlblConverts);
-		jlblConverts.setColumns(10);
+		currResultLbl = new JTextField();
+		currResultLbl.setHorizontalAlignment(SwingConstants.RIGHT);
+		currResultLbl.setEditable(false);
+		currResultLbl.setBounds(450, 115, 120, 47);
+		frmStandardCalculator.getContentPane().add(currResultLbl);
+		currResultLbl.setColumns(10);
 		
 		JButton btnConverts = new JButton("Convert");
 		btnConverts.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				double Indian_Rupees = Double.parseDouble(jtxtConverts.getText());
-				if (jcmbCurrencys.getSelectedItem().equals("Nigeria"))
+				double currencyInput = Double.parseDouble(jtxtConverts.getText());
+				int currIndex;
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Nigeria"))
 				{
-					String cConvert1 = String.format("N %.2f", Indian_Rupees * Nigerian_Naira);
-					jlblConverts.setText(cConvert1);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert1 = String.format(symbol[currIndex]+" %.2f", currencyInput*NigExch[currIndex]);
+					currResultLbl.setText(cConvert1);
 								
 				}
 				
-				if (jcmbCurrencys.getSelectedItem().equals("USA"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("USA"))
 				{
-					String cConvert1 = String.format("$ %.2f", Indian_Rupees * US_Dollar);
-					jlblConverts.setText(cConvert1);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert1 = String.format(symbol[currIndex]+" %.2f", currencyInput * UsExch[currIndex]);
+					currResultLbl.setText(cConvert1);
 								
 				}
 				
-				if (jcmbCurrencys.getSelectedItem().equals("Kenyan"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Kenya"))
 				{
-					String cConvert2 = String.format("KS %.2f", Indian_Rupees * Kenyan_Shilling);
-					jlblConverts.setText(cConvert2);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert2 = String.format(symbol[currIndex]+" %.2f", currencyInput * KenExch[currIndex]);
+					currResultLbl.setText(cConvert2);
 								
 				} 
 				
-				if (jcmbCurrencys.getSelectedItem().equals("Canada"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Canada"))
 				{
-					String cConvert4 = String.format("C$ %.2f", Indian_Rupees * Canadian_Dollar);
-					jlblConverts.setText(cConvert4);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert4 = String.format(symbol[currIndex]+" %.2f", currencyInput * CanExch[currIndex]);
+					currResultLbl.setText(cConvert4);
 								
 				} 
 				
-				if (jcmbCurrencys.getSelectedItem().equals("Brazil"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Brazil"))
 				{
-					String cConvert5 = String.format("Brz %.2f", Indian_Rupees * Brazilian_Real);
-					jlblConverts.setText(cConvert5);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert5 = String.format(symbol[currIndex]+" %.2f", currencyInput * BrExch[currIndex]);
+					currResultLbl.setText(cConvert5);
 								
 				} 
 				
-				if (jcmbCurrencys.getSelectedItem().equals("India"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("India"))
 				{
-					String cConvert6 = String.format("INR %.2f", Indian_Rupees * Indian_Rupee);
-					jlblConverts.setText(cConvert6);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert6 = String.format(symbol[currIndex]+" %.2f", currencyInput * InExch[currIndex]);
+					currResultLbl.setText(cConvert6);
 								
 				} 
 				
-				if (jcmbCurrencys.getSelectedItem().equals("Philippine"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Phillipines"))
 				{
-					String cConvert7 = String.format("PHP %.2f", Indian_Rupees * Philippine_Peso);
-					jlblConverts.setText(cConvert7);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert7 = String.format(symbol[currIndex]+" %.2f", currencyInput * PhilExch[currIndex]);
+					currResultLbl.setText(cConvert7);
 				
 				}  
 				
-				if (jcmbCurrencys.getSelectedItem().equals("Indonessia"))
+				if (jcmbCurrencyFrom.getSelectedItem().equals("Indonesia"))
 				{
-					String cConvert8 = String.format("IDR %.2f", Indian_Rupees * Indonessia_Rupiah);
-					jlblConverts.setText(cConvert8);
+					currIndex = searchIndex(Currency, (String)jcmbCurrencyTo.getSelectedItem());
+					String cConvert8 = String.format(symbol[currIndex]+"%.2f", currencyInput * IndoExch[currIndex]);
+					currResultLbl.setText(cConvert8);
 								
 				} 
 
 			}
 		});
-		btnConverts.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 15));
+		btnConverts.setFont(new Font("Arial", Font.BOLD, 15));
 		btnConverts.setBounds(326, 253, 104, 34);
 		frmStandardCalculator.getContentPane().add(btnConverts);
 		
 		
 		JButton btnClear = new JButton("Clear");
-		btnClear.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 15));
+		btnClear.setFont(new Font("Arial", Font.BOLD, 15));
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				jtxtConverts.setText(null);
-				jlblConverts.setText(null);
-				jcmbCurrencys.setSelectedItem(" -Select One Option-");
+				currResultLbl.setText(null);
 				}
 		});
 		btnClear.setBounds(435, 253, 104, 34);
