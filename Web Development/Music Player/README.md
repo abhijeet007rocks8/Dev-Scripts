@@ -25,7 +25,6 @@ cd Music Player
 ```pwsh
 cd index.html
 ```
-Inside portfolio folder open ```index.html``` file in your default Browser.
 
 ## Screenshots
 ![Screenshot (869)](https://user-images.githubusercontent.com/73753957/163690503-d03f86e7-c962-49e9-b797-cf7604c6d285.png)
