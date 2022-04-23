@@ -11,7 +11,7 @@ int main()
 
     int option;
 
-    balance=300; 
+    balance=0.0; 
 
     do{
 
