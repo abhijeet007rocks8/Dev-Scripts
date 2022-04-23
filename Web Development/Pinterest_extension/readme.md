@@ -20,7 +20,7 @@ https://imgur.com/a/mRUiOqM
 
 ## Tech Stack
 **Web Development**
-# Components
+### Components
 HTML, CSS, Javascript.
 
 
