@@ -18,6 +18,11 @@ https://imgur.com/a/KlM7NJb
 https://imgur.com/a/mRUiOqM 
 
 
+## Tech Stack
+**Web Development**
+# Components
+HTML, CSS, Javascript.
+
 
 # **Author**
 **Manya Rani**
