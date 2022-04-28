@@ -23,14 +23,12 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
  ```
   gcc server.c -o server
   ./server
-  
  ```
  
  In terminal 2 i.e. client terminal
  ```
   gcc client.c -o client
   ./client
-  
  ```
  
  OR
@@ -40,13 +38,14 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
   gcc server.c -o server
   gcc client.c -o client
   ./server & ./client
-  
  ```
  #### Screenshots :
-|![](https://user-images.githubusercontent.com/72400676/165731785-4d2045e4-d4e3-4eb7-a5e4-a7b3ed24d351.png)|![](https://user-images.githubusercontent.com/72400676/165731830-90221395-e1c3-4233-9e96-bee5d8d3027c.png)|![](https://user-images.githubusercontent.com/72400676/165732264-b6040f87-1828-4575-aef1-dde72679b987.png)
+|![](https://user-images.githubusercontent.com/72400676/165731785-4d2045e4-d4e3-4eb7-a5e4-a7b3ed24d351.png)|![](https://user-images.githubusercontent.com/72400676/165731830-90221395-e1c3-4233-9e96-bee5d8d3027c.png)|![](https://user-images.githubusercontent.com/72400676/165734560-22f9c1a4-471c-4df2-bb7e-4a4efdd15ac0.png)
 |:---:|:---:|:---:|
 |**SERVER**|**CLIENT**|**SERVER & CLIENT**|
 
  #### Sample video :
  
- 
+https://user-images.githubusercontent.com/72400676/165734663-43f51bdf-9988-49bc-b8a0-e21ef4b3f8cb.mp4
+
+
