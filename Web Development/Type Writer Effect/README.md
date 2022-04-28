@@ -1,5 +1,5 @@
 ## Description
-Added Type Writer Effect Project
+A simple type writer built using HTMl,CSS and Javascript.when clicking the button the title words are typed with type writer effect.
 
 ## Tech Stack
 1. HTML
@@ -8,5 +8,5 @@ Added Type Writer Effect Project
 
 ## Demostration
 
-https://user-images.githubusercontent.com/52378608/164947995-110eca93-312c-4e53-9228-01f3390832ae.mp4
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52378608/165838577-7d37b8d8-23e1-4514-af19-ee1efe1831c4.gif)
 
