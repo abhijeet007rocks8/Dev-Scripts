@@ -1,5 +1,5 @@
-### UDP ECHO CLIENT-SERVER PROGRAM
-This is a a basic implementation of client-server connection and communication using UDP protocol.There is a server.c and a client.c. The client will then try to bind with the server and send a message to the server(echo).The server will then echo back the same message as received back to the client.It shows networking concepts using C and Linux.
+### TCP ECHO CLIENT-SERVER PROGRAM
+This is a a basic implementation of client-server connection and communication using TCP protocol.There is a tcp_echo_server.c and a tcp_echo_client.c. The client will then try to bind with the server and send a message to the server(echo).The server will then echo back the same message as received back to the client.It shows networking concepts using C and Linux.
 
 ### TECH USED:
  **1)** C
@@ -15,39 +15,36 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
 ```
 
 **3.** Navigate to the project directory:
- Dev-Scripts/C/UDP Echo Client-Server Program
+ Dev-Scripts/C/TCP Echo Client-Server Program
  
  Create two Linux terminals and type the following commands to run the program
  
  In terminal 1 i.e. server terminal
  ```
   gcc tcp_echo_server.c -o tcp_echo_server
-  ./server
+  ./tcp_echo_server
  ```
  
  In terminal 2 i.e. client terminal
  ```
   gcc tcp_echo_client.c -o tcp_echo_client
-  ./client
+  ./tcp_echo_client
  ```
  
  OR
  You can also run the two scripts simultaneously in a single Linux terminal using the following commands
  
  ```
-  gcc server.c -o server
-  gcc client.c -o client
-  ./server & ./client
+  gcc tcp_echo_server.c -o tcp_echo_server
+  gcc tcp_echo_client.c -o tcp_echo_client
+  ./tcp_echo_server & ./tcp_echo_client
  ```
  #### Screenshots :
-|![](https://user-images.githubusercontent.com/72400676/165731785-4d2045e4-d4e3-4eb7-a5e4-a7b3ed24d351.png)|![](https://user-images.githubusercontent.com/72400676/165731830-90221395-e1c3-4233-9e96-bee5d8d3027c.png)|![](https://user-images.githubusercontent.com/72400676/165734560-22f9c1a4-471c-4df2-bb7e-4a4efdd15ac0.png)
+|![](https://user-images.githubusercontent.com/72400676/165898750-6ce128f3-0ee6-4a32-9ca6-91d27c158c10.png)|![](https://user-images.githubusercontent.com/72400676/165898777-577c909e-a8f1-4386-b298-548e9450e076.png)|![](https://user-images.githubusercontent.com/72400676/165898834-ba6d23b6-a148-4c7c-ae89-7e2a391efde3.png)
 |:---:|:---:|:---:|
 |**SERVER**|**CLIENT**|**SERVER & CLIENT**|
 
-![Uploading image.png…]()
-
-
  #### Sample video :
  
-https://user-images.githubusercontent.com/72400676/165734663-43f51bdf-9988-49bc-b8a0-e21ef4b3f8cb.mp4
+
 
