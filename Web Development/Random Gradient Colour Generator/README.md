@@ -14,3 +14,7 @@ https://user-images.githubusercontent.com/77090462/163852727-5379e036-a924-40e5-
 
 - As the name suggests it is a random gradient colour generator.
 - It also gives the css code to implement the gradient colour.
+
+# Quick Start:
+
+- Download the Required Files and Run index file in your browser and see the results.
