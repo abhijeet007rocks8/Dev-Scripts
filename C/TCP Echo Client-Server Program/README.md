@@ -40,11 +40,13 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
   ./tcp_echo_server & ./tcp_echo_client
  ```
  #### Screenshots :
-|![](https://user-images.githubusercontent.com/72400676/165898750-6ce128f3-0ee6-4a32-9ca6-91d27c158c10.png)|![](https://user-images.githubusercontent.com/72400676/165898777-577c909e-a8f1-4386-b298-548e9450e076.png)|![](https://user-images.githubusercontent.com/72400676/165898834-ba6d23b6-a148-4c7c-ae89-7e2a391efde3.png)
+|![](https://user-images.githubusercontent.com/72400676/165903048-795dc19e-54ed-4f2d-860d-ff39974616e3.png)|![](https://user-images.githubusercontent.com/72400676/165898777-577c909e-a8f1-4386-b298-548e9450e076.png)|![](https://user-images.githubusercontent.com/72400676/165898834-ba6d23b6-a148-4c7c-ae89-7e2a391efde3.png)
 |:---:|:---:|:---:|
 |**SERVER**|**CLIENT**|**SERVER & CLIENT**|
 
  #### Sample video :
  
+ https://user-images.githubusercontent.com/72400676/165905092-bfa7ad58-01d9-4c0f-aa3e-efa9c08271dc.mp4
+
 
 
