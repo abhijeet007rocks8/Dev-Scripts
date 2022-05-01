@@ -15,24 +15,24 @@ def start():
     clock.sleep(5)
 
     # join button
-    x_c, y_c = pygui.locateCenterOnScreen("img/join.png", confidence=0.9)
+    x_c, y_c = pygui.locateCenterOnScreen("Assets/join.png", confidence=0.9)
     clock.sleep(5)
     pygui.click(x_c, y_c)
 
     # adding ID
     clock.sleep(5)
-    x_s, y_s = pygui.locateCenterOnScreen("img/s3.png", confidence=0.9)
+    x_s, y_s = pygui.locateCenterOnScreen("Assets/s3.png", confidence=0.9)
     pygui.click(x_s, y_s)
     pygui.write(ID)
 
     # video off
     clock.sleep(5)
-    x_s, y_s = pygui.locateCenterOnScreen("img/s2.png", confidence=0.9)
+    x_s, y_s = pygui.locateCenterOnScreen("Assets/s2.png", confidence=0.9)
     pygui.click(x_s, y_s)
 
     # audio off
     clock.sleep(5)
-    x_s, y_s = pygui.locateCenterOnScreen("img/s1.png", confidence=0.9)
+    x_s, y_s = pygui.locateCenterOnScreen("Assets/s1.png", confidence=0.9)
     pygui.click(x_s, y_s)
     pygui.press("enter", interval=5)
 
