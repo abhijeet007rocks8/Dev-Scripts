@@ -1,20 +1,20 @@
-# Auto attend Zoom meets.
-- This is python script to auto-attend Zoom Classes. The basic features are:
-  - It accept the Meeting ID and Meeting Password from the Console
-  - Open the Zoom Class keeping Camera/Audio off.
+# Zoom Automation with Python
+- Here is a python script which helps you automatically attend Zoom sessions. Features included in the script are:
+  - A console to accept Meeting ID and Meeting Password.
+  - Toggle between Camera/Audio On/Off
 
 ## Setting up:
-### Prerequisite:
-- Download the zoom desktop application from [here](https://zoom.us/download)
-- Make sure that the img folder and the script are in the same folder.
+### Prerequisites:
+- You can download the zoom desktop application from [here](https://zoom.us/download)
+- Make sure that the asset folder and the script are in the same directory.
 
 ### Install the requirements using
 ```sh
-$ pip3 install pyautogui
-$ pip3 install opencv-python
+$ pip install pyautogui
+$ pip install opencv-python
 ```
 
 ## Running the script:
 ```sh
-$ python3 zoom.py
+$ python script.py
 ```
