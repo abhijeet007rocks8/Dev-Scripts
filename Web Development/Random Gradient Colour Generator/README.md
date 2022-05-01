@@ -15,6 +15,15 @@ https://user-images.githubusercontent.com/77090462/163852727-5379e036-a924-40e5-
 - As the name suggests it is a random gradient colour generator.
 - It also gives the css code to implement the gradient colour.
 
-# Quick Start:
+# How to Run Locally:
 
-- Download the Required Files and Run index file in your browser and see the results.
+- Clone this repository:
+     - ```git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git```
+- Change directory:
+    - ``` cd Web Development ```
+    -  ```cd Random Gradient Colour Generator```
+- Run the index file and see the magic😀
+
+# Dependencies:
+
+- There are no dependencies required to install to run this.
