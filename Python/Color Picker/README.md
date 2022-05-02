@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/77873383/166188422-abbdb9ef-a229-4cfd-
 
 - Start Terminal and navigate to the root of the local project directory.
 
-- cd Dev-Scripts/Python/Color-Picker
+``` cd Dev-Scripts/Python/Color-Picker ```
 
 
 - Run python color.py
