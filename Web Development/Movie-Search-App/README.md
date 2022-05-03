@@ -47,6 +47,10 @@ cd Dev-Scripts/Web Development/Movie-Search-App
 <img width="943" alt="Movie-Search-App" src="https://user-images.githubusercontent.com/64218887/127524703-566caee0-ee93-4802-b6c6-6173b6fbb4f6.png">
 <br>
 
+
+
+
 <h3> Sample Video </h3>  
 
+https://user-images.githubusercontent.com/64218887/166506114-fe880988-bf66-48e2-9e24-e9150302f199.mp4
 <br>
