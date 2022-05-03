@@ -3,8 +3,7 @@
 - Random Anime profiles
   
 # Preview: 
-
-
+![anime png](https://user-images.githubusercontent.com/95171638/166420861-780c6682-1049-4c82-9823-021a6d6309d6.png)
 
 # Tech stack used: 
 HTML, CSS, JavaScript.
