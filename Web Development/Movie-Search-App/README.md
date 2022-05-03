@@ -53,4 +53,5 @@ cd Dev-Scripts/Web Development/Movie-Search-App
 <h3> Sample Video </h3>  
 
 https://user-images.githubusercontent.com/64218887/166506114-fe880988-bf66-48e2-9e24-e9150302f199.mp4
+
 <br>
