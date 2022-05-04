@@ -76,4 +76,5 @@ https://user-images.githubusercontent.com/91819492/165154126-a06933d5-327b-4653-
          sports.db
 
 * Change the path of database according to your local system.
-       
+ 
+* Create the png files in your project folder to save the generated QR Code
