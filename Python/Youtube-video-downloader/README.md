@@ -11,6 +11,10 @@ The project is made using python.
 ## Demonstration video - here is a view of the project :
 
 
+https://user-images.githubusercontent.com/91176055/166788087-fa5e6988-acae-4a79-a1a4-56d22fa18913.mp4
+
+
+
 
 
 ## Install dependencies
