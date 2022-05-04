@@ -29,7 +29,7 @@ Clone this repository:
 - Change directory:
 - cd Dev-Scripts
 - cd Python
-- cd AI tic tac toe
+- cd Doodle Drawing
 - Find main.py and run it.
 
 Change this project as much as you like and if you want to improve then you guys are welcome
