@@ -1,0 +1,38 @@
+# Youtube-video-downloader
+
+## Introduction  
+This project , downloads youtube videos after the user provides the url in the required place.
+
+## Tech stack 
+
+The project is made using python.
+
+
+## Demonstration video - here is a view of the project :
+
+
+
+
+## Install dependencies
+- install Python 3.8.3 or above
+- Further install these packages using terminal:
+
+```bash
+  pip install pytube
+```
+- pytube will give errors , solution to which are given in
+ https://stackoverflow.com/questions/68945080/pytube-exceptions-regexmatcherror-get-throttling-function-name-could-not-find
+
+## Quick start (how to run locally)
+
+- Clone this repository:
+```bash
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+- Change directory:
+```bash
+cd Dev-Scripts
+cd Python
+cd Youtube-video-downloader
+```
+- Find main.py and run it.
