@@ -1,0 +1,16 @@
+{
+  "name": "sqlite3_db_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MPanel.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "author": "XZANATOL",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.4"
+  }
+}

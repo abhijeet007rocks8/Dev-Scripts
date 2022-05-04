@@ -14,6 +14,7 @@ This repository is a beginner-friendly repository where devs can contribute thei
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+- [Go through Contribution Guidelines](Rules.md)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
@@ -71,14 +72,31 @@ git push
 <h1 align=center> Project Admin ⚡ </h1>
 <p align="center">
   <a href="https://github.com/abhijeet007rocks8"><img src="https://avatars.githubusercontent.com/u/64676594?v=4" width=150px height=150px /></a> 
+  <h4 align="center" style="color:blue;">Abhijeet Chatterjee
+
+</h4>
 </p>
+<br>
+
+<h1 align=center> Project Mentors </h1>
+
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/heet-kumar"><img src="https://avatars.githubusercontent.com/u/78725162?v=4" alt="Heet kumar Kothadiya
+" width=150px height=150px /></a></br> <h4 style="color:blue;">Heet kumar Kothadiya</h4>
+
+ <td align="center"><a href="https://github.com/manisha-27"><img src="https://avatars.githubusercontent.com/u/67019423?v=4" width=150px height=150px /></a></br>
+<h4 style="color:blue;">Manisha Singh
+</h4>
+</tr>
+</table>
 <br>
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
 <p align="center">
   
 	
 <a href="https://github.com/abhijeet007rocks8/Dev-Scripts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=abhijeet007rocks8/Dev-Scripts" />
+  <img src="https://contrib.rocks/image?repo=abhijeet007rocks8/Dev-Scripts"/>
 </a>
 	
 <br><br>
@@ -86,9 +104,18 @@ git push
 ## 📌 Opensource Programs
 
 ### This project is a part of following Open Source Programs
+<br/><br/>
 
-[![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
-	</p>
+<a href="https://gssoc.girlscript.tech/">
+  <img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="GSSoC" />
+</a>
+
+<br/><br/>
+
+<a href="https://hacktoberfest.digitalocean.com">
+  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest2021" />
+</a>
+
 <br><br>
 
 
