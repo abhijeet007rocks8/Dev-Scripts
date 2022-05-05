@@ -38,3 +38,4 @@ npm run runserver
 
 ## Demonstration Video
 
+https://user-images.githubusercontent.com/64689436/166973523-53210102-ed3b-4be7-8583-c5ffe44eec41.mp4
