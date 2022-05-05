@@ -14,6 +14,18 @@ Python
  - matplotlib
  - scikit-learn
 
+## Install the dependencies
+ - Install python 3.8.3 and above
+ - Further install this all libraries using terminal
+   - pip install pandas
+   - pip install numpy
+   - pip install matplotlib
+   - pip install scikit-learn
+- Clone this repo : git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+- cd Python
+- cd Machine Learning
+- cd Credit card approval prediction
+
 ## Project Task 
  - Credit card data
  - Inspecting the data
