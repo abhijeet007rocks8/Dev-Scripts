@@ -22,11 +22,13 @@ https://user-images.githubusercontent.com/77090462/166646504-51a6671c-a948-4634-
 # Quick start (how to run locally):
 
 Clone this repository:
+```
 - git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 - Change directory:
 - cd Dev-Scripts
 - cd Python
 - cd Jumble Game
 - Find main.py and run it.
+```
 
 Change this project as much as you like and if you want to improve then you guys are welcome
