@@ -26,13 +26,13 @@ https://user-images.githubusercontent.com/77090462/166645212-a86b0b0f-9f53-477f-
 
 Clone this repository:
 ```
-- git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 ```
 - Change directory:
 ```
-- cd Dev-Scripts
-- cd Python
-- cd Doodle Drawing
+ cd Dev-Scripts
+ cd Python
+ cd Doodle Drawing
 ```
 - Find main.py and run it.
 
