@@ -1,0 +1,112 @@
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	height: 100%;
+	flex-direction: row;
+	margin: 0;
+}
+
+.side-nav{
+	display: flex;
+	flex-direction: column;
+	width: 27.8%;
+	height: 100%;
+}
+.profile{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #202C33;
+	padding: 10px 16px;
+}
+.profile > img{
+	height: 100%;
+	border-radius: 50%;
+}
+.profile > img:hover{
+	cursor: pointer;
+}
+
+
+.search{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	width: 100%;
+	background-color: #111B21;
+	border-bottom: 1px solid rgba(134, 150, 160, 0.15);
+	padding: 7px 16px;
+}
+.search > input{
+	width:98%;
+	background-color: #202C33;
+	border: none;
+	outline: none;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	height: 32px;
+	padding-left: 32px;
+	color: #AEBAC1;
+}
+.search > svg{
+	height: 100%;
+	padding-left: 9px;
+}
+
+
+.chats{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #111B21;
+	width: 100%;
+	padding: 0px 16px;
+	position: relative;
+}
+.card{
+	color: #e9edef;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 72px;
+	position: absolute;
+	left: 0;
+	align-items: center;
+	border-bottom: 1px solid rgba(134, 150, 160, 0.15);
+}
+.card > img{
+	height:65%;
+	border-radius:50%;
+	margin-left: 16px;
+}
+.card > div{
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.card:hover{
+	background-color: #2A3942;
+	cursor: pointer;
+}
+
+
+.interface{
+	width: calc(100% - 30%);
+	background-color: #202C33;
+	margin-left: 1.9rem;
+	height: 100%;
+	border-left: 1px solid rgba(134, 150, 160, 0.15);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #e9edef;
+}
