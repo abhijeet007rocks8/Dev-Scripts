@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9d7d2185fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="captcha_img">
+            <img src="./img6.png" alt="cptche background" class="image">
+            <span class="captcha_text">K U 9 2 0s</span>
+            <button class="reload_btn" onclick="generatecaptcha()"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+        <form action="#">
+            <input type="text" class="captcha_check" placeholder="Enter Captcha">
+            <button class="check_btn" onclick="checkcaptcha()">submit</button>
+        </form>
+        <span class="status">Try Again</span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
