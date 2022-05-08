@@ -13,9 +13,11 @@ Start by making a fork the [**Dev-Scripts**](https://github.com/abhijeet007rocks
 git clone https://github.com/<your-github-username>/Dev-Scripts
 ```
 
-**3.** Navigate to the project directory:
- Dev-Scripts/C++/Banking System/bankingsystem.cpp
- And run in any C++ compiler
+ - Move to the executable folder
+ ```bash
+ cd Dev-Scripts/C++/Advance Calculator/Advance Calcualtor2.cpp
+ ```
+ - Compile and Run ```Advance Calcualtor2.cpp``` file with any c++ compiler.
  
  Simply click Compile and Run
  
@@ -28,3 +30,8 @@ https://user-images.githubusercontent.com/73521123/167196859-c362486d-fc43-4afe-
 
 https://user-images.githubusercontent.com/73521123/167197138-f26452db-14a2-4bd0-8e41-bef90b7d2882.mp4
 
+# How to Run:
+
+- It is only able to run in dos systems.
+- Run it through any C++ compiler in dos system. Best to use the recent ones.
+- Run and enjoy it.🥲☺️
