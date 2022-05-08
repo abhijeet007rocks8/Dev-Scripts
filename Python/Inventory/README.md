@@ -2,7 +2,7 @@
 
 **Description:**
 
-**Issue No: #389**
+
 
      The Inventory Management System-Retail Store has been developed to override the And some textproblems prevailing in the practicing manual system
      This system is designed for the particular need of the company to carry out operations in a smoothly and effectively.
