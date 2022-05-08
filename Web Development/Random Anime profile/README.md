@@ -22,7 +22,7 @@
      - ```git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git```
 - Change directory:
     - ``` cd Web Development ```
-    -  ```cd Random Gradient Anime profile```
+    -  ```cd Random Anime profile```
 - Run the index file and see the magic😀
 
 
