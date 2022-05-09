@@ -23,7 +23,24 @@ Java
 
 ## Running the Program
 
+Prerequisite : 
+Install JDK and JRE on your system to run Java program.
+
+1. Start by cloning the repository.
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+
+2. Navigate to the Quiz Application Java Project.
+```
+Dev-Scripts\JAVA\ATM Banking System
+```
+
+3. Open the `Main_Innovative.java` file in your Java IDE and Run.
 
 ## Demonstration
 
+
+
+https://user-images.githubusercontent.com/82600388/167394479-96811a03-5059-4a56-8577-42054fcc8940.mp4
 
