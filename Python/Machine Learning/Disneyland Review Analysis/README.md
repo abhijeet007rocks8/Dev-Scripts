@@ -4,6 +4,52 @@
 
 The aim of this project is to analyse the reviews given by visitors from different countries of the world using Natural Language Processing (NLP) to understand the sentiment of the reviews and classify them using Sentiment Analysis metrics like Sentiment Polarity and VADER Polarity. This processed data is then fed to different classifier models (DecisionTreeClassifier and RandomForestClassifier) to get trained and predict the sentiment of the test reviews.
 
+### Install the dependencies:
+- Install Python 3.8 and above Kit.
+- Further install these libraries using terminal:
+
+```
+    pip install pandas
+```
+
+```
+    pip install numpy
+```
+
+```
+    pip install matplotlib
+```
+
+```
+    pip install nltk
+```
+
+```
+    pip install wordcloud
+```
+
+```
+    pip install pillow
+```
+
+### Quick Start
+- Clone this repository.
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+- Change directory.
+```
+cd Python
+```
+
+```
+cd Machine Learning
+```
+
+```
+cd Disneyland Review Analysis
+```
+
 ### Libraries Used:
 - pandas
 - numpy
@@ -27,6 +73,9 @@ The aim of this project is to analyse the reviews given by visitors from differe
 - Using Tf-IDF Vectorizer
 - Using Decision Tree Classifier
 - Using Random Forest Classifier
+
+### Code Walkthrough
+![Code walkthrough of disneyland review analysis](./Images/ezgif-2-a5e660b421.mp4)
 
 ### Models Used:
 #### 1. Decision Tree Classifier: 
