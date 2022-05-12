@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jet Pack Man</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <canvas id="canvas1" width="800" height="600"></canvas>
+    </div>
+    <div class="container">
+      <h3>Choose actions to play with your character</h3>
+    </div>
+    <div class="container">
+      <button class="button" onclick="run()" style="background-color: #84f14e">
+        RUN
+      </button>
+      <button class="button" onclick="jump()" style="background-color: #f14ebd">
+        JUMP WITH RED HELMET
+      </button>
+      <button class="button" onclick="fly()" style="background-color: #f1bb4e">
+        SHOOT
+      </button>
+    </div>
+
+    <script>
+      var canvas = document.getElementById("canvas1");
+      var ctx = canvas.getContext("2d");
+      var sheetWidth = 4405;
+      var sheetHeight = 1278;
+      var x = 0;
+      var y = 0;
+      var srcX = 0;
+      var srcY = 0;
+
+      var cols = 5;
+      var rows = 2;
+      var currentFrame = 0;
+      var trackFrame = 0;
+      var width = sheetWidth / cols;
+      var height = sheetHeight / rows;
+      var character = new Image();
+      character.src = "run.png";
+      var character2 = new Image();
+      character2.src = "fly.png";
+      var character3 = new Image();
+      character3.src = "jump.png";
+
+      function updateFrame() {
+        ctx.clearRect(x, y, width, height);
+        for (let i = 0; i < rows; i++) {
+          currentFrame = ++currentFrame % cols;
+          srcX = currentFrame * width;
+          srcY = trackFrame * height;
+        }
+      }
+      function drawCharrun() {
+        updateFrame();
+        ctx.drawImage(
+          character,
+          srcX,
+          srcY,
+          width,
+          height,
+          x,
+          y,
+          width,
+          height
+        );
+      }
+      function drawCharfly() {
+        updateFrame();
+        ctx.drawImage(
+          character2,
+          srcX,
+          srcY,
+          width,
+          height,
+          x,
+          y,
+          width,
+          height
+        );
+      }
+      function drawCharjump() {
+        updateFrame();
+        ctx.drawImage(
+          character3,
+          srcX,
+          srcY,
+          width,
+          height,
+          x,
+          y,
+          width,
+          height
+        );
+      }
+
+      var myRun;
+      var myFly;
+      var myWalk;
+
+      function jump() {
+        clearInterval(myFly);
+        clearInterval(myRun);
+
+        ctx.clearRect(x, y, width, height);
+        myWalk = setInterval(() => {
+          drawCharjump();
+        }, 200);
+      }
+      function run() {
+        clearInterval(myFly);
+        clearInterval(myWalk);
+
+        ctx.clearRect(x, y, width, height);
+        myRun = setInterval(() => {
+          drawCharrun();
+        }, 100);
+      }
+
+      function fly() {
+        clearInterval(myRun);
+        clearInterval(myWalk);
+
+        ctx.clearRect(x, y, width, height);
+        myFly = setInterval(() => {
+          drawCharfly();
+        }, 100);
+      }
+    </script>
+  </body>
+</html>
