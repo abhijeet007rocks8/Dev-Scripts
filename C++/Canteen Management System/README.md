@@ -3,6 +3,9 @@
 This is a Simple Command Line User Interface program that is implemented using C++ . 
 This program is implemented using the concept of Binary Files.
 
+## Walk through video
+<a href="https://youtu.be/bWqX-9pGY-w">Click here</a>
+
 ## Technology Used:
 ### Language:
 - ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
