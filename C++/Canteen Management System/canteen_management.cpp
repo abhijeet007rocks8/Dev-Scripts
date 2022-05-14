@@ -1,10 +1,11 @@
-#include<iostream.h>  
-#include<conio.h>
+#include<iostream>  
 #include<stdio.h>
-#include<fstream.h>
+#include<fstream>
 #include<stdlib.h>
 #include<string.h>
-#include<process.h>
+// #include<process>
+using namespace std;
+
 class canteen
 {  private:
 	 int prodno;                               //product number
@@ -78,7 +79,7 @@ void customer::showcustomerinfo()
 }
 void writecustomer()        //function to input customer details
 {
-     clrscr();
+     // clrscr();
      k.open("customer.txt",ios::app|ios::out);
      t.getcustomerinfo();
      k.write((char*)&t,sizeof(t));
@@ -87,7 +88,7 @@ void writecustomer()        //function to input customer details
 }
 void displcustomer() //fuction to display customer informations
 {
-     clrscr();
+     // clrscr();
      cout<<"-------------------LIST OF ALL CUSTOMERS----------------------"<<endl;
      k.open("customer.txt",ios::in);
      k.seekg(0);
@@ -101,7 +102,7 @@ void displcustomer() //fuction to display customer informations
 }
 void writeprod()              //fuction to input product details
 {
-     clrscr();
+     // clrscr();
      f.open("canteen.txt",ios::app|ios::out);
      c.getdata();
      f.write((char*)&c,sizeof(c));
@@ -111,7 +112,7 @@ void writeprod()              //fuction to input product details
 }
 void dispallprod()     //fuction to display all product details
 {
-     clrscr();
+     // clrscr();
      cout<<"DISPLAY ALL PRODUCT DETAILS "<<endl;
      cout<<"________________________________________________________"<<endl;
      f.open("canteen.txt",ios::in);
@@ -125,7 +126,7 @@ void dispallprod()     //fuction to display all product details
 }
 void displayprod(int p) //fuction to display particular product details
 {
-     clrscr();
+     // clrscr();
      int flag=0;
      cout<<"DISPLAY OF DESIRED PRODUCT DETAILS "<<endl;
      f.open("canteen.txt",ios::in);
@@ -162,7 +163,7 @@ void showmenu()             //fuction to display menu of canteen
 }
 void deletedata( )     //fuction to delete details of particular product
 {
-     clrscr();
+     // clrscr();
      int a,flag=0;
      fstream g;
      cout<<"ENTER THE PRODUCT NUMBER TO BE DELETED: ";
@@ -186,12 +187,12 @@ void deletedata( )     //fuction to delete details of particular product
      rename("tempfile.txt","canteen.txt");
      if(flag==1)
      cout<<"THE REQUIRED RECORD IS DELETED SUCCESSFULLY"<<endl;
-     if(flag==0);
+     if(flag==0)
      cout<<"THE REQUIRED RECORD COULD NOT BE FOUND"<<endl;
 }
 void modifydata() //function to modify details of particular product
 {
-     clrscr();
+     // clrscr();
      int a,flag=0;
      fstream g;
      cout<<"ENTER THE PRODUCT NUMBER TO BE MODIFIED: ";
@@ -223,7 +224,7 @@ void modifydata() //function to modify details of particular product
 }
 void placeorder()                      //function to place order
 {
-     clrscr();
+     // clrscr();
      int qty,total=0,pno;
      cout<<"=================================================================="<<endl;
      cout<<"===================KINDLY PLACE YOUR ORDER========================"<<endl;
@@ -255,7 +256,7 @@ void placeorder()                      //function to place order
 }
 void mainmenu()         //function to display administrator menu
 {
-     clrscr();
+     // clrscr();
      int choice,x;
      cout<<"|----------------------WELCOME TO THE MAIN MENU---------------------|"<<endl;
      cout<<"|   1) TO ADD PRODUCT LIST                                      |"<<endl;
@@ -274,7 +275,7 @@ void mainmenu()         //function to display administrator menu
 		   writeprod();
 		   break;
 	    case 2:
-		   clrscr();
+		   // clrscr();
 		   cout<<"ENTER THE PRODUCT NUMBER VIEW: ";
 		   cin>>x;
 		   displayprod(x);
@@ -297,9 +298,9 @@ void mainmenu()         //function to display administrator menu
      }
 }
 /*----------------------DECLARATION OF MAIN----------------------*/
-void main()
+int main()
 {
-     clrscr();
+     // clrscr();
      int choice;
      char choice2;
      cout<<"                       WELCOME TO ABC CANTEEN               "<<endl;
@@ -327,9 +328,11 @@ void main()
 	  }
 	  cout<<"DO WANT TO CONTINUE(y/n): ";
 	  cin>>choice2;
-	  clrscr();
+	  // clrscr();
      }
      while(choice2=='y'||choice2=='Y');
-     getch();
+     // getch();
+
+     return 0;
 }
 /*--------------------------END OF PROGRAM-----------------------*/
