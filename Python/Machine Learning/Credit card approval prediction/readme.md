@@ -44,6 +44,12 @@ Python
   cd Credit card approval prediction
   ```
   
+## How it works
+ ![data](https://user-images.githubusercontent.com/60027035/168456965-af454919-8026-45c5-ad8e-17453986f782.png)
+ - Since the data is confidential, the contributor of this dataset has anonymized the feature names. The features of this dataset have been anonymized to protect the privacy
+ - Dataset contains both numeric and non-numeric data. The features 2, 7, 10 and 14 contain numeric values and all the other features contain non-numeric values.
+ - The dataset also contains values from several ranges. Some features have a value range of 0–28, some have a range of 2–67, and some have a range of 1017–100000
+ 
 ## Project Task 
  - Credit card data
  - Inspecting the data
