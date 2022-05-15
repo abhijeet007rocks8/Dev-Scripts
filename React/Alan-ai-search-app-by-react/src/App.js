@@ -7,7 +7,7 @@ import useStyles from "./styles.js";
 
 import Ai from "./images/ai.png"
 
-const alanKey="8b8832f4f19f4f5d943ca5d7dcddcfed2e956eca572e1d8b807a3e2338fdd0dc/stage";
+const alanKey="your_alan_key";
 
 
 function App() {
