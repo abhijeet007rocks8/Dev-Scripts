@@ -4,7 +4,7 @@ This is a Simple Command Line User Interface program that is implemented using C
 This program is implemented using the concept of Binary Files.
 
 ## Walk through video
-<a href="https://youtu.be/bWqX-9pGY-w">Click here</a>
+<a href="https://amritacampuschennai-my.sharepoint.com/:v:/g/personal/ch_en_u4cse20039_ch_students_amrita_edu/EdDzhmWesGVCpfDuP6DkgvsBJxQitykO2TckJjLtPQDjsQ?e=3gOxZW">Click here</a>
 
 ## Technology Used:
 ### Language:
