@@ -1,5 +1,5 @@
 ### UDP TIME CLIENT-SERVER PROGRAM
-This is a an implementation of client-server connection and communication using UDP to show how to retrieve the time of a remote server.There is a server.c and a client.c. The client will then try to bind with the server.The remote server will send the time(as per server) to the client, which the client will then display.It shows networking concepts using C and Linux.
+This is an implementation of client-server connection and communication using UDP to show how to retrieve the time of a remote server.There is a server.c and a client.c. The client will then try to bind with the server.The remote server will send the time(as per server) to the client, which the client will then display.It shows networking concepts using C and Linux.
 
 ### TECH USED:
  **1)** C
@@ -46,3 +46,7 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
 
  #### Sample video :
  
+
+https://user-images.githubusercontent.com/72400676/168796186-e407a6ff-1d0b-43fa-86de-30ae38aa26c7.mp4
+
+
