@@ -32,3 +32,7 @@ VALUES (1, 'ankit', 'password');
 ```
 
 Connect the Eclipce to the MySQl By adding the External JAR File.
+
+# Demo :
+
+![preview](https://user-images.githubusercontent.com/72241207/168907261-1a8eff5b-d8e4-4aaa-929c-a52ddc7b9999.gif)
