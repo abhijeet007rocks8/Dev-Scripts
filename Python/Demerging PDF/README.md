@@ -27,5 +27,6 @@ git clone ```https://github.com/abhijeet007rocks8/Dev-Scripts.git```
 ```
 - Find main.py and run it.
 
+The PDF used is given in archieve form as it more than 25MB.
 
 Change this project as much as you like and if you want to improve then you guys are welcome
