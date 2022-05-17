@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>URL Shortner</title>
+	</head>
+
+	<body>
+		<h1>URL Shortner</h1>
+		<form action="/" method="POST">
+			<label>URL :&nbsp;</label>
+			<input type="url" name="url" id="url" required>
+			<button type="submit">Shrink</button>
+		</form>
+		<br><br>
+		<table style="width:35rem; text-align:center;">
+			<thead>
+				<tr>
+					<th>Original URL</th>
+					<th>Shortened URL</th>
+				</tr>
+			<thead>
+
+			<tbody>
+				<% links.forEach( link => { %>
+					<tr>			
+						<td><a href="<%= link.full %>" target="_blank"><%= link.full %></a></td>
+						<td><a href="<%= link.short %>" target="_blank"><%= link.short %></a></td>
+					</tr>
+				<% }) %>
+			</tbody>
+		</table>
+	</body>
+</html>
