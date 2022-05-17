@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navh{
+    padding: 8px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    height: 60px;
+}
+.incont{
+    display: flex;
+    align-items: flex-end;
+    gap: 2em;
+}
+.logo{
+    width: 70px;
+    margin-left: 30px;
+    height: 60px;
+}
+.ws{
+    margin-right: 45pc;
+}
+.logo2{
+    margin-left: 300px;
+    width: 45px;
+    align-items: flex-end;
+}
+.sidepanel {
+    height: 250px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: white;
+  }
+main{
+    height: 123pc;
+}
+.nm{
+  padding: 1pc;
+}
+.logo3{
+  padding: 1pc;
+  width: 75pc;
+  position: absolute;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://wallpapercave.com/dwp2x/wp5521940.jpg");
+  display: flex;
+  min-height: 600px;
+  padding: 1pc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  display: flexbox;
+  position: absolute;
+  left:0;
+  margin: 30px;
+  height: 70%;
+  max-width: 400px;
+  padding: 16px;
+  background-color: white;
+}
+
+.incont3{
+  display: flex;
+  align-items: center;
+}
+.logo6{
+  width:120px;
+}
+/* Full-width input fields */
+  input[type=text], input[type=source] {
+    border: 1px solid;
+  width: 350px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=source]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.container6{
+  background-color: #F7F7F7;
+  height: 85pc;
+}
+.container6 h1{
+  text-align: center;
+  font-size: 3rem;
+  padding: 2pc;
+}
+.incont1{
+  padding: 1pc;
+  margin: 1pc;
+  display: flex;
+  gap: 1rem;
+}
+.in1{
+  font-family: cursive;
+  background-color: white;
+  height: 34pc;
+  width: 25pc;
+}
+.in1 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+.in1 p{
+  padding: 1pc;
+}
+.inl1{
+  width:25pc;
+  height: 18pc;
+  cursor: pointer;
+}
+.in2{
+  font-family:cursive;
+  background-color: white;
+  height: 34pc;
+  width: 25pc;
+}
+.in2 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+.in2 p{
+  padding: 1pc;
+}
+.inl2{
+  width:25pc;
+  height: 18pc;
+  cursor: pointer;
+}
+.in3{
+  font-family: cursive;
+  background-color: white;
+  height: 34pc;
+  width: 25pc;
+}
+.in3 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+.in3 p{
+  padding: 1pc;
+}
+.inl3{
+  width:25pc;
+  height: 18pc;
+  cursor: pointer;
+}
+.incont2{
+  padding: 1pc;
+  margin: 1pc;
+  display: flex;
+  gap: 1rem;
+}
+.in4{
+  font-family: cursive;
+  background-color: white;
+  height: 34pc;
+  width: 25pc;
+}
+.in4 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+.in4 p{
+  padding: 1px;
+}
+.inl4{
+  width:25pc;
+  height: 18pc;
+  cursor: pointer;
+}
+.in5{
+  font-family: cursive;
+  background-color: white;
+  height: 34pc;
+  width: 25pc;
+}
+.in5 h2{
+  font-size: 2rem;
+  text-align: center;
+}
+.in5 p{
+  padding: 1pc;
+}
+.inl5{
+  width:25pc;
+  height: 18pc;
+  cursor: pointer;
+}
+footer{
+  font-family: cursive;
+  font-size: large;
+  text-align: center;
+  align-items: center;
+  background-color: bisque;
+  height: 6pc;
+}
+.inh{
+  font-family: cursive;
+  color: white;
+  right: 0;
+  padding: 4pc;
+  margin-left: 37pc;
+  margin-top: 10pc;
+  font-size: 3rem;
+}
