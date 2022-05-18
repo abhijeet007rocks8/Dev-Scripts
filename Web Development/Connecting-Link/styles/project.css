@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-image: url("../assets/rafael-de-nadai-b0eg-PYGICQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-size: 1.5rem;
+    transition: 0.4s ease;
+    overflow-x: hidden;
+    font-family: monospace;
+ }
+ a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.container{
+        padding-top: 30px;
+}
+h1{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+.box_container{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.507) 10px 10px 15px;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease;
+}
+.layer{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(40, 39, 39, 0.607);
+    padding: 20px 20px;
+    color: var(--white);
+    border-radius: 20px;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.box:hover{
+    transform: rotateY(180deg);
+}
+.details{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+/* Add your project images here */
+#Project1:hover{
+    background: url(../assets/project1.png) no-repeat;
+    background-size: 100%;
+}
+#Project2:hover{
+    background: url(../assets/project2.png) no-repeat;
+    background-size: 100%;
+}
+#Project3:hover{
+    background: url(../assets/project3.png) no-repeat;
+    background-size: 100%;
+}
+
+ footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding: 13px 0;
+    color: white;
+    font-family: cursive;
+    font-size: 1rem;
+}
+.credit{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 229, 255);
+    padding: 0 3px;
+}
+
+.footer i{
+   margin: 0;
+}
+@media screen and (max-width: 1220px) {
+    .box_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .box{
+        margin-bottom: 40px;
+    }
+    footer{
+        position: relative;
+    }
+}
+@media screen and (max-width:500px) {
+    .box{
+        width: 100%;
+        width: 350px;
+    }
+    .layer{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .box{
+        width: 300px;
+    }
+}
