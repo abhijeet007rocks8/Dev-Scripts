@@ -1,3 +1,4 @@
+```
 To run this app , do npm i to install all the dependencies, then follow these steps:
 
 1. Go to Alan Ai official website, Link:  https://alan.app/
@@ -111,3 +112,10 @@ const confirmation =context(()=>{
     })
     
 })
+```
+
+
+```
+Working video: https://www.linkedin.com/posts/mayank-kumar-8a77a0210_reactjs-artificialintelligence-responsivewebdesign-activity-6911164135896469504-eL3x?utm_source=linkedin_share&utm_medium=android_app
+```
+
