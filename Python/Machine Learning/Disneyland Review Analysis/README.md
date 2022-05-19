@@ -71,11 +71,13 @@ cd Disneyland Review Analysis
 - Performing sentiment analysis using SentimentIntensityAnalyzer and VADER Polarity
 - Splitting the data
 - Using Tf-IDF Vectorizer
+
 - Using Decision Tree Classifier
 - Using Random Forest Classifier
 
 ### Code Walkthrough
-![Code walkthrough of disneyland review analysis](./Images/ezgif-2-a5e660b421.mp4)
+
+[Code Walkthrough](https://user-images.githubusercontent.com/87636253/169347791-1f4b6864-1431-4862-ab5b-4c205ca6b280.mp4)
 
 ### Models Used:
 #### 1. Decision Tree Classifier: 
