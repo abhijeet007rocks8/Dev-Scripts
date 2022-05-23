@@ -23,7 +23,10 @@ cd JAVA
 cd Digital_Clock
 ```
 ```
-cd Dclock.java
+javac Dclock.java
+```
+```
+java Dclocks
 ```
 
 ## **Installation and Dependencies**
