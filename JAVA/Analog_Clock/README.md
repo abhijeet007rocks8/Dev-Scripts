@@ -4,7 +4,7 @@
 <img src="./Images/ac1.png">
 </p>
 
-It is the Analog Clock written in Java with the help of swing and awt components. To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
+It is the Analog Clock written in Java with the help of awt components , . To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
 
 To create a Analog clock, we will use JFrame,JButton and Calendar class from the Swing framework. The JFrame class is used to construct a top-level window for a Java application. The JButton class is used to display a string and the Calendar class is used to get the present time.
 
@@ -57,7 +57,7 @@ import java.text.*;
 <img src="./Images/ac.png">
 </p>
 
-The  clock has much simpler design because we have to use the graphical components like button to display the current time.
+The Analog clock to display the current time.
 
 
 ## Screenshots
