@@ -20,13 +20,13 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 cd JAVA
 ```
 ```
-cd Digital_Clock
+cd Analog_Clock
 ```
 ```
-javac Dclock.java
+javac Clock.java
 ```
 ```
-java Dclocks
+java Clock
 ```
 
 ## **Installation and Dependencies**
@@ -57,7 +57,7 @@ import java.text.*;
 <img src="./Images/ac.png">
 </p>
 
-The Digital clock has much simpler design because we have to use the graphical components like button to display the current time.
+The  clock has much simpler design because we have to use the graphical components like button to display the current time.
 
 
 ## Screenshots
