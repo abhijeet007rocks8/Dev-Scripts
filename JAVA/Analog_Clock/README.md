@@ -4,9 +4,9 @@
 <img src="./Images/ac1.png">
 </p>
 
-It is the Analog Clock written in Java with the help of awt components , . To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
+It is the Analog Clock written in Java with the help of awt components , Applets. To create GUI based applications, Java provides Applet framework which is a graphical user interface framework that includes a set of classes that are flexible.
 
-To create a Analog clock, we will use JFrame,JButton and Calendar class from the Swing framework. The JFrame class is used to construct a top-level window for a Java application. The JButton class is used to display a string and the Calendar class is used to get the present time.
+To create a Analog clock, we will use Calendar and math classes . The Applet class is used to construct a top-level window for a Java application. The Calendar class is used to get the present time.
 
 ## **Quick Start**
 - Clone this repository
@@ -26,11 +26,11 @@ cd Analog_Clock
 javac Clock.java
 ```
 ```
-java Clock
+appletviewer Clock.java
 ```
 
 ## **Installation and Dependencies**
-- Install JDK kit for java devlopment.
+- Install JDK kit for java devlopment which supports Applets.
 - Install any latest version IDE for java like: Net-Beans, Eclipse, BlueJ, etc.
 - Then follow the Quick start steps inside any IDE and then compile and run the project.
 
