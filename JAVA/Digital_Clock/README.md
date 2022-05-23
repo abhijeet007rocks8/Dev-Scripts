@@ -4,7 +4,7 @@
 <img src="./Images/dc1.png">
 </p>
 
-It is the Graphical User Interface (GUI) Calculator written in Java with the help of swing and awt components. To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
+It is A Digital Clock written in Java with the help of swing and awt components. To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
 
 To create a digital clock, we will use JFrame,JButton and Calendar class from the Swing framework. The JFrame class is used to construct a top-level window for a Java application. The JButton class is used to display a string and the Calendar class is used to get the present time.
 
