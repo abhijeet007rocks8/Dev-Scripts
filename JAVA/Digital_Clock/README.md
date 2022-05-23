@@ -1,10 +1,11 @@
 ## GUI Calculator
 
 <p align="center">
-<img src="dc.png">
+<img src="./Images/calc1.png">
 </p>
 
-It is the Digital Clock written in Java with the help of swing and awt components. 
+It is the Graphical User Interface (GUI) Calculator written in Java with the help of swing and awt components. 
+
 ## **Quick Start**
 - Clone this repository
 
