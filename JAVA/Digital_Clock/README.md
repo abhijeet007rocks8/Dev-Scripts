@@ -1,7 +1,7 @@
 ## GUI Calculator
 
 <p align="center">
-<img src="dc.png">
+<img src="./Images/dc1.png">
 </p>
 
 It is the Graphical User Interface (GUI) Calculator written in Java with the help of swing and awt components. To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
@@ -56,7 +56,7 @@ import java.text.*;
 ## Working 
 
 <p align="center">
-<img src="dc.png">
+<img src="./Images/dc2.png">
 </p>
 
 The Digital clock has much simpler design because we have to use the graphical components like button to display the current time.
@@ -66,9 +66,19 @@ The Digital clock has much simpler design because we have to use the graphical c
 
 <p align="center">
   
-<img src="dc.png">
+<img src="./Images/dc.png">
   <br>
-  
+  <br>
+<img src="./Images/a.png">
+  <br>
+  <br>
+<img src="./Images/b.png">
+  <br>
+  <br>
+<img src="./Images/c.png">
+  <br>
+  <br>
+<img src="./Images/d.png">
  
 </p>
 
