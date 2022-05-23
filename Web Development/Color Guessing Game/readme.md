@@ -17,7 +17,15 @@ Users have to choose Correct Color which will match the RGB Color Code.
 ## Demo:
 
 
-https://user-images.githubusercontent.com/77873383/168007198-e4f3ada3-f4e6-4904-88f2-0caa71f93143.mp4
+
+
+
+
+https://user-images.githubusercontent.com/77873383/169861952-ab6c5d91-8311-40cc-aedb-b495a26cc068.mp4
+
+
+
+
 
 
 ## **Quick Start**
