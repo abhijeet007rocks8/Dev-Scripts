@@ -68,10 +68,11 @@ The Digital clock has much simpler design because we have to use the graphical c
   
 <img src="dc.png">
   <br>
+  
  
 </p>
 
 
 **Author : Jayanth MKV**
 
-**This Project is contributed to Dev-Script under Hacktoberfest'21, 2021 by Heet kumar Kothadiya**
+**This Project is contributed to Dev-Script under GSSOC-2022 by Jayanth MKV**
