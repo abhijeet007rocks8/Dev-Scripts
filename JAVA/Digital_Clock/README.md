@@ -1,12 +1,12 @@
 ## GUI Calculator
 
 <p align="center">
-<img src="./Images/calc1.png">
+<img src="dc.png">
 </p>
 
 It is the Graphical User Interface (GUI) Calculator written in Java with the help of swing and awt components. To create GUI based applications, Java provides Swing framework which is a graphical user interface framework that includes a set of classes that are powerful and flexible.
 
-To create a digital clock, we will use JFrame and  class from the Swing framework. The JFrame class is used to construct a top-level window for a Java application. The JLabel class is used to display a string and the Timer class is used to fire events at specified intervals.
+To create a digital clock, we will use JFrame,JButton and Calendar class from the Swing framework. The JFrame class is used to construct a top-level window for a Java application. The JButton class is used to display a string and the Calendar class is used to get the present time.
 
 ## **Quick Start**
 - Clone this repository
@@ -20,10 +20,10 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 cd JAVA
 ```
 ```
-cd GUI Calculator
+cd Digital_Clock
 ```
 ```
-cd calculator.java
+cd Dclock.java
 ```
 
 ## **Installation and Dependencies**
@@ -47,52 +47,28 @@ But `java.awt` components are platform-dependent i.e. components are displayed a
 ### Usage
 
 ```java
-import java.awt.EventQueue;
-import javax.swing.JFrame;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JTextField;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import javax.swing.JButton;
-import java.awt.Font;
-import javax.swing.JLabel;
-import javax.swing.JComboBox;
-import javax.swing.SwingConstants;
-import javax.swing.JPanel;
-import javax.swing.border.LineBorder;
-import java.awt.Color;
-import javax.swing.DefaultComboBoxModel;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+import java.text.*;
 ```
 
 ## Working 
 
 <p align="center">
-<img src="./Images/calc2.png">
+<img src="dc.png">
 </p>
 
-Using the calculator is much simpler because we have to use the graphical components like buttons, drop down menus, main menu, etc.
+The Digital clock has much simpler design because we have to use the graphical components like button to display the current time.
 
 
 ## Screenshots
 
 <p align="center">
   
-<img src="./Images/calc1.png">
+<img src="dc.png">
   <br>
-  <br>
-<img src="./Images/calc2.png">
-  <br>
-  <br>
-<img src="./Images/calc3.png">
-  <br>
-  <br>
-<img src="./Images/calc4.png">
-  <br>
-  <br>
-<img src="./Images/calc5.png">
-
+ 
 </p>
 
 
