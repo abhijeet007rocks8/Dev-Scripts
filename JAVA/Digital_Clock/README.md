@@ -56,7 +56,7 @@ import java.text.*;
 ## Working 
 
 <p align="center">
-<img src="./Images/dc2.png">
+<img src="./Images/dc.png">
 </p>
 
 The Digital clock has much simpler design because we have to use the graphical components like button to display the current time.
@@ -66,7 +66,7 @@ The Digital clock has much simpler design because we have to use the graphical c
 
 <p align="center">
   
-<img src="./Images/dc.png">
+<img src="./Images/dc2.png">
   <br>
   <br>
 <img src="./Images/a.png">
@@ -76,10 +76,6 @@ The Digital clock has much simpler design because we have to use the graphical c
   <br>
   <br>
 <img src="./Images/c.png">
-  <br>
-  <br>
-<img src="./Images/d.png">
- 
 </p>
 
 
