@@ -1,13 +1,12 @@
-## README.md
+## INVENTORY MANAGEMENT SYSTEM
 
 **Description:**
 
 
-
-     The Inventory Management System-Retail Store has been developed to override the And some textproblems prevailing in the practicing manual system
-     This system is designed for the particular need of the company to carry out operations in a smoothly and effectively.
-     Through this GUI, an organization can store and retrieve the information needed at any given time.
-     The GUI is designed in an effortless way to avoid errors while entering and managing data
+The Inventory Management System-Retail Store has been developed to override the And some textproblems prevailing in the practicing manual system
+This system is designed for the particular need of the company to carry out operations in a smoothly and effectively.
+Through this GUI, an organization can store and retrieve the information needed at any given time.
+The GUI is designed in an effortless way to avoid errors while entering and managing data
 
 
 
