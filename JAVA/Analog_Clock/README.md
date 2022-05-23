@@ -50,10 +50,10 @@ But `java.awt` components are platform-dependent i.e. components are displayed a
 ### Usage
 
 ```java
-import javax.swing.*;
-import java.awt.*;
-import java.util.*;
-import java.text.*;
+import java.applet.*;  
+import java.awt.*;  
+import java.util.*;  
+import java.text.*;  
 ```
 
 ## Working 
@@ -82,7 +82,8 @@ The Digital clock has much simpler design because we have to use the graphical c
 </p>
 
 
-Demonsr
+## Demonstration
+https://media.geeksforgeeks.org/wp-content/uploads/20190514184622/analogClock1.mp4
 
 **Author : Jayanth MKV**
 
