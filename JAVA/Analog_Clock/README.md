@@ -36,11 +36,6 @@ java Dclocks
 
 ## Packages used
 
-### swing package
-Java Swing is a part of Java Foundation Classes (JFC) that is used to create window-based applications. It is built on the top of AWT (Abstract Windowing Toolkit) package and entirely written in java. `javax.swing` components are platform-independent or lightweight components i.e. its components doesn't depends on the resources of the OS (Operating System).
-
-`javax.swing` package provides classes such as JButton, JTextField, JTextArea, JRadioButton, JCheckbox, JMenu, JColorChooser etc.
-
 ### awt package
 AWT stands for Abstract Window Toolkit. In Java, AWT is a package used to develop GUI or window-based applications in java.
 But `java.awt` components are platform-dependent i.e. components are displayed according to the view of operating system. AWT components are heavyweight i.e. its components depends on the resources of OS (Operating System).
