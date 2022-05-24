@@ -1,5 +1,19 @@
 # Library Management
 
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`      
+
+## Install Dependencies
+- JDK (latest)
+- IDE (Netbeans)
+
+## Features
+- It Can Store and update the Book Data.
+
+## JAVA
 - Add New Book
 - Upgrade the Book
 - Search Book
