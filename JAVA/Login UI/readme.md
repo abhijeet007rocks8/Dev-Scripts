@@ -13,7 +13,7 @@
 ### Navigate to the project directory.
 ` cd Dev-Scripts`   
 `cd JAVA`   
-`cd Student Record`   
+`cd Login UI`   
 
 ## Install Dependencies
 - JDK (latest)
