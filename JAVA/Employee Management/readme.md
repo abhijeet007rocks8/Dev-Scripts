@@ -1,5 +1,14 @@
 # Employee Management
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`      
 
+## Install Dependencies
+- JDK (latest)
+- IDE (Netbeans)
+-
 ## Features
 - It Stores the data from the Input to the File That Can Be accessed Later On.
 
