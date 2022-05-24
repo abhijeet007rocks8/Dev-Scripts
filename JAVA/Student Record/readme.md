@@ -16,3 +16,14 @@ Your menu should have 4 basic operations like Add, Search, Remove, Show details 
 ## Code Overview :
 
 ![preview](https://user-images.githubusercontent.com/72241207/168904728-1bcf6701-cb3a-4e48-b4c4-35f866581dd5.gif)
+
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`   
+`cd Student Record`   
+
+## Install Dependencies
+- JDK (latest)
+- IDE (Netbeans)
