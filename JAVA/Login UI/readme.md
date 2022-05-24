@@ -8,7 +8,16 @@
 
 ![image](https://user-images.githubusercontent.com/72241207/168423537-bc969bc8-fe48-4b8c-8c9a-c759172ffefa.png)
 
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`   
+`cd Student Record`   
 
+## Install Dependencies
+- JDK (latest)
+- IDE (Netbeans)
 
 Required:
 1. JDK
