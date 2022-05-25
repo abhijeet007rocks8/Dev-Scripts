@@ -17,9 +17,9 @@ git clone https://github.com/<your-github-username>/Dev-Scripts
 
  - Move to the executable folder
  ```bash
- cd Dev-Scripts/C++/Encryption and Decryption/Encryption and Decryption.cpp
+ cd Dev-Scripts/C++/Encryption and Decryption/EncryptionAndDecryption.cpp
  ```
- - Compile and Run ```Encryption and Decryption.cpp``` file with any c++ compiler.
+ - Compile and Run ```EncryptionAndDecryption.cpp``` file with any c++ compiler.
  
  Simply click Compile and Run
  
