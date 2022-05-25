@@ -3,7 +3,7 @@
 ### Navigate to the project directory.
 ` cd Dev-Scripts`   
 `cd JAVA`   
-`cd Login UI`   
+`cd Travel Management System`   
 
 ## Install Dependencies
 - JDK (latest)
