@@ -18,9 +18,13 @@ Required:
 
 create a database with the following SQL statement
 
+``create database swing1``
+``create table student(USERNAME varchar(30) not null,GENDER varchar(10) ,``
+``FATHERS_NAME varchar(30)`` ,``PASSWRD varchar(20)``, ``CONFIRMPASSWRD varchar(20)`` ,``CITY varchar(30)``, ``EMAIL varchar(30) );``
+
 To run the project from the command line, go to the dist folder and type the following:
 
-```java -jar "Travel_Management_System.jar" ```
+``java -jar "Travel_Management_System.jar" ``
 
 ## Output :
 
