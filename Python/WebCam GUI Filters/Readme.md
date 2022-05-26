@@ -60,4 +60,4 @@ python GUI.py
 
 ## Demonstration Video
 
-https://user-images.githubusercontent.com/82600388/170413660-771f7f3f-55a8-44e7-a25b-92858c5c5423.mp4
+https://user-images.githubusercontent.com/82600388/170552442-676c3366-41b8-4825-bf32-8585132720da.mp4
