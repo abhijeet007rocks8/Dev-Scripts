@@ -14,8 +14,8 @@ coory = [0] * 21
 wrist = thumb_tip = index_mcp = index_tip = midle_mcp = midle_tip = ring_tip = pinky_tip = (0,0)
 
 # shield = cv2.imread('magic_circle.png',-1)
-shield_1 = cv2.imread(r'A:\Sem-4\PSC_Innovative_Final\magic_circle_cw.png',-1)
-shield_2 = cv2.imread(r'A:\Sem-4\PSC_Innovative_Final\magic_circle_ccw.png',-1)
+shield_1 = cv2.imread('magic_circle_cw.png',-1)
+shield_2 = cv2.imread('magic_circle_ccw.png',-1)
 
 deg = 0
 
