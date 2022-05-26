@@ -29,4 +29,4 @@ cd Dev-Scripts/Web Development/Countdown_Animation/
 * We have to just open the `index.html` in the browser and view the countdown play.
 
 ## Demonstration Video
-https://user-images.githubusercontent.com/73993775/163313014-945de888-5003-40d2-97d4-c4459877d3ec.mp4
+https://user-images.githubusercontent.com/73993775/170575046-15770060-cd65-4717-b361-8bc9b570c55a.mp4
