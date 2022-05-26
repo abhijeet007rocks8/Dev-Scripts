@@ -1,11 +1,26 @@
 ```
+Install  Dependencies:
+
+npm i @alan-ai/alan-sdk-web
+
+```
+
+```
+Quick start:
+
 To run this app , do npm i to install all the dependencies, then follow these steps:
 
-1. Go to Alan Ai official website, Link:  https://alan.app/
+1. git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 
-2. create a account
+2. cd React
 
-3. create a project and paste the given code to make your assistant understand and response on  some particular questions , you can add further more and respective responses to make your assistant more intelligent.
+3. cd Alan-ai-search-app-by-react
+
+4. Go to Alan Ai official website, Link:  https://alan.app/
+
+5. create a account
+
+6. create a project and paste the given code to make your assistant understand and response on  some particular questions , you can add further more responses to make your assistant more intelligent.
 
 
 intent('What does this app do?','What can I do here?',
@@ -116,6 +131,14 @@ const confirmation =context(()=>{
 
 
 ```
-Working video: https://www.linkedin.com/posts/mayank-kumar-8a77a0210_reactjs-artificialintelligence-responsivewebdesign-activity-6911164135896469504-eL3x?utm_source=linkedin_share&utm_medium=android_app
+Working video:
+
+https://user-images.githubusercontent.com/82238106/170539675-954cecab-c8de-467e-a5bb-d6e88326ec0d.mp4
+
 ```
+
+
+
+
+
 
