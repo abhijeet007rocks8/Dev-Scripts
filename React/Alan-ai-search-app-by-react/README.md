@@ -1,7 +1,8 @@
 ```
 Install  Dependencies:
 
-npm i @alan-ai/alan-sdk-web
+@alan-ai/alan-sdk-web
+@material-ui/core
 
 ```
 
