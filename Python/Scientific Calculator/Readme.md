@@ -19,48 +19,6 @@ A simple Scientific Calculator built using Python.
 <br>
 
   
-  
-  
-  
-  
-
-<details>
-
-<ol>
-
-<a  href="#about-the-project">About The Project</a>
-
-<ul>
-
-<li><a  href="#built-with">Built With</a></li>
-
-</ul>
-
-
-
-
-<a  href="#getting-started">Getting Started</a>
-
-<ul>
-
-<li><a  href="#prerequisites">Prerequisites</a></li>
-
-</ul>
-
-</li>
-
-<li><a  href="#features">Features</a></li>
-
-<li><a  href="#contact">Contact</a></li>
-
-</ol>
-
-</details>
-
-  
-  
-  
-  
 
 ## About The Project
 
