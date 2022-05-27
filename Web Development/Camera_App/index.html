@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Camera_Gallery</title>
+</head>
+
+<body>
+    <div class="video-cont">
+        <video autoplay></video>
+    </div>
+
+    <div class="action-cont">
+        <div class="record-btn-cont">
+            <div class="record-btn"></div>
+        </div>
+        <div class="capture-btn-cont">
+            <div class="capture-btn"></div>
+        </div>
+    </div>
+
+    <div class="timer-cont">
+        <h1 class="timer">00:00:00</h1>
+    </div>
+
+    <div class="filter-cont">
+        <div class="filter orange"></div>
+        <div class="filter brown"></div>
+        <div class="filter pink"></div>
+        <div class="filter transparent"></div>
+    </div>
+
+    <div class="filter-layer"></div>
+
+    <span class="material-icons gallery">
+        collections
+    </span>
+
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./db.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        let gallery = document.querySelector(".gallery");
+        gallery.addEventListener("click", (e) => {
+            location.assign("./gallery.html");
+        })
+    </script>
+</body>
+
+</html>
