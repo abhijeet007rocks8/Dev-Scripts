@@ -1,3 +1,7 @@
+
+
+This is Alan-Ai Voice Seach App in ReactJS by which you can Seach any kind of news by just clicking on Alan-AI button and speaking whatever you wnat to search.
+
 ```
 Install  Dependencies:
 
