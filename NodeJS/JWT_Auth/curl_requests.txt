@@ -1,0 +1,13 @@
+# Login
+curl -X POST http://localhost:4000/login -H "Content-Type: application/json" -d {"username":"Person1"}
+
+
+# Posts
+curl -X GET token http://localhost:3000/posts -H "Authorization: Bearer "
+
+
+# Refresh 
+curl -X POST http://localhost:4000/token -H "Content-Type: application/json" -d {"token":""}
+
+# Logout
+curl -X DELETE http://localhost:4000/logout -H "Content-Type: application/json" -d {"token":""}

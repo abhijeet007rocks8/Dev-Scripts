@@ -1,0 +1,97 @@
+body {
+	/* background-color:  #232323; */
+	background-image: linear-gradient(to right, rgb(46, 6, 6),rgb(247, 247, 135));
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	box-shadow: 6px 6px 6px yellow;
+	/* margin: 16px; */
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	font-size: 19px;
+	font-weight: bold;
+	color: aliceblue;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+	
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	/* background: steelblue; */
+	background-image: linear-gradient(to right,orange,blue);
+	margin: 0; 
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 45px;
+	font-family: cursive;
+}
+
+#colorDisplay {
+	font-size: 24px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(243, 228, 228);
+	 font-weight: bold;
+
+}
+
+
+#stripe {
+	background: whitesmoke;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: rgba(239, 233, 233, 0.925);
+	background: steelblue;
+}
+
+button {
+	border: 2px solid yellow;
+	background: none;
+	/* text-transform: uppercase; */
+	height: 100%;
+	font-weight: 700;
+	color: rgb(33, 70, 204);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover {
+	color: white;
+	background: rgb(4, 88, 31);
+	/* border: 4px rgb(216, 216, 14); */
+	box-shadow: 4px 4px 4px 0 rgb(216,216,14);
+}
