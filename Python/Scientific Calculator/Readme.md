@@ -26,8 +26,6 @@ A simple Scientific Calculator built using Python.
 
 <details>
 
-<summary><b>Table of Contents</summary>
-
 <ol>
 
 <a  href="#about-the-project">About The Project</a>
