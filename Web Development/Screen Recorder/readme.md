@@ -1,6 +1,15 @@
 # Screen Recorder
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd Web Development`      
 
-Record the Entire Screen or A Specific Application
+## Requirement
+- Browser
+
+## Features
+- Record the Entire Screen or A Specific Application
 
 # Demo :
 
