@@ -12,12 +12,34 @@ It is implemented using C programming Language.
 ### Language:
 - ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
+### Install Dependencies
+```
+    /usr/local/include
+    libdir/gcc/target/version/include
+    /usr/target/include
+    /usr/include
+
+    cpp -v
+
+    #include "..." search starts here:
+    #include <...> search starts here:
+    /usr/local/include
+    /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include
+    /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed
+    /usr/include/x86_64-linux-gnu
+    /usr/include
+```
+
+### Quick Start
+- Clone this directory
+```git clone https://github.com/Kumar-laxmi/Library-Management.git```
+
+- Change Directory
+```cd Library-Management```
+```gcc LibraryManagementSystem.c```
+```./a.out```
+
 ### Demo/Walk-through Video:
-
-
-https://user-images.githubusercontent.com/76027425/169942285-ccb327d5-45dc-4c8c-a8a0-befc313fd7eb.mp4
-
-
 
 ### Output screen-shots:
 Main-menu:
