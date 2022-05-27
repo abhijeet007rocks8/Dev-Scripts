@@ -30,3 +30,4 @@ cd Dev-Scripts/Web Development/Movie_App/
 * We can search the movies, see the overview, and also view the ratings of the movies.
 
 ## Demonstration Video
+https://user-images.githubusercontent.com/73993775/170733168-b2a1d371-351b-4d13-b574-f626e29bab6b.mp4
