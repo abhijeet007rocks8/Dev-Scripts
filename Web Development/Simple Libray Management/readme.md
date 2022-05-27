@@ -40,8 +40,8 @@ Input book name, author and book type to add the book. If book name is missing i
 https://user-images.githubusercontent.com/52650290/170779099-6e592dfa-1f96-47e3-812f-568b506e2cb9.mp4
 
 ## How to run :-
-[](https://user-images.githubusercontent.com/78725162/158399068-9c84a79b-17d7-47cc-b1ec-02ee536cfcd2.png)
-[](https://user-images.githubusercontent.com/78725162/158399122-5fcc235c-b2af-4607-ac48-5e97b9481f4b.png)
+![Dependencies](https://user-images.githubusercontent.com/78725162/158399068-9c84a79b-17d7-47cc-b1ec-02ee536cfcd2.png)
+![Clone](https://user-images.githubusercontent.com/78725162/158399122-5fcc235c-b2af-4607-ac48-5e97b9481f4b.png)
 
 ## How to use :-
 - Run index.html file
