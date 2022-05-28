@@ -1,7 +1,4 @@
-### Prerequisites
 
-- [X] I am a GSSoC-22 Participant
-- [X] I checked to make sure that this issue has not already been filed
 
 ### Description
 
@@ -17,7 +14,7 @@ for more details please refer to this attached images.
 ![Screenshot (168)](https://user-images.githubusercontent.com/73521123/166456765-9848fb34-6bad-4900-9a93-32b195f3f790.png)
 ![Screenshot (169)](https://user-images.githubusercontent.com/73521123/166456779-1f0dfcd9-0d4a-4314-989d-414e5b413a43.png)
 
-https://user-images.githubusercontent.com/73521123/166457063-e0178845-a913-4f82-a9dc-361c32126392.mp4
+
 
 
 
