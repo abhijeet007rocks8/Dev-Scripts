@@ -36,4 +36,4 @@ cd Dev-Scripts/Web Development/Password_Generator
 * Click on the copy button provided to copy the password.
 
 ## Demonstration Video
-
+https://user-images.githubusercontent.com/73993775/170806578-bdd4bb96-1667-40f7-97d4-3b61ec7794e7.mp4
