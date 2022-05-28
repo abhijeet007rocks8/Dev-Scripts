@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #5865f2;
+  --background-accent: #4f545c;
+  --background-primary: #36393f;
+  --background-secondary: #2f3136;
+  --background-secondary-alt: #292b2f;
+  --background-tertiary: #202225;
+  --background-floating: #18191c;
+  --background-modifier-hover: rgba(79, 84, 92, 0.16);
+  --background-modifier-active: rgba(79, 84, 92, 0.24);
+  --background-modifier-selected: rgba(79, 84, 92, 0.32);
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+  --channels-default: #8e9297;
+  --channeltextarea-background: #40444b;
+  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #fff;
+  --scrollbar-thin-thumb: #202225;
+  --scrollbar-thin-track: transparent;
+  --text-normal: #dcddde;
+  --text-muted: #72767d;
+  --text-danger: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+  --text-link: hsl(197, calc(var(--saturation-factor, 1) * 100%), 47.8%);
+  --font: "IBM Plex Sans", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.disable-select {
+  user-select: none; /* Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.scrollable {
+  overflow: hidden scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+
+.scrollable:hover {
+  scrollbar-color: var(--scrollbar-thin-thumb) var(--scrollbar-thin-track);
+}
+
+.scrollable::-webkit-scrollbar,
+.scrollable::-webkit-scrollbar-thumb,
+.scrollable::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+.scrollable:hover::-webkit-scrollbar,
+.scrollable:hover::-webkit-scrollbar-thumb,
+.scrollable:hover::-webkit-scrollbar-track {
+  visibility: visible;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thin-thumb);
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-thin-track);
+  border-color: var(--scrollbar-thin-track);
+}
+
+.errorMessage {
+  color: var(--text-danger);
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "discord-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "client": "cd client && npm start",
+    "server": "cd server && nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "format": "npx prettier --write .",
+    "lint": "eslint .",
+    "heroku-postbuild": "cd client && npm install --production --no-shrinkwrap && npm run build"
+  },
+  "author": "DragonUncaged",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}
