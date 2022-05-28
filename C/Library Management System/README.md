@@ -35,9 +35,11 @@ It is implemented using C programming Language.
 ```git clone https://github.com/Kumar-laxmi/Library-Management.git```
 
 - Change Directory
-```cd Library-Management```
-```gcc LibraryManagementSystem.c```
-```./a.out```
+```
+    cd Library-Management
+    gcc LibraryManagementSystem.c
+    ./a.out
+```
 
 ### Demo/Walk-through Video:
 
