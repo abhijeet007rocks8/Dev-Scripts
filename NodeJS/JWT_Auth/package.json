@@ -1,0 +1,21 @@
+{
+  "name": "current-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runserver": "nodemon server.js",
+    "runserver_auth": "nodemon auth_server.js"
+  },
+  "keywords": [],
+  "author": "XZANATOL",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
