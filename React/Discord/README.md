@@ -1,8 +1,9 @@
 # Discord Clone
 
-A real-time chat application that mimics Discord.
+A chat application that Clones Discord.
 
-![demo](https://user-images.githubusercontent.com/14181114/144297551-b79aff6a-f3f0-4791-b089-14c3475778a2.gif)
+https://user-images.githubusercontent.com/72241207/170845812-59d0b2d5-9ba0-48bd-a44e-df4950642752.mp4
+
 <h1 align="center">
   Discord Clone  
 </h1>
@@ -24,7 +25,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 **3. Entering project directory**
 ```javascript
 
-cd ReactJS/Discord clone/
+cd ReactJS/Discord/
 ```
 
 **3. Installing Dependencies**
