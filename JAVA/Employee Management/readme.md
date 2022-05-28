@@ -16,12 +16,23 @@ A menu based Java application with the following options.
 2. Display All 
 3. Exit
 
-If option 1 is selected, the application should gather details of the employee like employee name, employee id, designation and salary and store it in a file. 
-If option 2 is selected, the application should display all the employee details. 
-If option 3 is selected the application should exit
+the application should gather details of the employee like employee name, employee id, designation and salary and store it in a file.   
+the application should display all the employee details.   
+the application should exit   
 
 ## Features
 - It Stores the data from the Input to the File That Can Be accessed Later On.
+
+1. Add an employee   
+2. Display All   
+3. Write all the entered employees to file   
+4. Read all the employees from the file   
+5. Exit   
+Data of the Employees:  
+Employee ID.   
+Name.   
+Age.   
+Salary  
 
 ## Run The Code :
 
