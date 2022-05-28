@@ -17,6 +17,10 @@ for more details please refer to this attached images.
 
 
 
+https://user-images.githubusercontent.com/73521123/170835651-9060a7f2-3ca0-4fb9-bee2-a61a9fbd55ed.mp4
+
+
+
 
 ### Tech Stack
 
