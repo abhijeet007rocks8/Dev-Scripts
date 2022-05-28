@@ -41,6 +41,9 @@ It is implemented using C programming Language.
 
 ### Demo/Walk-through Video:
 
+https://user-images.githubusercontent.com/76027425/170801409-5ca8e328-cd1d-4a0e-97b2-43e420f5229c.mp4
+
+
 ### Output screen-shots:
 Main-menu:
 <img src="./SCREEN-SHOTS/ss1.png" />
