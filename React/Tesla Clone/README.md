@@ -3,7 +3,7 @@
 ## Quick Start
 1. Clone the Repo using `git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git`
 2. cd `ReactJS`
-3. cd `react-recipe-app`
+3. cd `tesla-clone`
 4. Then use `npm i`
 5. `npm start` to run at localhost:3000
 
