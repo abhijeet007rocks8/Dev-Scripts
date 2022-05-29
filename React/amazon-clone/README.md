@@ -12,7 +12,7 @@ The design is based on Amazon.
 
 ## Live Demo
 
-https://clone-b5e54.web.app/
+https://clone-18da4.web.app/
 
 ## Captures
 
@@ -21,6 +21,14 @@ https://clone-b5e54.web.app/
 ![image](https://user-images.githubusercontent.com/85514238/170011859-dfd3a564-11c5-42e1-adf6-e380961a0fbf.png)
 
 ![image](https://user-images.githubusercontent.com/85514238/170011923-8f3290a4-3c94-48cd-907b-eb37fc1e97ec.png)
+
+## Video
+
+
+
+https://user-images.githubusercontent.com/85514238/170879780-0b4d2b48-2f4e-4385-81bb-639875eb2c9c.mp4
+
+
 
 ## Download and Instalation
 
