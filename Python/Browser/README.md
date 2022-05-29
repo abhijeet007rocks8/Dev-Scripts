@@ -11,6 +11,10 @@ The project is made using python.
 
 
 
+https://user-images.githubusercontent.com/91176055/170862794-b9e9e210-6ebe-4336-9944-18aeeccf5d95.mp4
+
+
+
 ## Install dependencies
 - install Python 3.8.3 or above
 - Further install these packages using terminal:
