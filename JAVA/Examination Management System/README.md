@@ -15,6 +15,8 @@ Sign-in and Sign-up for the Student. Feedback Page.
 `cd Travel Management System` 
 
 # Demo :
+![](exam.mp4)
+
 <video width="320" height="240" controls>
   <source src="./exam.mp4" type="video/mp4">
 </video>
