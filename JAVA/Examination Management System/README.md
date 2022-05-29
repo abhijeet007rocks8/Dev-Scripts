@@ -1,4 +1,4 @@
-# Zxamination Management Systen
+# Examination Management Systen
 
 Online Examination System Today Online Examination System has become a fast growing examination method because of its speed and accuracy.
 
@@ -7,9 +7,16 @@ Sign-in and Sign-up for the Student. Feedback Page.
 1 Admin : Can log-in and add examination question see the leaderboard (user participater and marks obtained). And see the Feedback.
 2 User : Can Login and attempt the Test andcan see the Leaderboard
 
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`   
+`cd Travel Management System` 
+
 # Demo :
 <video width="320" height="240" controls>
-  <source src="exam.mp4" type="video/mp4">
+  <source src="./exam.mp4" type="video/mp4">
 </video>
 
 ##  Installation Steps
