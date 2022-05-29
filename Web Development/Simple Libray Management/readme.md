@@ -33,13 +33,14 @@ Input book name, author and book type to add the book. If book name is missing i
 
 ## Tech Stack :-
 - HTML
+- CSS
 - Bootstrap 
 - JavaScript
 
 ## Demonstration :- 
 https://user-images.githubusercontent.com/52650290/170779099-6e592dfa-1f96-47e3-812f-568b506e2cb9.mp4
 
-## How to use :-
+## How to run and use :-
 - Clone the repository
 - Go to the directory
 - Run index.html file
