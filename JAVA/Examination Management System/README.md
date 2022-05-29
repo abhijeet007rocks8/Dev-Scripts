@@ -15,11 +15,8 @@ Sign-in and Sign-up for the Student. Feedback Page.
 `cd Travel Management System` 
 
 # Demo :
-![](exam.mp4)
 
-<video width="320" height="240" controls>
-  <source src="./exam.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/72241207/170885613-fabbef19-6c0a-46c9-8242-17eeaa8763a4.mp4
 
 ##  Installation Steps
 1. Download zip file and Unzip file on your local server.
