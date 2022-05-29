@@ -20,7 +20,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts
 * Change Directory
 
 ```bash
-cd Dev-Scripts/Web Development/Double_Clike_Like/
+cd Dev-Scripts/Web Development/Double_Click_Like/
 ```
 
 * Open `index.html` in browser.
