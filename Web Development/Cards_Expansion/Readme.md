@@ -28,3 +28,4 @@ cd Dev-Scripts/Web Development/Cards_Expansion/
 * Click on the cards to expand it and see the effect.
 
 ## Demonstration Video
+https://user-images.githubusercontent.com/73993775/170891239-c7e8c8f6-eeb8-4bd5-8e1e-201a0b4447b3.mp4
