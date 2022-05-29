@@ -28,3 +28,4 @@ cd Dev-Scripts/Web Development/Divide_Landing_Page/
 * Hover the mouse to both sides of the page to see the effect.
 
 ## Demonstration Video
+https://user-images.githubusercontent.com/73993775/170891339-97a3f592-d93f-4373-ae27-da9e6aa8089c.mp4
