@@ -1,6 +1,6 @@
 # Double Click Like
 
-A project that adsd a Like or Heart by double-clicking on it.
+A project that adds a Like or Heart by double-clicking on it.
 * It shows the total number of likes that is given by double-click.
 
 ## Tech Stack :-
@@ -28,3 +28,4 @@ cd Dev-Scripts/Web Development/Double_Clike_Like/
 * Double Click on the image to give it a Like.
 
 ## Demonstration Video
+https://user-images.githubusercontent.com/73993775/170891294-234cb68a-c44e-4bb9-8e9d-b3f8c0cb50e2.mp4
