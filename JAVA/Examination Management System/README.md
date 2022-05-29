@@ -12,7 +12,7 @@ Sign-in and Sign-up for the Student. Feedback Page.
 ### Navigate to the project directory.
 ` cd Dev-Scripts`   
 `cd JAVA`   
-`cd Travel Management System` 
+`cd Examination Management System` 
 
 # Demo :
 
