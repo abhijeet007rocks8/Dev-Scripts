@@ -2,6 +2,7 @@
 
 ## Demo :
 
+[![Alternate Text]({image-url})]({demo.mp4} "Link Title")
 
 ### Features
   - Download Individual Song, PlayList, Album.
