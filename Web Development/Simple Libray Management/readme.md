@@ -42,7 +42,15 @@ https://user-images.githubusercontent.com/52650290/170779099-6e592dfa-1f96-47e3-
 
 ## How to run and use :-
 - Clone the repository
+
+  ` git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git `
+
 - Go to the directory
+
+  `cd Web development`
+
+  `cd Simple Library Management`
+
 - Run index.html file
 - Enter book name, author and type of book 
 - Press add book
