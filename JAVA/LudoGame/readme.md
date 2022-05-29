@@ -1,17 +1,23 @@
 # Ludo Game
 
+## Description :
+Ludo Game :    
+Each Player is assigned with the Color.    
+Each Player will Get the Turn.   
+For Each Player All the Four pieces ovement can be controlled by clicking in one of the 4 option, there will be marking on top of each piece click on the desire one to move.  
+
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
 ### Navigate to the project directory.
 ` cd Dev-Scripts`   
-`cd JAVA`      
+`cd JAVA/LudoGame`      
 
 ## Install Dependencies
 - JDK (latest)
 - IDE (Netbeans)
 
 ## Features
-- Ludo Game.
+- A simple User Friendly Ludo Game.
 
 ## Code Overview:
 
