@@ -1,5 +1,11 @@
 # Travel Management System
 
+## Description
+- Allows user to Login/signup to the Desktop Application.
+- Password reset.
+- Allows to Book Packages
+- Allows to book hotels
+- Payment facilities
 
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
