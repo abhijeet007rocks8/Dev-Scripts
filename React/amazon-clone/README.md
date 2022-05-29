@@ -27,7 +27,7 @@ https://clone-b5e54.web.app/
 You can clone the project using the following command in your terminal:
 
 ```
-git clone git@github.com:NaguiHW/amazon-clone.git
+git clone https://github.com/HardeepPatel/Dev-Scripts.git
 ```
 
 Now, cd amazon-clone/ and before to start, you need to install the dependencies:
