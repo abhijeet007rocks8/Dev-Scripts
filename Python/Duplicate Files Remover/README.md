@@ -1,4 +1,4 @@
-# Space Bullet shooter game:
+# Duplicate Files Remover Using HashValue:
  Duplicate Files is removed by using this Python Script. It checks the MD5 Hash Value of the Files to check whether they are duplicate or not. 
  If they are duplicate they are removed.
   
