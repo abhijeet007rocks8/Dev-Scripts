@@ -3,8 +3,9 @@
 ## Description :
 Ludo Game :    
 Each Player is assigned with the Color.    
-Each Player will Get the Turn.   
-For Each Player All the Four pieces ovement can be controlled by clicking in one of the 4 option, there will be marking on top of each piece click on the desire one to move.  
+Each Player will Get the Turn.Click on the Dice to roll the Dice. 
+For Each Player All the Four pieces movement can be controlled by clicking in one of the 4 option, there will be marking on top of each piece click on the desire one to move.  
+To Make Restart or Make the New Game Click on the New Game.   
 
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
