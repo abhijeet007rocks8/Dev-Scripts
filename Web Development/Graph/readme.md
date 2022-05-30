@@ -3,13 +3,16 @@
 ## Tech Stack
 HTML CSS JS PHP
 
-### Instruction :
-Move the Folder Graph to the htdocs folder inside XAMPP.  
-Switch on the server and Visit ``http://localhost/graph/graph.php``  
+### Description
+Draw the Graph Of any Arithmatic Function.
 
 ### Try : 
 ``x = y + 100``   
 ``x = cos(x) + 10``
+
+### Instruction :
+Move the Folder Graph to the htdocs folder inside XAMPP.  
+Switch on the server and Visit ``http://localhost/graph/graph.php``  
 
 ## Screenshot :
 
