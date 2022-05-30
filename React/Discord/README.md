@@ -2,6 +2,23 @@
 
 A chat application that Clones Discord.
 
+## Features
+
+- Show who is typing.
+- Show who is online.
+- Allow users to edit/delete their own messages.
+
+## Technologies
+
+- JavaScript
+- React
+- Redux
+- Styled components
+- Node.js
+- Express.js
+- Socket.io
+- PostgreSQL
+
 https://user-images.githubusercontent.com/72241207/170845812-59d0b2d5-9ba0-48bd-a44e-df4950642752.mp4
 
 <h1 align="center">
@@ -42,23 +59,6 @@ npm start
 ```javascript
 npm run build
 ```
-
-## Features
-
-- Show who is typing.
-- Show who is online.
-- Allow users to edit/delete their own messages.
-
-## Technologies
-
-- JavaScript
-- React
-- Redux
-- Styled components
-- Node.js
-- Express.js
-- Socket.io
-- PostgreSQL
 
 ## Installation
 
