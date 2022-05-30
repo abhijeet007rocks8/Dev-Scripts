@@ -1,4 +1,11 @@
 ## Camera
+
+## Features
+It is A Camera App
+- Record Video
+- Capture Image
+- Download into Your System
+
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
 ### Navigate to the project directory.
@@ -7,12 +14,6 @@
 
 ## Requirement
 - Browser
-
-## Features
-It is A Camera App
-- Record Video
-- Capture Image
-- Download into Your System
 
 ## Demo :
 
