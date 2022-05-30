@@ -19,7 +19,7 @@ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
 cd Web Development
 ```
 ```
-cd Change Letter Casing
+cd Card Game
 
 ```
 ```
