@@ -11,6 +11,11 @@ Game That Is Used to test the Reaction Time Click on the Box As quickly As you c
 
 ![](./preview2.gif)
 
+
+# Code:
+
+![preview2](https://user-images.githubusercontent.com/72241207/171066106-a624f7c9-d89c-453d-8239-1942259e5772.gif)
+
 ## **Quick Start**
 - Clone this repository
 
