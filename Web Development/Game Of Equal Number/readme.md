@@ -1,5 +1,9 @@
 # Game Of Equal Number
 
+## Features
+- Click on the number to stop.
+- Make all the three number Equal To win the game
+
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
 ### Navigate to the project directory.
@@ -8,8 +12,5 @@
 
 ## Requirement
 - Browser
-
-## Features
-- Click on the number to stop
 
 ![](./preview.gif)
