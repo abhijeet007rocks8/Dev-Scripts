@@ -2,6 +2,15 @@
 
 - It is a basic Management System made by using C.
 
+## Description :
+- Manage Room 
+--> Add Room , Search Room
+- Check-in Room
+- Available Room
+- Check Out Room
+- Display All the Guest List
+
+
 # Tech Used:
 
 - It is made using C basic functions and by header files which are only found in Windows Operating System or dos systems.
