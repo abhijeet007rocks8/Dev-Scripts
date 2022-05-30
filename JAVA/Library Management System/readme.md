@@ -1,15 +1,5 @@
 # Library Management
 
-## Clone The repo
-` git clone https://github.com/<your-github-username>/Dev-Scripts `
-### Navigate to the project directory.
-` cd Dev-Scripts`   
-`cd JAVA`      
-
-## Install Dependencies
-- JDK (latest)
-- IDE (Netbeans)
-
 ## Features
 - It Can Store and update the Book Data.
 
@@ -23,6 +13,16 @@ A Menu Driven Application That Can Perform :
 - Check Out
 - Show all student
 - Show all book
+
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`      
+
+## Install Dependencies
+- JDK (latest)
+- IDE (Netbeans)
 
 ## JAVA
 
