@@ -1,4 +1,9 @@
 # Screen Recorder
+A Very Basic Screen Recorder
+
+## Features
+- Record the Entire Screen or A Specific Application.
+
 ## Clone The repo
 ` git clone https://github.com/<your-github-username>/Dev-Scripts `
 ### Navigate to the project directory.
@@ -7,9 +12,6 @@
 
 ## Requirement
 - Browser
-
-## Features
-- Record the Entire Screen or A Specific Application
 
 # Demo :
 
