@@ -1,5 +1,6 @@
 # Game Of Equal Number
-
+## Description
+It is a Casino Game. Numbers are spinning and you have to stop it by clicking on It.
 ## Features
 - Click on the number to stop.
 - Make all the three number Equal To win the game
