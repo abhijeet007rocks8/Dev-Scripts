@@ -10,8 +10,10 @@ Draw the Graph Of any Arithmatic Function.
 ``x = y + 100``   
 ``x = cos(x) + 10``
 
-## Screenshot :
+## Demo:
+![preview2](https://user-images.githubusercontent.com/72241207/171088993-37935694-dc6f-45bd-aad9-0c93bc51d339.gif)
 
+## Screenshot :
 ![image](https://user-images.githubusercontent.com/72241207/170791154-85825afe-875e-440e-9135-d46b18518f72.png)
 
 ## How to Run Locally:
