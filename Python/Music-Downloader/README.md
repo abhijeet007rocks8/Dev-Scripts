@@ -1,10 +1,14 @@
 # Music Downloader
 
+### Description
+This Program can basically Download the song from the JioSavaan Website. You can download all the sung from the playlis or the single song. using the url.
+
+
 ### Features
   - Download Individual Song, PlayList, Album.
   - Download all Albums, Songs of an Artist as Albums.
-  - Download Entire PlayList, Albums from user profile.
-[Read here](./usage.txt)
+  - Download Entire PlayList, Albums from user profile.    
+- For More[Read here](./usage.txt)
 
 ## Demo :
 
