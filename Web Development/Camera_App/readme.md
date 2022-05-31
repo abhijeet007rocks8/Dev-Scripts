@@ -1,5 +1,8 @@
 ## Camera
 
+## Description
+Basic Camera App To take pctures and Video
+
 ## Features
 It is A Camera App
 - Record Video
