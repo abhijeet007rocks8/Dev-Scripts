@@ -1,5 +1,8 @@
 # Speech Color Changer
 
+## Description
+- Speech recognition features enables it to recognise the voice and act as said.
+
 ## Features
 - Speak any one of the Color tha is being displayed and the color of the Screen will change.
 
