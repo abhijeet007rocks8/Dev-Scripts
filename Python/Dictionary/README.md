@@ -28,7 +28,7 @@ git clone ```https://github.com/abhijeet007rocks8/Dev-Scripts.git```
  cd Python
  cd Dictionary
 ```
-- Find main.py and run it.
+- Find dictionary.py and run it.
 
 
 
