@@ -1,5 +1,7 @@
 # Screen Recorder
-A Very Basic Screen Recorder
+
+## Description
+A Very Basic Screen Recorder. That Records the screen.
 
 ## Features
 - Record the Entire Screen or A Specific Application.
