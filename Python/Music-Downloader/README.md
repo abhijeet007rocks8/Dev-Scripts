@@ -1,13 +1,14 @@
 # Music Downloader
 
-## Demo :
-
-https://user-images.githubusercontent.com/72241207/170885917-7d41716d-0368-4a1d-940d-abfff5950f39.mp4
-
 ### Features
   - Download Individual Song, PlayList, Album.
   - Download all Albums, Songs of an Artist as Albums.
   - Download Entire PlayList, Albums from user profile.
+[Read here](./usage.txt)
+
+## Demo :
+
+https://user-images.githubusercontent.com/72241207/170885917-7d41716d-0368-4a1d-940d-abfff5950f39.mp4
 
 ### Installation
 ```sh
