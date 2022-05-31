@@ -19,7 +19,15 @@ https://user-images.githubusercontent.com/90326051/170863774-91322410-220b-455d-
 # Show Steps on how to run in Local <!--(check here)-->
 
 -	Clone the repository
--	Go to the directory
+```
+ git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+- Change directory:
+```
+cd Dev-Scripts
+cd Web Development
+cd Tracker_Expense_calculator
+```
 -	Run index.html in Visual Studio Code
 -	Right click in index.html and open live server
 
