@@ -1,5 +1,5 @@
 # Travel Management System
-Manage all your Travel.
+Manage all your Travel Related Stuff.
 
 ## Description
 - Allows user to Login/signup to the Desktop Application.
