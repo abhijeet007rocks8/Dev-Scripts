@@ -1,39 +1,52 @@
 
-# PYTHON CRICKET SCORE UPDATE:
+
+
+
+
+
+
+# Cricket Live Score Update using Python:
+# TRIDIB BAG , GSSoC'22 Contributor
 import requests
-
-
 
 from bs4 import BeautifulSoup
 
 
-import requests
 
-import time
 
-url="https://www.cricbuzz.com/cricket-series/3806/west-indies-tour-of-netherlands-2022"
+url = "http://static.cricinfo.com/rss/livescores.xml"
 
-while True:
-
-    time.sleep(10)
-
-    response=requests.get(url)
+r = requests.get(url)
 
 
 
-    soup=BeautifulSoup(response.text,'lxml')
+while r.status_code != 200:
+
+
+    r = requests.get(url)
 
 
 
 
-    score_card=soup.find('div',class_='cb-font-20 text-bold inline-block ng-binding').span.text
+soup = BeautifulSoup(r.text , 'html.parser')
 
 
 
+data = soup.find_all('description')
 
 
 
 
 
 
-    print("current Score is \n {}".format(score_card))
+score = data[1].text
+
+
+
+print("                                                   Welcome ! to CRICKET UPDATE:")
+
+
+print("********************************************************Current Live Score Score is ********************************************************")
+
+
+print(score)
