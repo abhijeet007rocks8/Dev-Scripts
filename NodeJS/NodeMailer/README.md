@@ -23,12 +23,26 @@ Simple Node.js/Express app using Nodemailer to send emails
 ## Quick Start
 
 
-1. git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
-2. cd NodeJs
-3. cd Nodemailer
-4. npm i
-5. nodemon app
-6. Goto browser and do localhost:5000
+- Clone the Repository 
+```
+git clone https://github.com/abhijeet007rocks8/Dev-Scripts.git
+```
+- Move towards the Directory
+```
+cd NodeJs
+```
+```
+cd Nodemailer
+```
+- Install the Dependencies
+```
+npm i
+```
+- Command to run Project 
+```
+nodemon app
+```
+- Goto browser and open ```localhost:5000```
 
 
 ## video
