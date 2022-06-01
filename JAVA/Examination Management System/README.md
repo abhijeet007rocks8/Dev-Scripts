@@ -31,5 +31,9 @@ https://user-images.githubusercontent.com/72241207/170885613-fabbef19-6c0a-46c9-
 - Login Id: admin@admin.com
 - Password: admin
 
-Clone Project :
-``git clone https://github.com/DragonUncaged/Project-Guidance.git ``
+## Clone The repo
+` git clone https://github.com/<your-github-username>/Dev-Scripts `
+### Navigate to the project directory.
+` cd Dev-Scripts`   
+`cd JAVA`   
+`cd Examination Management System`  
