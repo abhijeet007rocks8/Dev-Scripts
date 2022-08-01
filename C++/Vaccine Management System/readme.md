@@ -4,7 +4,7 @@
 1.Admin 2.User 3.Exit . User has 2 options - Login or New Registration and after Login there are 1. Search Vaccination Cente 2. Apply For Vaccine First Dose  3. Show Details , 4. Apply For Vaccine Second Dose,   5. LOG OUT
 
 ## Tech Stack Used: 
-- C++ to implement ATM system
+- C++ to implement Vaccine Management system
 - markdown Syntax to make readme.md file
 
 ---
