@@ -11,10 +11,6 @@ body:
         label: Prerequisites
         description: Please answer the following questions for yourself before submitting an issue. 
         options:
-        - label: I am a Hacktoberfest-22 Participant
-          label: I am a Gssoc-22 Participant
-          label: Randomly Contributing
-          required: true
         - label: I checked to make sure that this issue has not already been filed
           required: true
   - type: textarea #description
