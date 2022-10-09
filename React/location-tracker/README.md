@@ -31,9 +31,7 @@ To run this app , do npm i to install all the dependencies, then follow these st
 
 Working video:
 
-
-
-
+![loc-video](https://user-images.githubusercontent.com/82238106/194778900-ac85e2ad-76e4-474d-83b8-9237bd2594a9.gif)
 
 
 
