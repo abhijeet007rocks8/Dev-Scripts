@@ -112,8 +112,8 @@ git push
 
 <br/><br/>
 
-<a href="https://hacktoberfest.digitalocean.com">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest2021" />
+<a href="https://hacktoberfest.com/" target="_blank">
+  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest2022" />
 </a>
 
 <br><br>
