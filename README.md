@@ -111,11 +111,11 @@ git push
 </a>
 
 <br/><br/>
-
+<p align="center">
 <a href="https://hacktoberfest.com/" target="_blank">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest2022" />
+  <img src="assets/logo.png" width="800" height= "400" alt="hacktoberfest2022" />
 </a>
-
+</p>
 <br><br>
 
 
