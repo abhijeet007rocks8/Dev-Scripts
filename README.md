@@ -104,6 +104,10 @@ git push
 ## 📌 Opensource Programs
 
 ### This project is a part of following Open Source Programs
+<a href="https://hacktoberfest.com" >
+  <img width="2400" alt="Hactktoberfest" src="https://user-images.githubusercontent.com/78725162/197387705-9deb0b8f-1966-46ff-a505-86297036ec09.png">
+</a>
+
 <br/><br/>
 
 <a href="https://gssoc.girlscript.tech/">
@@ -113,7 +117,7 @@ git push
 <br/><br/>
 
 <a href="https://hacktoberfest.digitalocean.com">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest2021" />
+  <img width="2400" src="https://user-images.githubusercontent.com/78725162/197388099-47f3c831-7e94-4023-8995-30aa8753b958.png" alt="hacktoberfest2021" />
 </a>
 
 <br><br>
